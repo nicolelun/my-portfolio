@@ -1218,13 +1218,16 @@ button {
     width: 100%;
     background-color: #ff7c0a;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-content {
     width: 100%; 
     max-width: 1100px; 
     display: flex; 
-    align-items: center; 
+    align-items: flex-start; 
     justify-content: center;
     flex-wrap: wrap; 
     margin: 0 auto;
@@ -1244,14 +1247,9 @@ button {
         padding-left: 2rem;
         padding-right: 2rem;
 
-        @media screen and (min-width: $break-small-max) {
-            // margin-top: 0;
-            // margin-bottom: 0;
-        }
-
         @media screen and (min-width: $break-med-min) {
             width: 50%; 
-            transform: translateY(-80px);
+            // transform: translateY(-80px);
         }
     }
     
