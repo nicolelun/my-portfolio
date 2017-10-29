@@ -1,0 +1,59 @@
+---
+layout: "project"
+---
+
+<div class="w3-row">
+	
+	<div class="w3-col proj-description">
+		<hr class="dash">
+		{{ content }}
+	</div>
+
+	<div class="w3-rest proj-imgs">
+
+	<!-- for projects with a video -->
+	{% if page.video-sequence %}
+		<!-- <div class="video-container" style="{% if page.img-sequence %}margin-bottom: 2em{% endif %}"> -->
+		<div class="video-container" style="margin-bottom: 2em">
+			<div class="video-wrapper">
+				<iframe width="560" height="315" src="{{ page.video-sequence }}" frameborder="0" allowfullscreen>
+				</iframe>
+			</div>
+		</div>
+	{% endif %}
+
+	<!-- for projects with a lead image -->
+	{% if page.headline-img %}
+		<div style="margin-bottom: 2em">
+			<a href="{{ page.headline-href }}"><img style="width: 100%" src="{{ page.headline-img }}"></a>
+		</div>
+	{% endif %}
+
+	<!-- for projects with web sequence -->
+	{% if page.web-sequence %}
+		{% for image in page.web-sequence %}
+			<figure class="web-figure {% if image.class %}{{ image.class }}{% endif %}">
+				{% if image.href %}<a href="{{ image.href }}" target="_blank">{% endif %}
+					<img src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" {% if image.srcset %}srcset="{{ image.srcset }}"{% endif %} {% if image.sizes %}sizes="{{ image.sizes }}"{% endif %} alt="{% if image.alt %}{{ image.alt }}{% else %}{{ page.title }}{% endif %}" />
+				{% if image.href %}</a>{% endif %}
+				{% if image.class == "web-scroll" %}
+					<div class="web-scroll-instructions"><div style="margin-bottom: 0.5em">Scroll image to see more</div><div>&#9586;&#9585;</div></div>
+				{% endif %}
+			</figure>
+		{% endfor %}
+	{% endif %}
+
+	<!-- for projects with image sequences -->
+	{% if page.img-sequence %}
+		<div id="lightgallery" class="proj-grid">
+			{% for image in page.img-sequence %}
+		    <a class="{% if image.class %}{{ image.class }}{% endif %}" data-src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" {% if image.srcset %}data-srcset="{{ image.srcset }}"{% endif %} {% if image.sizes %}data-sizes="{{ image.sizes }}"{% endif %}>
+		      	<img src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" {% if image.srcset %}srcset="{{ image.srcset }}"{% endif %} {% if image.sizes %}sizes="{{ image.sizes }}"{% endif %} alt="{% if image.alt %}{{ image.alt }}{% else %}{{ page.title }}{% endif %}" />
+			</a>
+			{% endfor %}
+		</div>
+	{% endif %}
+
+	</div>
+
+</div>

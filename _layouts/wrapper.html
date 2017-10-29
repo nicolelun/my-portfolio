@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="{{ 'lightgallery/css/lightgallery.min.css' | relative_url }}" />
+    <link type="text/css" rel="stylesheet" href="{{ 'lightslider/css/lightslider.min.css' | relative_url }}" />
+    <link type="text/css" rel="stylesheet" href="{{ '/css/w3.css' | relative_url }}">
+    <link type="text/css" rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- start lightGallery js -->
+    <!-- jQuery plugin that adds cross-browser mouse wheel support (optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="{{ 'lightgallery/js/lightgallery.min.js' | relative_url }}"></script>
+    <!-- lightGallery plugins -->
+    <script src="{{ 'lightgallery/js/lg-thumbnail.min.js' | relative_url }}"></script>
+    <script src="{{ 'lightgallery/js/lg-fullscreen.min.js' | relative_url }}"></script>
+    <script src="{{ 'lightgallery/js/lg-zoom.js' | relative_url }}"></script>
+    <!-- <script src="{{ 'lightgallery/js/lg-autoplay.js' | relative_url }}"></script> -->
+    <!-- <script src="{{ 'lightgallery/js/lg-pager.js' | relative_url }}"></script> -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightgallery").lightGallery({
+                download: false,
+                getCaptionFromTitleOrAlt: false
+            });
+        });
+    </script>
+    <!-- end lightGallery -->
+
+    <script src="{{ 'lightslider/js/lightslider.min.js' | relative_url }}"></script>
+    <script src="{{ '/js/isotope.pkgd.min.js' | relative_url }}"></script>
+    <script src="{{ '/js/helper-code.js' | relative_url }}"></script>
+</head>
+
+<body>
+    
+    {% include header.html %}
+
+	<div class="wrapper">
+
+    	{{ content }}
+
+    	{% include footer.html %}
+
+	</div>
+
+    <!-- start Smooth Scroll -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.0.1/js/smooth-scroll.js"></script>
+    <script>
+    $(document).ready(function() {
+        smoothScroll.init({
+            speed: 500,
+            easing: 'easeInOutCubic',
+            offset: 0,
+        });
+    });
+    </script> -->
+    <!-- end Smooth Scroll -->
+
+    <script src="{{ '/js/filter.js' | relative_url }}"></script>
+    <script src="{{ '/js/main.js' | relative_url }}"></script>
+    
+</body>
+
+</html>

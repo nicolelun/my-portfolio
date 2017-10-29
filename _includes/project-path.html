@@ -1,0 +1,19 @@
+<!-- find path to directory where project content is stored -->
+
+<!-- remove leading "_" from page path -->
+{% assign pathFirstChar = page.path | slice: 0 %}
+{% if pathFirstChar == "_" %}
+	{% assign path = page.path | remove_first: "_" %}
+{% endif %}
+
+<!-- remove page name from path -->
+<!-- if the project YAML contains the page filename, then remove that from the page -->
+{% if page.filename %}
+	{% assign path = path | remove: page.filename %}
+<!-- else assume that the filename is "index.md" or "index.html" and remove that from the page -->
+{% else %}
+	{% assign path = path | remove: "index.md" | "index.html" %}
+{% endif %}
+
+<!-- prepend site URL to page path -->
+{% capture path %}{{ site.url }}/{{ path }}{% endcapture %}

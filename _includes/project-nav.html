@@ -1,0 +1,32 @@
+<h3>More Projects</h3>
+
+<div class="grid">
+    <div class="grid-sizer"></div>
+    <div class="gutter-sizer"></div>
+	
+	{% assign projSequence = site.data.project-sequence %}
+
+	<!-- loop through project sequence -->
+	{% for item in projSequence %}
+
+		<!-- find project in collection that matches current item in project sequence -->
+		{% assign currentProj = site.projects | where: "keyname", item.keyname %}
+
+		<!-- output project -->
+		{% for project in currentProj %}
+	        <div class="grid-item">
+	            <a href="{{ project.url }}">
+	                <figure>
+	                    <img src="{{ site.url | absolute_url }}{{ project.thumbnail }}">
+	                    <figcaption>
+	                        <h2>{{ project.title }}</h2>
+	                        <p>{{ project.short-description }}</p>
+	                    </figcaption>
+	                </figure>
+	            </a>
+	        </div>
+		{% endfor %}
+	{% endfor %}
+
+</div>
+
