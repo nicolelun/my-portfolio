@@ -30,6 +30,6 @@ web-sequence:
 
 A New York-based brand, Amsale reaches brides around the world, helping them create special moments in their lives. This commercial project involved coding refurbishments to Amsale's ecommerce website, delivering new functionality to match its sophisticated, modern style.
 
-Scope of work: front-end web development
+Scope of work: front-end web development _(coding only, not including design)_
 
 <a class="learn-more" href="https://amsale.com" target="_blank">Visit Website<span class="lg-right-arrow"></span></a> 
