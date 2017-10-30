@@ -14,7 +14,7 @@ img-sequence:
   srcset: "MVI_1614.00_01_18_28.Still001@0,75x.jpg 0.75x, MVI_1614.00_01_18_28.Still001.jpg 1x, MVI_1614.00_01_18_28.Still001@2x.jpg 2x"
 - 
   src: MVI_1614.00_01_38_18.Still002.jpg
-  srcset: "MVI_1614.00_01_38_18.Still002@0,75x.jpg 0.75x, MVI_1614.00_01_38_18.Still002 1x, MVI_1614.00_01_38_18.Still002@2x.jpg 2x"
+  srcset: "MVI_1614.00_01_38_18.Still002@0,75x.jpg 0.75x, MVI_1614.00_01_38_18.Still002.jpg 1x, MVI_1614.00_01_38_18.Still002@2x.jpg 2x"
 - 
   src: MVI_1614.00_01_45_12.Still003.jpg
   srcset: "MVI_1614.00_01_45_12.Still003.jpg@0,75x.jpg 0.75x, MVI_1614.00_01_45_12.Still003.jpg 1x, MVI_1614.00_01_45_12.Still003@2x.jpg 2x"
