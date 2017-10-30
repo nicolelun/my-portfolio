@@ -13,19 +13,11 @@ layout: "project"
 
 	<!-- for projects with a video -->
 	{% if page.video-sequence %}
-		<!-- <div class="video-container" style="{% if page.img-sequence %}margin-bottom: 2em{% endif %}"> -->
-		<div class="video-container" style="margin-bottom: 2em">
+		<div class="video-container" {% if page.img-sequence or page.web-sequence %}style="margin-bottom: 2em"{% endif %}>
 			<div class="video-wrapper">
 				<iframe width="560" height="315" src="{{ page.video-sequence }}" frameborder="0" allowfullscreen>
 				</iframe>
 			</div>
-		</div>
-	{% endif %}
-
-	<!-- for projects with a lead image -->
-	{% if page.headline-img %}
-		<div style="margin-bottom: 2em">
-			<a href="{{ page.headline-href }}"><img style="width: 100%" src="{{ page.headline-img }}"></a>
 		</div>
 	{% endif %}
 
