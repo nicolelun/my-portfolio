@@ -9,8 +9,8 @@ featured: false
 thumbnail: IMG_1975.jpg
 img-sequence:
 - 
-  src: IMG_1975@2x.jpg
-  srcset: "IMG_1975@0,75x.jpg 0.75x, IMG_1975.jpg 1x, IMG_1975@2x.jpg 2x"
+  src: IMG_1975@1,5x.jpg
+  srcset: "IMG_1975@0,75x.jpg 0.75x, IMG_1975.jpg 1x, IMG_1975@1,5x.jpg 1.5x"
   class: full
 ---
 
