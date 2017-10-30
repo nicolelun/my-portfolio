@@ -22,4 +22,4 @@ img-sequence:
     class: half
 ---
 
-Inspired in form by Japanese wagashi and Shinto charms, these small packages entice the eye but hide their treasures in layer upon layer.
+In an era of fast consumption, these tiny packages entice the eye but hide their treasures in layers. Their form is inspired by Japanese wagashi and Shinto charms.
