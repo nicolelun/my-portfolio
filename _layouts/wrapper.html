@@ -8,34 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="{{ 'lightgallery/css/lightgallery.min.css' | relative_url }}" />
     <link type="text/css" rel="stylesheet" href="{{ 'lightslider/css/lightslider.min.css' | relative_url }}" />
     <link type="text/css" rel="stylesheet" href="{{ '/css/w3.css' | relative_url }}">
     <link type="text/css" rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-    <!-- start lightGallery js -->
-    <!-- jQuery plugin that adds cross-browser mouse wheel support (optional) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
-    <script src="{{ 'lightgallery/js/lightgallery.min.js' | relative_url }}"></script>
-    <!-- lightGallery plugins -->
-    <script src="{{ 'lightgallery/js/lg-thumbnail.min.js' | relative_url }}"></script>
-    <script src="{{ 'lightgallery/js/lg-fullscreen.min.js' | relative_url }}"></script>
-    <script src="{{ 'lightgallery/js/lg-zoom.js' | relative_url }}"></script>
-    <!-- <script src="{{ 'lightgallery/js/lg-autoplay.js' | relative_url }}"></script> -->
-    <!-- <script src="{{ 'lightgallery/js/lg-pager.js' | relative_url }}"></script> -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("#lightgallery").lightGallery({
-                download: false,
-                getCaptionFromTitleOrAlt: false
-            });
-        });
-    </script>
-    <!-- end lightGallery -->
-
-    <script src="{{ 'lightslider/js/lightslider.min.js' | relative_url }}"></script>
     <script src="{{ '/js/isotope.pkgd.min.js' | relative_url }}"></script>
     <script src="{{ '/js/helper-code.js' | relative_url }}"></script>
 </head>
@@ -65,7 +44,20 @@
     </script> -->
     <!-- end Smooth Scroll -->
 
-    <script src="{{ '/js/filter.js' | relative_url }}"></script>
+    <!-- start lightGallery js -->
+    <!-- jQuery plugin that adds cross-browser mouse wheel support (optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="{{ 'lightgallery/js/lightgallery.min.js' | relative_url }}"></script>
+    <!-- lightGallery plugins -->
+    <script src="{{ 'lightgallery/js/lg-thumbnail.min.js' | relative_url }}"></script>
+    <script src="{{ 'lightgallery/js/lg-fullscreen.min.js' | relative_url }}"></script>
+    <script src="{{ 'lightgallery/js/lg-zoom.js' | relative_url }}"></script>
+    <!-- <script src="{{ 'lightgallery/js/lg-autoplay.js' | relative_url }}"></script> -->
+    <!-- <script src="{{ 'lightgallery/js/lg-pager.js' | relative_url }}"></script> -->
+    <!-- end lightGallery -->
+
+    <script src="{{ 'lightslider/js/lightslider.min.js' | relative_url }}"></script>
+
     <script src="{{ '/js/main.js' | relative_url }}"></script>
     
 </body>

@@ -1,0 +1,106 @@
+---
+layout: project-custom
+title: They That Wait
+permalink: :collection/lawndale/
+keyname: lawndale
+media: other
+short-description: Photo Series
+featured: false
+thumbnail: IMG_1132.jpg
+---
+
+<!-- <div class="w3-row"> -->
+	
+	<div class="proj-description">
+		<hr class="dash">
+		<p>
+			<span style="font-style: italic">But they that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint. &mdash; Isaiah 40:31-1</span>
+		</p>
+		<p>
+			A neighborhood of 3.2 square miles, North Lawndale has over 100 places of worship, many in converted storefronts, residences, and synagogues. Over generations, the Chicago neighborhood has evolved, bearing witness to the lives of its residents and the legacies of history.
+		</p>
+	</div>
+
+	<div class="proj-imgs">
+
+		<ul id="imageGallery">
+		
+		  <li data-thumb="IMG_1505.jpg" data-src="IMG_1505.jpg">
+		    <img src="IMG_1505.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1132.jpg" data-src="IMG_1132.jpg">
+		    <img src="IMG_1132.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1125.jpg" data-src="IMG_1125.jpg">
+		    <img src="IMG_1125.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1470.jpg" data-src="IMG_1470.jpg">
+		    <img src="IMG_1470.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1480.jpg" data-src="IMG_1480.jpg">
+		    <img src="IMG_1480.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1557.jpg" data-src="IMG_1557.jpg">
+		    <img src="IMG_1557.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1461.jpg" data-src="IMG_1461.jpg">
+		    <img src="IMG_1461.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1490.jpg" data-src="IMG_1490.jpg">
+		    <img src="IMG_1490.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1466@0,5x.jpg" data-src="IMG_1466@1,5x.jpg">
+		    <img src="IMG_1466.jpg" srcset="IMG_1466@0,75x.jpg 0.75x, IMG_1466.jpg 1x, IMG_1466@1,5x.jpg 1.5x" />
+		  </li>
+		  <li data-thumb="IMG_1544.jpg" data-src="IMG_1544.jpg">
+		    <img src="IMG_1544.jpg" />
+		  </li>
+		  <!-- <li data-thumb="IMG_1523.jpg" data-src="IMG_1523.jpg">
+		    <img src="IMG_1523.jpg" />
+		  </li> -->
+		<li data-thumb="IMG_1520.jpg" data-src="IMG_1520.jpg">
+		    <img src="IMG_1520.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1120.jpg" data-src="IMG_1120.jpg">
+		    <img src="IMG_1120.jpg" />
+		  </li>
+		  <li data-thumb="IMG_1540.jpg" data-src="IMG_1540.jpg">
+		    <img src="IMG_1540.jpg" />
+		  </li>
+
+		</ul>
+	</div>
+
+<!-- </div> -->
+
+<script type="text/javascript">
+
+  $(document).ready(function() {
+    $('#imageGallery').lightSlider({
+        item: 1,
+        loop: false,
+        slideMargin: 5,
+        adaptiveHeight: true,
+        gallery: true,
+        galleryMargin: 30,
+        thumbItem: 6,
+        thumbMargin: 6,
+        addClass: 'photo-slider',
+        controls: true,
+        keyPress: true,
+        currentPagerPosition: 'middle',
+        nextHtml: '<span class="lg-right-arrow photo-control"></span>',
+        prevHtml: '<span class="lg-left-arrow photo-control"></span>',
+        onSliderLoad: function(el) {
+            el.lightGallery({
+                selector: '#imageGallery .lslide',
+				addClass: 'lg-padding',
+            	showThumbByDefault: false,
+            	loop: false,
+            	download: false
+            });
+        }   
+    });  
+  });
+</script>
+
