@@ -1,0 +1,113 @@
+---
+layout: project-custom
+title: They That Wait
+permalink: :collection/lawndale/
+keyname: lawndale
+media: other
+short-description: Photo Series
+featured: false
+thumbnail: lawndale-thumbnail.jpg
+---
+
+<!-- <div class="w3-row"> -->
+	
+<div class="proj-description">
+	<hr class="dash">
+	<p>
+		<span style="font-style: italic">But they that wait upon the Lord shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.</span> &mdash; Isaiah 40:31-1
+	</p>
+	<p>
+		This photo series is inspired by North Lawndale, Chicago.
+	</p>
+	<p>
+		<a class="learn-more lawndale">See Images<span class="lg-right-arrow"></span></a>
+	</p>
+</div>
+
+<div class="proj-imgs">
+	<a class="lawndale"><img style="width: 100%" src="IMG_1505@1,5x.jpg" srcset="IMG_1505@0,75x.jpg 0.75x, IMG_1505.jpg 1x, IMG_1505@1,5x.jpg 1.5x"></a>
+</div>
+
+<!-- </div> -->
+
+<script type="text/javascript">
+	$(".lawndale").click(function() {
+		var widthThumb = "270w"
+		var widthSmall = "675w"
+		var widthMed = "900w";
+		var widthLarge = "1350w";
+		var sizes = "";
+		var imgAlt = "They That Wait";
+		var imgSequence = ["IMG_1505.jpg","IMG_1132.jpg","IMG_1125.jpg","IMG_1470.jpg","IMG_1480.jpg","IMG_1461.jpg","IMG_1557.jpg","IMG_1490.jpg","IMG_1466.jpg","IMG_1544.jpg","IMG_1520.jpg","IMG_1540.jpg"];
+		var dynamicElArray = [];
+		for (var i = 0; i < imgSequence.length; i++) {
+			var imageMed = imgSequence[i];
+			var imageSmall = imgSequence[i].substr(0,imgSequence[i].lastIndexOf(".")) + "@0,75x.jpg";
+			var imageLarge = imgSequence[i].substr(0,imgSequence[i].lastIndexOf(".")) + "@1,5x.jpg";
+			var thumbnail = imgSequence[i].substr(0,imgSequence[i].lastIndexOf(".")) + "@0,3x.jpg";
+			console.log(thumbnail);
+			dynamicElArray.push({
+				alt: imgAlt,
+				src: imageLarge,
+				srcset: imageSmall + " " + widthSmall + ", " + imageMed + " " + widthMed + ", " + imageLarge + " " + widthLarge,
+				sizes: sizes,
+				thumb: thumbnail
+			}); 
+		}
+
+		$(this).lightGallery({
+			addClass: 'lg-padding',
+			hideBarsDelay: 4000,
+			loop: false,
+			getCaptionFromTitleOrAlt: false,
+			thumbnail: true,
+        	showThumbByDefault: false,
+			download: false,
+			dynamic: true,
+			dynamicEl:[   
+				{ "alt": dynamicElArray[0].alt, "src": dynamicElArray[0].src, "srcset": dynamicElArray[0].srcset, "sizes": dynamicElArray[0].sizes, "thumb": dynamicElArray[0].thumb },
+				{ "alt": dynamicElArray[1].alt, "src": dynamicElArray[1].src, "srcset": dynamicElArray[1].srcset, "sizes": dynamicElArray[1].sizes, "thumb": dynamicElArray[1].thumb },
+				{ "alt": dynamicElArray[2].alt, "src": dynamicElArray[2].src, "srcset": dynamicElArray[2].srcset, "sizes": dynamicElArray[2].sizes, "thumb": dynamicElArray[2].thumb },
+				{ "alt": dynamicElArray[3].alt, "src": dynamicElArray[3].src, "srcset": dynamicElArray[3].srcset, "sizes": dynamicElArray[3].sizes, "thumb": dynamicElArray[3].thumb },
+				{ "alt": dynamicElArray[4].alt, "src": dynamicElArray[4].src, "srcset": dynamicElArray[4].srcset, "sizes": dynamicElArray[4].sizes, "thumb": dynamicElArray[4].thumb },
+				{ "alt": dynamicElArray[5].alt, "src": dynamicElArray[5].src, "srcset": dynamicElArray[5].srcset, "sizes": dynamicElArray[5].sizes, "thumb": dynamicElArray[5].thumb },
+				{ "alt": dynamicElArray[6].alt, "src": dynamicElArray[6].src, "srcset": dynamicElArray[6].srcset, "sizes": dynamicElArray[6].sizes, "thumb": dynamicElArray[6].thumb },
+				{ "alt": dynamicElArray[7].alt, "src": dynamicElArray[7].src, "srcset": dynamicElArray[7].srcset, "sizes": dynamicElArray[7].sizes, "thumb": dynamicElArray[7].thumb },
+				{ "alt": dynamicElArray[8].alt, "src": dynamicElArray[8].src, "srcset": dynamicElArray[8].srcset, "sizes": dynamicElArray[8].sizes, "thumb": dynamicElArray[8].thumb },
+				{ "alt": dynamicElArray[9].alt, "src": dynamicElArray[9].src, "srcset": dynamicElArray[9].srcset, "sizes": dynamicElArray[9].sizes, "thumb": dynamicElArray[9].thumb },
+				{ "alt": dynamicElArray[10].alt, "src": dynamicElArray[10].src, "srcset": dynamicElArray[10].srcset, "sizes": dynamicElArray[10].sizes, "thumb": dynamicElArray[10].thumb },
+				{ "alt": dynamicElArray[11].alt, "src": dynamicElArray[11].src, "srcset": dynamicElArray[11].srcset, "sizes": dynamicElArray[11].sizes, "thumb": dynamicElArray[11].thumb },
+				]
+		});
+	});
+
+
+  // $(document).ready(function() {
+  //   $('#imageGallery').lightSlider({
+  //       item: 1,
+  //       loop: false,
+  //       slideMargin: 5,
+  //       adaptiveHeight: true,
+  //       gallery: false,
+  //       // galleryMargin: 30,
+  //       thumbItem: 6,
+  //       thumbMargin: 6,
+  //       addClass: 'photo-slider',
+  //       controls: true,
+  //       keyPress: true,
+  //       currentPagerPosition: 'middle',
+  //       nextHtml: '<span class="lg-right-arrow photo-control"></span>',
+  //       prevHtml: '<span class="lg-left-arrow photo-control"></span>',
+  //       onSliderLoad: function(el) {
+  //           el.lightGallery({
+  //               selector: '#imageGallery .lslide',
+		// 		addClass: 'lg-padding',
+  //           	showThumbByDefault: false,
+  //           	loop: false,
+  //           	download: false
+  //           });
+  //       }   
+  //   });  
+  // });
+</script>
+

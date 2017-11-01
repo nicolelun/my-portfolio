@@ -58,14 +58,14 @@ thumbnail: IMG_2932-thumbnail.jpg
 	$(document).ready(function() {
 
 		$(".receipts").click(function() {
-			var thumbDir = "receipts-pages/thumbnail/";
-			var smallDir = "receipts-pages/small/";
-			var largeDir = "receipts-pages/small/";
-			var smallWidth = "1584w";
-			var largeWidth = "1584w";
+			var dirThumb = "receipts-pages/thumbnail/";
+			var dirSmall = "receipts-pages/small/";
+			var dirLarge = "receipts-pages/small/";
+			var widthSmall = "1584w";
+			var widthLarge = "1584w";
 			var sizes = "100%";
-			var smallCover = "IMG_2838.jpg";
-			var largeCover = "IMG_2838.jpg";
+			var coverSmall = "IMG_2838.jpg";
+			var coverLarge = "IMG_2838.jpg";
 			var pageAlt = "Receipts Book";
 			var page;
 			var dynamicElArray = [];
@@ -74,10 +74,10 @@ thumbnail: IMG_2932-thumbnail.jpg
 				thumbnail = "Receipts_Page" + i + ".jpg";
 				dynamicElArray.push({
 					alt: pageAlt,
-					src: largeDir + page,
-					srcset: smallDir + page + " " + smallWidth + "," + largeDir + page + " " + largeWidth,
+					src: dirLarge + page,
+					srcset: dirSmall + page + " " + widthSmall + "," + dirLarge + page + " " + widthLarge,
 					sizes: sizes,
-					thumb: thumbDir + thumbnail
+					thumb: dirThumb + thumbnail
 				}); 
 			}
 
@@ -91,7 +91,7 @@ thumbnail: IMG_2932-thumbnail.jpg
 				download: false,
 				dynamic: true,
 				dynamicEl:[   
-					{ "alt": pageAlt, "src": largeCover, "thumb": smallCover },
+					{ "alt": pageAlt, "src": coverLarge, "thumb": coverSmall },
 					{ "alt": dynamicElArray[0].alt, "src": dynamicElArray[0].src, "srcset": dynamicElArray[0].srcset, "sizes": dynamicElArray[0].sizes, "thumb": dynamicElArray[0].thumb },
 					{ "alt": dynamicElArray[1].alt, "src": dynamicElArray[1].src, "srcset": dynamicElArray[1].srcset, "sizes": dynamicElArray[1].sizes, "thumb": dynamicElArray[1].thumb },
 					{ "alt": dynamicElArray[2].alt, "src": dynamicElArray[2].src, "srcset": dynamicElArray[2].srcset, "sizes": dynamicElArray[2].sizes, "thumb": dynamicElArray[2].thumb },
@@ -121,14 +121,14 @@ thumbnail: IMG_2932-thumbnail.jpg
 		});
 
 		$(".notices").click(function() {
-			var thumbDir = "notices-pages/thumbnail/";
-			var smallDir = "notices-pages/small/";
-			var largeDir = "notices-pages/large/";
-			var smallWidth = "1296w";
-			var largeWidth = "1728w";
+			var dirThumb = "notices-pages/thumbnail/";
+			var dirSmall = "notices-pages/small/";
+			var dirLarge = "notices-pages/large/";
+			var widthSmall = "1296w";
+			var widthLarge = "1728w";
 			var sizes = "100%";
-			var smallCover = "IMG_2804.jpg";
-			var largeCover = "IMG_2804.jpg";
+			var coverSmall = "IMG_2804.jpg";
+			var coverLarge = "IMG_2804.jpg";
 			var pageAlt = "Notices Book";
 			var pages = [];
 			var dynamicElArray = [];
@@ -137,10 +137,10 @@ thumbnail: IMG_2932-thumbnail.jpg
 				thumbnail = "Notices_Page" + i + ".jpg";
 				dynamicElArray.push({
 					alt: pageAlt,
-					src: largeDir + page,
-					srcset: smallDir + page + " " + smallWidth + "," + largeDir + page + " " + largeWidth,
+					src: dirLarge + page,
+					srcset: dirSmall + page + " " + widthSmall + "," + dirLarge + page + " " + widthLarge,
 					sizes: sizes,
-					thumb: thumbDir + thumbnail
+					thumb: dirThumb + thumbnail
 				}); 
 			}
 
@@ -154,7 +154,7 @@ thumbnail: IMG_2932-thumbnail.jpg
 				download: false,
 				dynamic: true,
 				dynamicEl:[   
-					{ "alt": pageAlt, "src": largeCover, "thumb": smallCover },
+					{ "alt": pageAlt, "src": coverLarge, "thumb": coverSmall },
 					{ "alt": dynamicElArray[0].alt, "src": dynamicElArray[0].src, "srcset": dynamicElArray[0].srcset, "sizes": dynamicElArray[0].sizes, "thumb": dynamicElArray[0].thumb },
 					{ "alt": dynamicElArray[1].alt, "src": dynamicElArray[1].src, "srcset": dynamicElArray[1].srcset, "sizes": dynamicElArray[1].sizes, "thumb": dynamicElArray[1].thumb },
 					{ "alt": dynamicElArray[2].alt, "src": dynamicElArray[2].src, "srcset": dynamicElArray[2].srcset, "sizes": dynamicElArray[2].sizes, "thumb": dynamicElArray[2].thumb },
