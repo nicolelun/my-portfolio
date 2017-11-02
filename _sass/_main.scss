@@ -84,9 +84,9 @@ p {
 }
 
 a {
-	-webkit-transition: 0.15s ease;
-    -o-transition: 0.15s ease;
-    transition: 0.15s ease;
+	-webkit-transition: $fast-transition;
+    -o-transition: $fast-transition;
+    transition: $fast-transition;
 }
 
 a:hover {
@@ -671,13 +671,13 @@ button {
     overflow: hidden;
     position: relative;
     margin-bottom: 6px;
-}
 
-.grid-item figure {
-    width: 100%;
-    padding-top: 100%;
-    margin: 0;
-    position: relative;
+    figure {
+        width: 100%;
+        padding-top: 100%;
+        margin: 0;
+        position: relative;
+    }
 
     img {
         position: absolute;
@@ -695,38 +695,36 @@ button {
         width: -o-calc(100% + 20px);
         width: calc(100% + 20px);
         height: 100%;
-
         -webkit-transform: scale(1.15, 1.15);
         -ms-transform: scale(1.15, 1.15);
         transform: scale(1.15, 1.15);
 
-        // -webkit-transform: opacity 0.5s, -ms-transform 6s ease, filter 0.5s;
-        // -webkit-transition: opacity 0.5s, -webkit-transform 6s ease, -webkit-filter 0.5s;
-        // transition: opacity 0.5s, transform 6s ease, filter 0.5s;
+        // -webkit-transform: opacity 0.5s, filter 0.5s, -ms-transform 6s ease;
+        // -webkit-transition: opacity 0.5s, -webkit-filter 0.5s, -webkit-transform 6s ease;
+        // transition: opacity 0.5s, filter 0.5s, transform 6s ease;
 
-        -webkit-transition: opacity 0.5s, -webkit-transform 6s ease, -webkit-filter 0.5s;        
-        transition: opacity 0.5s, -webkit-transform 6s ease, -webkit-filter 0.5s;        
-        -o-transition: opacity 0.5s, transform 6s ease, filter 0.5s;        
-        transition: opacity 0.5s, transform 6s ease, filter 0.5s;        
-        transition: opacity 0.5s, transform 6s ease, filter 0.5s, -webkit-transform 6s ease, -webkit-filter 0.5s;
+        -webkit-transition: opacity 0.5s, -webkit-filter 0.5s, -webkit-transform 6s ease;        
+        transition: opacity 0.5s, -webkit-filter 0.5s, -webkit-transform 6s ease;        
+        -o-transition: opacity 0.5s, filter 0.5s, transform 6s ease;        
+        transition: opacity 0.5s, filter 0.5s, transform 6s ease;        
+        transition: opacity 0.5s, filter 0.5s, transform 6s ease, -webkit-transform 6s ease, -webkit-filter 0.5s;
+
     }
-}
 
-.grid-item figcaption {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    left: 0;
-    bottom: 0;
-    padding: 1.5em;
-    opacity: 0;
-    // -webkit-transition: -webkit-transform 0.35s;
-    // transition: transform 0.35s;
-    -webkit-transition: -webkit-transform 0.35s;        
-    transition: -webkit-transform 0.35s;        
-    -o-transition: transform 0.35s;        
-    transition: transform 0.35s;        
-    transition: transform 0.35s, -webkit-transform 0.35s;
+    figcaption {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 0;
+        bottom: 0;
+        padding: 1.5em;
+        opacity: 0;
+        -webkit-transition: -webkit-transform 0.35s;        
+        transition: -webkit-transform 0.35s;        
+        -o-transition: transform 0.35s;        
+        transition: transform 0.35s;        
+        transition: transform 0.35s, -webkit-transform 0.35s;
+    }
 
     h2 {
         font-size: 18px;
@@ -734,8 +732,6 @@ button {
         color: white;
         padding: 0;
         margin-bottom: 4px;
-        // -webkit-transition: -webkit-transform 0.35s;
-        // transition: transform 0.35s;
         -webkit-transition: -webkit-transform 0.35s;        
         transition: -webkit-transform 0.35s;        
         -o-transition: transform 0.35s;        
@@ -751,18 +747,37 @@ button {
         font-size: 1em;
         text-transform: lowercase;
         color: rgba(255, 255, 255, 0.85);
-        opacity: 0;
         -webkit-transform: translate3d(0, 30px, 0);
         transform: translate3d(0, 30px, 0);
-        // -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
-        // transition: opacity 0.2s, transform 0.35s;
-        -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;        
-        transition: opacity 0.2s, -webkit-transform 0.35s;        
-        -o-transition: opacity 0.2s, transform 0.35s;        
-        transition: opacity 0.2s, transform 0.35s;        
-        transition: opacity 0.2s, transform 0.35s, -webkit-transform 0.35s;
+        -webkit-transition: -webkit-transform 0.35s;        
+        transition: -webkit-transform 0.35s;        
+        -o-transition: transform 0.35s;        
+        transition: transform 0.35s;        
+        transition: transform 0.35s, -webkit-transform 0.35s;
     }
 
+}
+
+.grid-item.active,
+.grid-item:hover {
+    img {
+        opacity: 1;
+        filter: none;
+        -webkit-transform: translate3d(0, 0, 0) scale(1, 1);
+        transform: translate3d(0, 0, 0) scale(1, 1);
+    }
+
+    figcaption {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    p {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 .grid-item--width2,
@@ -803,18 +818,18 @@ button {
     width: calc(16.666% - 6px);
 }
 
-.grid-item-small {
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 6px;
-}
-
 .gutter-sizer {
     width: 6px;
 }
 
-.grid-item.grid-item-small figcaption {
-    padding: 1em;
+.grid-item-small {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 6px;
+    
+    figcaption {
+        padding: 1em;
+    }
 
     h2 {
         font-size: 16px;
@@ -830,39 +845,13 @@ button {
     }
 }
 
-.grid-item.active,
-.grid-item:hover {
-    img {
-        opacity: 1;
-        filter: none;
-        -webkit-transform: translate3d(0, 0, 0) scale(1, 1);
-        transform: translate3d(0, 0, 0) scale(1, 1);
-    }
-
+.grid-item-small.active,
+.grid-item-small:hover {
     figcaption {
         opacity: 1;
         background-color: rgba(0, 0, 0, 0.5);
-        -webkit-transform: translate3d(0, -30px, 0);
-        transform: translate3d(0, -30px, 0);
-
-        h2 {
-        	opacity: 1;
-        }
-
-        p {
-            opacity: 1;
-            -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-        }
-    }
-
-    &.grid-item-small {
-        figcaption {
-            opacity: 1;
-            background-color: rgba(0, 0, 0, 0.5);
-            -webkit-transform: translate3d(0, -10px, 0);
-            transform: translate3d(0, -10px, 0);
-        }
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
     }
 }
 
@@ -1077,8 +1066,7 @@ button {
     font-size: 22px;
     padding-left: 0!important;
     padding-right: 0!important;
-    transition: 0.15s;
-
+    transition: $fast-transition;
 }
 
 // .photo-control:hover {
@@ -1130,55 +1118,6 @@ button {
 
     img {
         margin-bottom: -7px;
-    }
-}
-
-.web-scroll {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 2em;
-    width: 100%;
-
-    @media screen and (min-width: $break-med-min) {
-        padding-top: 56.25%;
-        overflow-y: scroll;
-        margin-bottom: 3em;
-        border: 2px solid gainsboro;
-
-        img {
-            position: absolute; 
-            top: 0; 
-            left: 0; 
-            width: 100%;
-        }
-    }
-
-    &:hover .web-scroll-instructions {
-        opacity: 0;
-        -webkit-transition: all 0.15s ease 0.75s;        
-        -o-transition: all 0.15s ease 0.75s;        
-        transition: all 0.15s ease 0.75s;
-    }
-}
-
-.web-scroll-instructions {
-
-    display: none;
-
-    @media screen and (min-width: $break-med-min) {
-        display: inline-block;
-        position: absolute; 
-        bottom: 10px; 
-        right: 10px; 
-        text-align: center;
-        border-radius: 3px;
-        background-color: rgba(0, 0, 0, 0.5); 
-        padding: 1em; 
-        color: white; 
-        font-size: 0.75em; 
-        -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 2px 5px 0 rgba(0,0,0,0.12);        
-        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 2px 5px 0 rgba(0,0,0,0.12); 
     }
 }
 
@@ -1320,9 +1259,9 @@ button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-decoration: none;
-    -webkit-transition: padding 0.15s ease;    
-    -o-transition: padding 0.15s ease;    
-    transition: padding 0.15s ease;
+    -webkit-transition: padding $fast-transition;    
+    -o-transition: padding $fast-transition;    
+    transition: padding $fast-transition;
 }
 
 .lg-left-arrow:before {
@@ -1391,7 +1330,7 @@ button {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        transition: 0.15s;
+        transition: $fast-transition;
         text-decoration: none;
         font-size: 28px;
         color: white;
@@ -1404,20 +1343,18 @@ button {
 
     .slidePrev {
         left: 0;
-        // padding-right: 20px;
 
-        &:after {
-            // content: "\00276E";
-        }
+        // &:after {
+        //     content: "\00276E";
+        // }
     }
 
     .slideNext {
         right: 0;
-        // padding-left: 20px;
 
-        &:after {
+        // &:after {
             // content: "\00276F";
-        }
+        // }
     }
 
 }
