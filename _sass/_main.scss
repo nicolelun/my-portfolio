@@ -241,7 +241,7 @@ $plus-delay3: $plus-delay2 + $plus-duration;
 // $plus-delay5: $plus-delay4 + $plus-duration;
 $tagline-rollout-delay: $plus-delay3 + $plus-duration;
 // $explore-rollin-delay: $tagline-rollout-delay;
-$explore-rollin-delay: 10.5s;
+$explore-rollin-delay: 9s;
 
 .tagline-container {
     position: absolute;
@@ -896,7 +896,11 @@ button {
     margin-bottom: 3rem;
 
     @media screen and (min-width: $break-med-min) {
-         margin-bottom: 7rem;
+         margin-bottom: 6rem;
+    }
+
+    @media screen and (min-width: $break-large-min) {
+         margin-bottom: 8rem;
     }
 }
 
