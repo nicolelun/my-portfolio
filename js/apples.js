@@ -1,4 +1,33 @@
-var apples = document.getElementById('apple-figure');
+// var apples = document.getElementById('apple-figure');
+
+const mq = window.matchMedia( "(max-width: 600px)" );
+
+// media query event handler
+// if (matchMedia) {
+//     mq.addListener(WidthChange);
+//     WidthChange(mq);
+// }
+
+// media query change
+// function WidthChange(mq) {
+//     if (mq.matches) {
+//         $(".apples-horizontal").hide();
+//     } else {
+//         $(".apples-vertical").hide();
+//     }
+// }
+
+var apples;
+
+if (mq.matches) {
+    $("#apple-figure-horizontal").hide();
+    apples = document.getElementById("apple-figure-vertical");
+
+} else {
+    $("#apple-figure-vertical").hide();
+    apples = document.getElementById("apple-figure-horizontal");
+}
+
 var paths = apples.querySelectorAll('path, polyline, line');
 
 $("#Person_Sitting .head").css("display", "none");
