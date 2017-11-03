@@ -20,11 +20,11 @@ const mq = window.matchMedia( "(max-width: 600px)" );
 var apples;
 
 if (mq.matches) {
-    $("#apple-figure-horizontal").hide();
+    $("#apple-figure-vertical").show();
     apples = document.getElementById("apple-figure-vertical");
 
 } else {
-    $("#apple-figure-vertical").hide();
+    $("#apple-figure-horizontal").show();
     apples = document.getElementById("apple-figure-horizontal");
 }
 
