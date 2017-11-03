@@ -1121,6 +1121,52 @@ button {
     }
 }
 
+.web-scroll {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+    width: 100%;
+
+    @media screen and (min-width: $break-med-min) {
+        padding-top: 56.25%;
+        overflow-y: scroll;
+        margin-bottom: 3em;
+        border: 2px solid gainsboro;
+
+        img {
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%;
+        }
+    }
+
+    &:hover .web-scroll-instructions {
+        opacity: 0;
+        -webkit-transition: all 0.15s ease 0.75s;        
+        -o-transition: all 0.15s ease 0.75s;        
+        transition: all 0.15s ease 0.75s;
+    }
+}
+
+.web-scroll-instructions {
+    @media screen and (min-width: $break-med-min) {
+        display: inline-block;
+        position: absolute; 
+        bottom: 10px; 
+        right: 10px; 
+        text-align: center;
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 1em; 
+        color: white; 
+        font-size: 0.75em; 
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 2px 5px 0 rgba(0,0,0,0.12);        
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 2px 5px 0 rgba(0,0,0,0.12); 
+    }
+}
+
 /* ===================================================
     BOOKS
 =================================================== */

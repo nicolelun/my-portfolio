@@ -30,9 +30,9 @@ layout: "project"
 				{% if image.href %}<a href="{{ image.href }}" target="_blank">{% endif %}
 					<img src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" {% if image.srcset %}srcset="{{ image.srcset }}"{% endif %} {% if image.sizes %}sizes="{{ image.sizes }}"{% endif %} alt="{% if image.alt %}{{ image.alt }}{% else %}{{ page.title }}{% endif %}" />
 				{% if image.href %}</a>{% endif %}
-				{% if image.class == "web-scroll" %}
+				<!-- {% if image.class == "web-scroll" %}
 					<div class="web-scroll-instructions"><div style="margin-bottom: 0.5em">Scroll image to see more</div><div>&#9586;&#9585;</div></div>
-				{% endif %}
+				{% endif %} -->
 			</figure>
 		{% endfor %}
 	{% endif %}
