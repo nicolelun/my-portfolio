@@ -24,4 +24,6 @@ web-sequence:
 
 This experimental website presents an unfamiliar perspective on a familiar-seeming place. Inspired by the notion of objects with their own will, this subtly resistant world operates by its own rules.
 
-<a class="learn-more" href="https://nicolelun.github.io/desk/" target="_blank">Visit Website<span class="lg-right-arrow"></span></a> 
+<a class="learn-more" href="https://nicolelun.github.io/desk/" target="_blank">Visit Website<span class="lg-right-arrow"></span></a>
+
+_Note: This website works best in Chrome._ 
