@@ -1174,6 +1174,14 @@ button {
     }
 }
 
+.web-figure-buffer {
+    min-height: 2rem;
+
+    @media screen and (min-width: $break-med-min) {
+        min-height: 3rem;
+    }
+}
+
 .web-scroll-instructions {
     @media screen and (min-width: $break-med-min) {
         display: inline-block;
