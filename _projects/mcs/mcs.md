@@ -10,7 +10,7 @@ thumbnail: mcs-thumbnail.jpg
 web-sequence: 
 - 
   src: mcs.jpg
-  srcset: "mcs@0,75x.jpg 0.75x, mcs.jpg 1x, mcs@1,5x.jpg 1.5x"
+  srcset: "mcs@0,75x.jpg 675w, mcs.jpg 900w, mcs@1,5x.jpg 1350w"
   class: web-scroll
   href: https://www.mediationconflictsolutions.org/
 ---

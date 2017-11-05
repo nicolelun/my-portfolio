@@ -18,32 +18,38 @@ img-sequence:
     class: half buffer-bottom-collapsible
   -
     src: IMG_1324@2x.jpg
-    srcset: "IMG_1324@0,75.jpg 0.75x, IMG_1324.jpg 1x, IMG_1324@2x.jpg 2x"
+    srcset: "IMG_1324@0,75x.jpg 338w, IMG_1324.jpg 450w, IMG_1324@2x.jpg 900w"
+    thumb-src: IMG_1324.jpg
     alt: Material 
     class: third
   -
     src: IMG_1298@2x.jpg
-    srcset: "IMG_1298@0,75.jpg 0.75x, IMG_1298.jpg 1x, IMG_1298@2x.jpg 2x"
+    srcset: "IMG_1298@0,75x.jpg 338w, IMG_1298.jpg 450w, IMG_1298@2x.jpg 900w"
+    thumb-src: IMG_1298.jpg
     alt: NCL Satchel 
     class: third
   -
     src: IMG_1300@2x.jpg
-    srcset: "IMG_1300@0,75.jpg 0.75x, IMG_1300.jpg 1x, IMG_1300@2x.jpg 2x"
+    srcset: "IMG_1300@0,75x.jpg 338w, IMG_1300.jpg 450w, IMG_1300@2x.jpg 900w"
+    thumb-src: IMG_1300.jpg
     alt: NCL Satchel
     class: third
   -
     src: IMG_1321@2x.jpg
-    srcset: "IMG_1321@0,75.jpg 0.75x, IMG_1321.jpg 1x, IMG_1321@2x.jpg 2x"
+    srcset: "IMG_1321@0,75x.jpg 338w, IMG_1321.jpg 450w, IMG_1321@2x.jpg 900w"
+    thumb-src: IMG_1321.jpg
     alt: NCL Clutch
     class: third
   -
     src: IMG_1306@2x.jpg
-    srcset: "IMG_1306@0,75.jpg 0.75x, IMG_1306.jpg 1x, IMG_1306@2x.jpg 2x"
+    srcset: "IMG_1306@0,75x.jpg 338w, IMG_1306.jpg 450w, IMG_1306@2x.jpg 900w"
+    thumb-src: IMG_1306.jpg
     alt: NCL Clutch 
     class: third
   -
     src: IMG_1316@2x.jpg
-    srcset: "IMG_1316@0,75.jpg 0.75x, IMG_1316.jpg 1x, IMG_1316@2x.jpg 2x"
+    srcset: "IMG_1316@0,75x.jpg 338w, IMG_1316.jpg 450w, IMG_1316@2x.jpg 900w"
+    thumb-src: IMG_1316.jpg
     alt: NCL Clutch 
     class: third
 ---

@@ -2,14 +2,16 @@
     VARIABLES
 =================================================== */
 
-$header-height: 62px;
+$header-height: 73px;
 $small-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 2px 5px 0 rgba(0,0,0,0.12);
 $tangerine: hsl(28, 100%, 52%);
 $teal: #00CAE0;
+$break-xsmall-max: 374px;
+$break-small-min: 375px;
 $break-small-max: 600px;
 $break-med-min: 601px;
-$break-med-max: 992px;
-$break-large-min: 993px;
+$break-med-max: 1000px;
+$break-large-min: 1000px;
 $fast-transition: 0.15s ease;
 
 /* ===================================================
@@ -27,15 +29,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-}
-
-header {
-    width: 100%; 
-    z-index: 100; 
-    padding: 0;
-    margin: 0;
-    background-color: white;
-    border-bottom: 1px solid gainsboro;
 }
 
 figure {
@@ -143,6 +136,8 @@ hr.dash {
 }
 
 .wrapper {
+    position: absolute;
+    top: $header-height;
     width: 100%;
 }
 
@@ -166,13 +161,17 @@ hr.dash {
     max-width: 1000px;
     height: auto;
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     padding: 2em;
     margin: 0;
+
+    @media screen and (min-width: $break-med-min) {
+        top: 45%;
+    }
 }
 
 @-webkit-keyframes shake {
@@ -330,7 +329,7 @@ $explore-rollin-delay: 9s;
 #explore {
     opacity: 0;
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     left: 50%;
     color: white;
     background-color: transparent;
@@ -341,6 +340,10 @@ $explore-rollin-delay: 9s;
     &:hover {
         color: $tangerine;
         background-color: white;
+    }
+
+    @media screen and (min-width: $break-med-min) {
+        bottom: 10%;
     }
 }
 
@@ -435,21 +438,36 @@ $explore-rollin-delay: 9s;
     HEADER & MAIN NAVIGATION
 =================================================== */
 
-#nav-container {
+#main-header {
+    position: fixed;
+    z-index: 100; 
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    line-height: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 4px 2rem;
+    
+    @media screen and (min-width: $break-med-min) {
+        padding: 0 2rem;
+    }
 }
 
 #identity {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    // padding: 16px 0;
+    padding: 26px 0;
     vertical-align: top;
     font-family: Lato, sans-serif;
+
+    // @media screen and (min-width: $break-med-min) {
+    //     padding: 26px 0;
+    // }
 }
 
 #identity .identity-title {
@@ -474,7 +492,8 @@ $explore-rollin-delay: 9s;
 }
 
 .menu-btn {
-    padding: 1em 0;
+    padding-top: 16px 0;
+    margin: 0;
 
     @media screen and (min-width: $break-med-min) {
         display: none;
@@ -482,22 +501,20 @@ $explore-rollin-delay: 9s;
 }
 
 #main-nav {
-    list-style-type: none;
-    padding: 4px 0;
     margin: 0;
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
     width: auto;
+    display: inline-block;
 
     @media screen and (max-width: $break-small-max) {
         display: none;
-        padding: 0;
         -webkit-box-shadow: $small-box-shadow;
         box-shadow: $small-box-shadow;
         background-color: $tangerine;
         position: absolute;
-        top: 65px;
+        top: $header-height;
         right: 0;
         width: 100%;
         text-align: center;
@@ -505,37 +522,33 @@ $explore-rollin-delay: 9s;
     }
 }
 
-#main-nav li {
+#main-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 0;
+    text-transform: uppercase;
     border-bottom: 1px solid rgba(255,255,255,0.5);
 
     &:last-of-type {
         border-bottom: none;
     }
-    
+
     @media screen and (min-width: $break-med-min) {
         display: inline-block;
-        padding: 0.5em;
-        border-bottom: none;
-    }
-}
-
-#main-nav li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 1em;
-    text-transform: uppercase;
-
-    @media screen and (min-width: $break-med-min) {
-        color: black;
+        padding: 10px 1em;
+        margin: 16px 8px;
         border-top: 2px solid transparent;
         border-bottom: none;
-        padding: 0.3em 0.75em;
+        color: black;
         text-transform: none;
     }
 
     &:hover {
-        color: $tangerine;
+        @media screen and (min-width: $break-med-min) {
+            color: $tangerine;
+        }
     }
     
     &.active {
@@ -863,8 +876,8 @@ button {
 .proj-container {
     padding-top: 3rem;
 	padding-bottom: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -872,6 +885,8 @@ button {
     @media screen and (min-width: $break-med-min) {
         padding-top: 4rem;
         padding-bottom: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     
     &:before,
@@ -896,13 +911,13 @@ button {
 
 .proj-description {
     width: 100%;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     float: left;
 
     @media screen and (min-width: $break-med-min) and (max-width: $break-med-max) {
         width: 50%;
         min-width: 300px;
-        margin-botom: 3em;
+        margin-bottom: 2em;
     }
 
     @media screen and (min-width: $break-large-min) {
@@ -968,7 +983,7 @@ button {
             width: 100%;
         }
 
-        @media screen and (min-width: $break-med-min) and (max-width: $break-med-max) {
+        @media screen and (min-width: $break-med-min) and (max-width: 900px) {
             width: 50%;
         }
     }
@@ -1141,6 +1156,10 @@ button {
             left: 0; 
             width: 100%;
         }
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
     }
 
     &:hover .web-scroll-instructions {
@@ -1148,6 +1167,10 @@ button {
         -webkit-transition: all 0.15s ease 0.75s;        
         -o-transition: all 0.15s ease 0.75s;        
         transition: all 0.15s ease 0.75s;
+    }
+
+    &:last-of-type {
+        margin-bottom: 0;
     }
 }
 
@@ -1428,6 +1451,7 @@ button {
 .contact-content {
     width: 100%; 
     max-width: 1100px;
+    padding: 0 1rem;
     margin: 0 auto;
     display: -webkit-box; 
     display: -ms-flexbox; 
@@ -1453,23 +1477,25 @@ button {
         -webkit-box-direction: normal;        
         -ms-flex-direction: row;        
         flex-direction: row;
+        padding: 0 2rem;
     }
 
     h1 {
         width: 100%; 
         color: white; 
         text-align: center; 
-        padding-left: 2rem;
-        padding-right: 2rem;
 
         @media screen and (min-width: $break-med-min) {
             width: 50%; 
+            padding-right: 2rem;
+        }
+
+        @media screen and (min-width: $break-med-min) and (max-width: $break-med-max) {
+            font-size: 50px;
         }
     }
     
     .about { 
-        padding-left: 2rem;
-        padding-right: 2rem;
 
         @media screen and (max-width: $break-small-max) {
             width: 100%;
@@ -1479,6 +1505,8 @@ button {
 
         @media screen and (min-width: $break-med-min) {
             width: 50%; 
+            // padding-left: 2rem;
+            // padding-right: 2rem;
         }
     }
 

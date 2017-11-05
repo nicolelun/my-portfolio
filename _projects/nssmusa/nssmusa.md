@@ -10,7 +10,7 @@ thumbnail: IMG_1975.jpg
 img-sequence:
 - 
   src: IMG_1975@1,5x.jpg
-  srcset: "IMG_1975@0,75x.jpg 0.75x, IMG_1975.jpg 1x, IMG_1975@1,5x.jpg 1.5x"
+  srcset: "IMG_1975@0,75x.jpg 675w, IMG_1975.jpg 900w, IMG_1975@1,5x.jpg 1349w"
   class: full
 ---
 

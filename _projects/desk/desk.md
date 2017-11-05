@@ -10,15 +10,15 @@ thumbnail: desk-thumbnail.jpg
 web-sequence: 
 - 
   src: desk-day-1600px.jpg
-  srcset: "desk-day@0,75x.jpg 0.75x, desk-day.jpg 1x, desk-day-1600px.jpg 2x"
+  srcset: "desk-day@0,75x.jpg 675w, desk-day.jpg 900w, desk-day-1600px.jpg 1600w"
   href: https://nicolelun.github.io/desk/
 - 
   src: desk-night-1600px.jpg
-  srcset: "desk-night@0,75x.jpg 0.75x, desk-night.jpg 1x, desk-night-1600px.jpg 2x"
+  srcset: "desk-night@0,75x.jpg 675w, desk-night.jpg 900w, desk-night-1600px.jpg 1600w"
   href: https://nicolelun.github.io/desk/
 - 
   src: desk-dusk-1600px.jpg
-  srcset: "desk-dusk@0,75x.jpg 0.75x, desk-dusk.jpg 1x, desk-dusk-1600px.jpg 2x"
+  srcset: "desk-dusk@0,75x.jpg 675w, desk-dusk.jpg 900w, desk-dusk-1600px.jpg 1600w"
   href: https://nicolelun.github.io/desk/
 ---
 

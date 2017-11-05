@@ -2,16 +2,12 @@
 layout: "project"
 ---
 
-<!-- <div class="w3-row"> -->
-	
-	<!-- <div class="w3-col proj-description"> -->
-	<div class="proj-description">
-		<hr class="dash">
-		{{ content }}
-	</div>
+<div class="proj-description">
+	<hr class="dash">
+	{{ content }}
+</div>
 
-	<!-- <div class="w3-rest proj-imgs"> -->
-	<div class="proj-imgs">
+<div class="proj-imgs">
 
 	<!-- for projects with a video -->
 	{% if page.video-sequence %}
@@ -26,9 +22,20 @@ layout: "project"
 	<!-- for projects with web sequence -->
 	{% if page.web-sequence %}
 		{% for image in page.web-sequence %}
+
+			<!-- assign sizes for image -->
+			{% assign sizes = "(min-width: 1000px) 849px, calc(100vw-4rem)" %}
+
+			<!-- assign alt -->
+			{% if image.alt %}
+				{% assign alt = image.alt %}
+			{% else %}
+				{% assign alt = page.title %}
+			{% endif %}
+
 			<figure class="web-figure {% if image.class %}{{ image.class }}{% endif %}">
 				{% if image.href %}<a href="{{ image.href }}" target="_blank">{% endif %}
-					<img src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" {% if image.srcset %}srcset="{{ image.srcset }}"{% endif %} {% if image.sizes %}sizes="{{ image.sizes }}"{% endif %} alt="{% if image.alt %}{{ image.alt }}{% else %}{{ page.title }}{% endif %}" />
+					<img {% if image.srcset %}srcset="{{ image.srcset }}"{% endif %} sizes="{{ sizes }}" src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" alt="{{ alt }}" />
 				{% if image.href %}</a>{% endif %}
 				<!-- {% if image.class == "web-scroll" %}
 					<div class="web-scroll-instructions"><div style="margin-bottom: 0.5em">Scroll image to see more</div><div>&#9586;&#9585;</div></div>
@@ -39,25 +46,54 @@ layout: "project"
 
 	<!-- for projects with image sequences -->
 	{% if page.img-sequence %}
+
 		<div id="lightgallery" class="proj-grid">
 			{% for image in page.img-sequence %}
-		    <a class="{% if image.class %}{{ image.class }}{% endif %}" data-src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" {% if image.srcset %}data-srcset="{{ image.srcset }}"{% endif %} {% if image.sizes %}data-sizes="{{ image.sizes }}"{% endif %}>
-		      	<img src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" {% if image.srcset %}srcset="{{ image.srcset }}"{% endif %} {% if image.sizes %}sizes="{{ image.sizes }}"{% endif %} alt="{% if image.alt %}{{ image.alt }}{% else %}{{ page.title }}{% endif %}" />
+
+				<!-- assign sizes for lightbox image -->
+				{% assign sizes = "(min-width: 1349px) 1349px, 100vw" %}
+
+				<!-- assign srcset for thumbnail image -->
+				{% if image.thumb-srcset %}
+					{% assign thumb-srcset = image.thumb-srcset %}
+				{% else if image.srcset %}
+					{% assign thumb-srcset = image.srcset %}
+				{% endif %}
+
+				<!-- assign sizes for thumbnail image -->
+				{% if thumb-srcset %}
+					{% if image.class == "third" %}
+						{% assign thumb-sizes = "(min-width: 1000px) 278px, calc(100vw-4rem)" %}
+					{% elsif image.class == "half" %}
+						{% assign thumb-sizes = "(min-width: 1000px) 422px, (min-width: 601px) calc(50vw-2rem), calc(100vw-4rem)" %}
+					{% else %}
+						{% assign thumb-sizes = "(min-width: 1000px) 849px, calc(100vw-4rem)" %}
+					{% endif %}
+				{% endif %}
+
+				<!-- assign alt -->
+				{% if image.alt %}
+					{% assign alt = image.alt %}
+				{% else %}
+					{% assign alt = page.title %}
+				{% endif %}
+
+		    <a class="{% if image.class %}{{ image.class }}{% endif %}" {% if image.srcset %}data-srcset="{{ image.srcset }}"{% endif %} data-sizes="{{ sizes }}" data-src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" alt="{{ alt }}">
+		      	<img {% if thumb-srcset %}srcset="{{ thumb-srcset }}"{% endif %} sizes="{{ thumb-sizes }}" src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" alt="{{ alt }}" />
 			</a>
 			{% endfor %}
 		</div>
 	{% endif %}
 
-	</div>
-
-<!-- </div> -->
+</div>
 
 <script type="text/javascript">
     $(document).ready(function() {
         $("#lightgallery").lightGallery({
             download: false,
             showThumbByDefault: false,
-            getCaptionFromTitleOrAlt: false
+            getCaptionFromTitleOrAlt: false,
+            addClass: "lg-padding"
         });
     });
 </script>

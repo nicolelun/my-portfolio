@@ -3,7 +3,6 @@ var headerHeight = $("header").outerHeight();
 var collageContainerHeight = $(window).height() - headerHeight;
 $(".collage-container").css("height", collageContainerHeight);
 $(".contact-container").css("height", collageContainerHeight);
-// $(".contact-content").css("height", collageContainerHeight);
 
 /* ==============================================
     SCROLL TO TOP

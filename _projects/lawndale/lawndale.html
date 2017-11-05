@@ -9,8 +9,6 @@ featured: false
 thumbnail: lawndale-thumbnail.jpg
 ---
 
-<!-- <div class="w3-row"> -->
-	
 <div class="proj-description">
 	<hr class="dash">
 	<p>
@@ -24,11 +22,12 @@ thumbnail: lawndale-thumbnail.jpg
 	</p>
 </div>
 
-<div class="proj-imgs">
-	<a class="lawndale"><img style="width: 100%" src="IMG_1505@1,5x.jpg" srcset="IMG_1505@0,75x.jpg 0.75x, IMG_1505.jpg 1x, IMG_1505@1,5x.jpg 1.5x"></a>
-</div>
+<!-- assign sizes for lightbox image -->
+{% assign sizes = "(min-width: 1000px) 849px, calc(100vw-4rem)" %}
 
-<!-- </div> -->
+<div class="proj-imgs">
+	<a class="lawndale"><img style="width: 100%" src="IMG_1505.jpg" srcset="IMG_1505@0,75x.jpg 675w, IMG_1505.jpg 900w, IMG_1505@1,5x.jpg 1350w" sizes="{{ sizes }}"></a>
+</div>
 
 <script type="text/javascript">
 	$(".lawndale").click(function() {
@@ -36,7 +35,7 @@ thumbnail: lawndale-thumbnail.jpg
 		var widthSmall = "675w"
 		var widthMed = "900w";
 		var widthLarge = "1350w";
-		var sizes = "";
+		var sizes = "(min-width: 1349px) 1349px, 100vw";
 		var imgAlt = "They That Wait";
 		var imgSequence = ["IMG_1505.jpg","IMG_1132.jpg","IMG_1125.jpg","IMG_1470.jpg","IMG_1480.jpg","IMG_1461.jpg","IMG_1557.jpg","IMG_1490.jpg","IMG_1466.jpg","IMG_1544.jpg","IMG_1520.jpg","IMG_1540.jpg"];
 		var dynamicElArray = [];
