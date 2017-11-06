@@ -989,6 +989,14 @@ button {
     }
 }
 
+.proj-section {
+    margin-bottom: 2rem;
+
+    // @media screen and (min-width: $break-med-min) {
+    //     margin-bottom: 3rem;
+    // }
+}
+
 .no-buffer {
     padding: 0;
     margin: 0;
@@ -1147,7 +1155,7 @@ button {
     @media screen and (min-width: $break-med-min) {
         padding-top: 56.25%;
         overflow-y: scroll;
-        margin-bottom: 3em;
+        // margin-bottom: 3em;
         border: 2px solid gainsboro;
 
         img {
@@ -1171,14 +1179,6 @@ button {
 
     &:last-of-type {
         margin-bottom: 0;
-    }
-}
-
-.web-figure-buffer {
-    min-height: 2rem;
-
-    @media screen and (min-width: $break-med-min) {
-        min-height: 3rem;
     }
 }
 

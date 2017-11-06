@@ -11,48 +11,48 @@ layout: "project"
 
 	<!-- for projects with a video -->
 	{% if page.video-sequence %}
-		<div class="video-container" {% if page.img-sequence or page.web-sequence %}style="margin-bottom: 2em"{% endif %}>
+		<section class="video-container {% if page.img-sequence or page.web-sequence %}proj-section{% endif %}">
 			<div class="video-wrapper">
 				<iframe width="560" height="315" src="{{ page.video-sequence }}" frameborder="0" allowfullscreen>
 				</iframe>
 			</div>
-		</div>
+		</section>
 	{% endif %}
 
 	<!-- for projects with web sequence -->
 	{% if page.web-sequence %}
-		{% for image in page.web-sequence %}
+		<section class="{% if page.img-sequence %}proj-section{% endif %}">
 
-			<!-- assign sizes for image -->
-			{% assign sizes = "(min-width: 1000px) 849px, calc(100vw-4rem)" %}
+			{% for image in page.web-sequence %}
 
-			<!-- assign alt -->
-			{% if image.alt %}
-				{% assign alt = image.alt %}
-			{% else %}
-				{% assign alt = page.title %}
-			{% endif %}
+				<!-- assign sizes for image -->
+				{% assign sizes = "(min-width: 1000px) 849px, calc(100vw-4rem)" %}
 
-			<figure class="web-figure {% if image.class %}{{ image.class }}{% endif %}">
-				{% if image.href %}<a href="{{ image.href }}" target="_blank">{% endif %}
-					<img {% if image.srcset %}srcset="{{ image.srcset }}"{% endif %} sizes="{{ sizes }}" src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" alt="{{ alt }}" />
-				{% if image.href %}</a>{% endif %}
-				<!-- {% if image.class == "web-scroll" %}
-					<div class="web-scroll-instructions"><div style="margin-bottom: 0.5em">Scroll image to see more</div><div>&#9586;&#9585;</div></div>
-				{% endif %} -->
-			</figure>
-		{% endfor %}
+				<!-- assign alt -->
+				{% if image.alt %}
+					{% assign alt = image.alt %}
+				{% else %}
+					{% assign alt = page.title %}
+				{% endif %}
 
-		{% if page.img-sequence %}
-			<div class="web-figure-buffer"></div>
-		{% endif %}
+				<figure class="web-figure {% if image.class %}{{ image.class }}{% endif %}">
+					{% if image.href %}<a href="{{ image.href }}" target="_blank">{% endif %}
+						<img {% if image.srcset %}srcset="{{ image.srcset }}"{% endif %} sizes="{{ sizes }}" src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" alt="{{ alt }}" />
+					{% if image.href %}</a>{% endif %}
+					<!-- {% if image.class == "web-scroll" %}
+						<div class="web-scroll-instructions"><div style="margin-bottom: 0.5em">Scroll image to see more</div><div>&#9586;&#9585;</div></div>
+					{% endif %} -->
+				</figure>
+			{% endfor %}
+		
+		</section>
 
 	{% endif %}
 
 	<!-- for projects with image sequences -->
 	{% if page.img-sequence %}
 
-		<div id="lightgallery" class="proj-grid">
+		<section id="lightgallery" class="proj-grid">
 			{% for image in page.img-sequence %}
 
 				<!-- assign sizes for lightbox image -->
@@ -87,7 +87,7 @@ layout: "project"
 		      	<img {% if thumb-srcset %}srcset="{{ thumb-srcset }}"{% endif %} sizes="{{ thumb-sizes }}" src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" alt="{{ alt }}" />
 			</a>
 			{% endfor %}
-		</div>
+		</section>
 	{% endif %}
 
 </div>
