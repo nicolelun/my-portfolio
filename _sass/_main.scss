@@ -501,12 +501,12 @@ $explore-rollin-delay: 9s;
 }
 
 #main-nav {
+    display: inline-block;
     margin: 0;
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
     width: auto;
-    display: inline-block;
 
     @media screen and (max-width: $break-small-max) {
         display: none;
@@ -537,8 +537,8 @@ $explore-rollin-delay: 9s;
 
     @media screen and (min-width: $break-med-min) {
         display: inline-block;
-        padding: 10px 1em;
-        margin: 16px 8px;
+        padding: 24px 1em;
+        // margin: 16px 8px;
         border-top: 2px solid transparent;
         border-bottom: none;
         color: black;
