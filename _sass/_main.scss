@@ -5,6 +5,7 @@
 $header-height: 73px;
 $small-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 2px 5px 0 rgba(0,0,0,0.12);
 $tangerine: hsl(28, 100%, 52%);
+$light-tangerine: #FFE9D6;
 $teal: #00CAE0;
 $break-xsmall-max: 374px;
 $break-small-min: 375px;
@@ -442,7 +443,7 @@ $explore-rollin-delay: 9s;
     position: fixed;
     z-index: 100; 
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     margin: 0;
     background-color: white;
     border-bottom: 1px solid gainsboro;
@@ -873,20 +874,25 @@ button {
     PROJECT DETAILS
 =================================================== */
 
-.proj-container {
-    padding-top: 3rem;
-	padding-bottom: 3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.centered-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 
     @media screen and (min-width: $break-med-min) {
-        padding-top: 4rem;
-        padding-bottom: 5rem;
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+}
+
+.proj-container {
+    @extend .centered-container;
+    padding-top: 3rem;
+
+    @media screen and (min-width: $break-med-min) {
+        padding-top: 4rem;
     }
     
     &:before,
@@ -898,7 +904,7 @@ button {
 }
 
 .proj-content {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 
     @media screen and (min-width: $break-med-min) {
          margin-bottom: 6rem;
@@ -1269,14 +1275,23 @@ button {
 }
 
 .prev-next-container {
+    @extend .centered-container;
     width: 100%; 
     position: relative;
+    margin-bottom: 5rem;
+    background-color: transparent;
     
     &:before,
     &:after {
-        content:"";
-        display:table;
-        clear:both
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    @media screen and (max-width: $break-small-max) {
+        padding: 2.5rem 1.5rem;
+        margin: 0;
+        background-color: $tangerine;
     }
 }
 
@@ -1292,7 +1307,10 @@ button {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 1.5rem;
+
+    @media screen and (min-width: $break-med-min) {
+        margin-bottom: 1.5rem;
+    }
 }
 
 .prev-project,
@@ -1306,22 +1324,56 @@ button {
         color: $tangerine;
         text-decoration: none;
     }
+
 }
 
 .prev-project {
     text-align: left;
-    
-    // @media screen and (min-width: $break-large-min) {
-    //     text-align: center;
-    // }
+
+    @media screen and (max-width: $break-small-max) {
+        display: none;
+    }
 }
 
 .next-project {
     text-align: right;
 
-    // @media screen and (min-width: $break-large-min) {
-    //     text-align: center;
-    // }
+    @media screen and (max-width: $break-small-max) {
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 13px;
+
+        &:hover {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+
+            .lg-right-arrow {
+                padding-left: 20px;
+            }
+        }
+    }
+
+    hr.dash {
+        border-bottom: 1px solid $light-tangerine;
+        margin: 1.5em auto;
+
+        @media screen and (min-width: $break-med-min) {
+            display: none;
+        }
+    }
+
+    .proj-title {
+        font-size: 20px;
+        color: $light-tangerine;
+        text-transform: none;
+
+        @media screen and (min-width: $break-med-min) {
+            display: none;
+        }
+    }
 }
 
 .lg-left-arrow,
@@ -1519,7 +1571,7 @@ button {
     }
 
     p {
-         color: #FFE9D6;
+         color: $light-tangerine;
     }
 
     .contact-info {

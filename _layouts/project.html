@@ -11,6 +11,8 @@ layout: "wrapper"
 		{{ content }}
 	</div>
 
+</div>
+
 	{% assign currentPageSequence = site.projects | where: "keyname", page.keyname %}
 
 	<!-- loop through project sequence -->
@@ -53,6 +55,9 @@ layout: "wrapper"
 			{% for next in nextPage %}
 		    	<a class="next-project" href="{{ next.url }}">
 		    		Next Project<span class="lg-right-arrow"></span>
+		    		<hr class="dash">
+		    		<div class="proj-title">{{ next.title }}</div>
+		   			<!-- <div class="proj-title">{{ next.short-description }}</div> -->
 		    	</a>
 			{% endfor %}
 		</div>
@@ -97,7 +102,7 @@ layout: "wrapper"
 		</div>
 	</div>
 
-</div>
+<!-- </div> -->
 
 <script type="text/javascript">
 	$(document).ready(function() {
