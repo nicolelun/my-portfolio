@@ -72,7 +72,7 @@ for (var i = 0; i < paths.length; i++) {
         
         paths[i].style.animationName = paths[i].style.WebkitAnimationName = "shake";
         paths[i].style.animationDuration = paths[i].style.WebkitAnimationDuration = "0.5s";
-        paths[i].style.animationDelay = paths[i].style.WebkitAnimationDelay = (randDelay + randNum(2, 2.5)) + "s";
+        paths[i].style.animationDelay = paths[i].style.WebkitAnimationDelay = (randDelay + randNum(1, 1.5)) + "s";
         paths[i].style.animationIterationCount = paths[i].style.WebkitAnimationIterationCount = randInt(12, 17);
 
     } else {

@@ -244,7 +244,7 @@ $plus-delay3: $plus-delay2 + $plus-duration;
 // $plus-delay5: $plus-delay4 + $plus-duration;
 $tagline-rollout-delay: $plus-delay3 + $plus-duration;
 // $explore-rollin-delay: $tagline-rollout-delay;
-$explore-rollin-delay: 9s;
+$explore-rollin-delay: 7s;
 
 .tagline-container {
     position: absolute;
@@ -337,8 +337,8 @@ $explore-rollin-delay: 9s;
     color: white;
     background-color: transparent;
     border: 2px solid white;
-    -webkit-animation: explore-roll-in 0.5s ease $explore-rollin-delay forwards;
-    animation: explore-roll-in 0.5s ease $explore-rollin-delay forwards;
+    -webkit-animation: explore-roll-in 0.3s ease-out $explore-rollin-delay forwards;
+    animation: explore-roll-in 0.3s ease-out $explore-rollin-delay forwards;
 
     &:hover {
         color: $tangerine;
