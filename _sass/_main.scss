@@ -14,7 +14,7 @@ $break-med-min: 601px;
 $break-med-max: 1000px;
 $break-large-min: 1000px;
 $fast-transition: 0.15s ease;
-$slow-transition: 0.30s ease;
+$slow-transition: 0.30s ease-out;
 
 /* ===================================================
 	GENERAL
@@ -1012,9 +1012,9 @@ button {
 .photo-gallery img {
     transform: -webkit-translate3d(1.1, 0, 0);
     transform: translate3d(1.1, 0, 0);
-    -webkit-transition: $slow-transition;    
-    -o-transition: $slow-transition;    
-    transition: $slow-transition;
+    -webkit-transition: $fast-transition;    
+    -o-transition: $fast-transition;    
+    transition: $fast-transition;
 }
 
 .photo-gallery img:hover {
