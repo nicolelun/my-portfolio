@@ -14,6 +14,7 @@ $break-med-min: 601px;
 $break-med-max: 1000px;
 $break-large-min: 1000px;
 $fast-transition: 0.15s ease;
+$slow-transition: 0.30s ease;
 
 /* ===================================================
 	GENERAL
@@ -712,19 +713,15 @@ button {
         width: -o-calc(100% + 20px);
         width: calc(100% + 20px);
         height: 100%;
-        -webkit-transform: scale(1.15, 1.15);
-        -ms-transform: scale(1.15, 1.15);
-        transform: scale(1.15, 1.15);
+        // -webkit-transform: scale(1.15, 1.15);
+        // -ms-transform: scale(1.15, 1.15);
+        // transform: scale(1.15, 1.15);
 
-        // -webkit-transform: opacity 0.5s, filter 0.5s, -ms-transform 6s ease;
-        // -webkit-transition: opacity 0.5s, -webkit-filter 0.5s, -webkit-transform 6s ease;
-        // transition: opacity 0.5s, filter 0.5s, transform 6s ease;
-
-        -webkit-transition: opacity 0.5s, -webkit-filter 0.5s, -webkit-transform 6s ease;        
-        transition: opacity 0.5s, -webkit-filter 0.5s, -webkit-transform 6s ease;        
-        -o-transition: opacity 0.5s, filter 0.5s, transform 6s ease;        
-        transition: opacity 0.5s, filter 0.5s, transform 6s ease;        
-        transition: opacity 0.5s, filter 0.5s, transform 6s ease, -webkit-transform 6s ease, -webkit-filter 0.5s;
+        -webkit-transition: opacity $fast-transition, -webkit-filter $fast-transition, -webkit-transform 6s ease;        
+        transition: opacity $fast-transition, -webkit-filter $fast-transition, -webkit-transform 6s ease;        
+        -o-transition: opacity $fast-transition, filter $fast-transition, transform 6s ease;        
+        transition: opacity $fast-transition, filter $fast-transition, transform 6s ease;        
+        transition: opacity $fast-transition, filter $fast-transition, transform 6s ease, -webkit-transform 6s ease, -webkit-filter 0.5s;
 
     }
 
@@ -736,11 +733,11 @@ button {
         bottom: 0;
         padding: 1.5em;
         opacity: 0;
-        -webkit-transition: -webkit-transform 0.35s;        
-        transition: -webkit-transform 0.35s;        
-        -o-transition: transform 0.35s;        
-        transition: transform 0.35s;        
-        transition: transform 0.35s, -webkit-transform 0.35s;
+        -webkit-transition: -webkit-transform $slow-transition;        
+        transition: -webkit-transform $slow-transition;        
+        -o-transition: transform $slow-transition;        
+        transition: transform $slow-transition;        
+        transition: transform $slow-transition, -webkit-transform $slow-transition;
     }
 
     h2 {
@@ -749,11 +746,6 @@ button {
         color: white;
         padding: 0;
         margin-bottom: 4px;
-        -webkit-transition: -webkit-transform 0.35s;        
-        transition: -webkit-transform 0.35s;        
-        -o-transition: transform 0.35s;        
-        transition: transform 0.35s;        
-        transition: transform 0.35s, -webkit-transform 0.35s;
     }
 
     p {
@@ -766,11 +758,11 @@ button {
         color: rgba(255, 255, 255, 0.85);
         -webkit-transform: translate3d(0, 30px, 0);
         transform: translate3d(0, 30px, 0);
-        -webkit-transition: -webkit-transform 0.35s;        
-        transition: -webkit-transform 0.35s;        
-        -o-transition: transform 0.35s;        
-        transition: transform 0.35s;        
-        transition: transform 0.35s, -webkit-transform 0.35s;
+        -webkit-transition: -webkit-transform $slow-transition;        
+        transition: -webkit-transform $slow-transition;        
+        -o-transition: transform $slow-transition;        
+        transition: transform $slow-transition;        
+        transition: transform $slow-transition, -webkit-transform $slow-transition;
     }
 
 }
@@ -781,8 +773,8 @@ button {
         opacity: 1;
         -webkit-filter: none;
         filter: none;
-        -webkit-transform: translate3d(0, 0, 0) scale(1, 1);
-        transform: translate3d(0, 0, 0) scale(1, 1);
+        // -webkit-transform: translate3d(0, 0, 0) scale(1, 1);
+        // transform: translate3d(0, 0, 0) scale(1, 1);
     }
 
     figcaption {
@@ -1020,9 +1012,9 @@ button {
 .photo-gallery img {
     transform: -webkit-translate3d(1.1, 0, 0);
     transform: translate3d(1.1, 0, 0);
-    -webkit-transition: 0.35s;    
-    -o-transition: 0.35s;    
-    transition: 0.35s;
+    -webkit-transition: $slow-transition;    
+    -o-transition: $slow-transition;    
+    transition: $slow-transition;
 }
 
 .photo-gallery img:hover {
