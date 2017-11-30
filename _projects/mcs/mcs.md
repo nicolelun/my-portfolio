@@ -19,4 +19,4 @@ Mediation & Conflict Solutions (MCS) offers alternative dispute resolution to re
 
 Scope of work: design and development of a website, brochures, business cards, handbook, banner, and refreshed logo
 
-<a class="learn-more" href="https://amsale.com" target="_blank">Visit Website<span class="lg-right-arrow"></span></a> 
+<a class="learn-more" href="https://www.mediationconflictsolutions.org/" target="_blank">Visit Website<span class="lg-right-arrow"></span></a> 
