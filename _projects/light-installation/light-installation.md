@@ -3,6 +3,7 @@ layout: project-standard
 title: Light Installation
 permalink: :collection/light-installation/
 keyname: light-installation
+discipline: art
 media: motion
 short-description: Light Installation
 featured: false

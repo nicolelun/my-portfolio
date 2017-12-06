@@ -3,6 +3,7 @@ layout: project-standard
 title: Waiting for Midnight
 permalink: :collection/waiting/
 keyname: waiting
+discipline: art
 media: motion
 short-description: Video
 featured: false

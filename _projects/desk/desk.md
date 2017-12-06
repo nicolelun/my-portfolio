@@ -3,6 +3,7 @@ layout: project-standard
 title: Clean My Desk
 permalink: :collection/desk/
 keyname: desk
+discipline: art
 media: web motion
 short-description: Interactive Multimedia
 featured: false

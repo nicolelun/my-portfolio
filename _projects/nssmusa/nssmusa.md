@@ -3,6 +3,7 @@ layout: project-standard
 title: NSSMUSA + SAIC Exhibition
 permalink: :collection/nssmusa/
 keyname: nssmusa
+discipline: design
 media: print
 short-description: Exhibition Brochures
 featured: false

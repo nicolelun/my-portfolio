@@ -3,6 +3,7 @@ layout: project-standard
 title: Globe
 permalink: :collection/globe/
 keyname: globe
+discipline: art
 media: motion
 short-description: Light Installation
 featured: false

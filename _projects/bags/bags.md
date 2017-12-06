@@ -3,6 +3,7 @@ layout: project-standard
 title: NCL
 permalink: :collection/bags/
 keyname: bags
+discipline: art
 media: other
 short-description: Branding
 featured: false

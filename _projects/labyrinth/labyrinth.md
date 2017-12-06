@@ -3,6 +3,7 @@ layout: project-standard
 title: Labyrinth
 permalink: :collection/labyrinth/
 keyname: labyrinth
+discipline: art
 media: other
 short-description: Installation Concept
 featured: false

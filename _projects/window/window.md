@@ -3,6 +3,7 @@ layout: project-standard
 title: Window
 permalink: :collection/window/
 keyname: window
+discipline: art
 media: motion
 short-description: Video Installation
 featured: false

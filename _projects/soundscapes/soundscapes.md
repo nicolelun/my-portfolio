@@ -3,6 +3,7 @@ layout: project-standard
 title: Soundscapes
 permalink: :collection/soundscapes/
 keyname: soundscapes
+discipline: art
 media: web motion
 short-description: Interactive Multimedia
 featured: false

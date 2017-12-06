@@ -3,7 +3,7 @@ layout: project-standard
 title: Amsale
 permalink: :collection/amsale/
 keyname: amsale
-category: commercial
+discipline: design
 media: web
 short-description: Website
 featured: false

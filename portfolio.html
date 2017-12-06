@@ -5,12 +5,17 @@ permalink: portfolio/
 ---
 
 <section id="portfolio">
-    <div class="button-group filter-button-group">
+    <!-- <div class="button-group filter-button-group">
         <button class="button is-checked" data-filter="*">All Projects</button>
         <button class="button" data-filter=".web">Web</button>
         <button class="button" data-filter=".motion">Video + Animation</button>
         <button class="button" data-filter=".print">Print</button>
         <button class="button" data-filter=".other">Other</button>
+    </div> -->
+    <div class="button-group filter-button-group">
+        <button class="button is-checked" data-filter="*">All Projects</button>
+        <button class="button" data-filter=".art">Art</button>
+        <button class="button" data-filter=".design">Design</button>
     </div>
     <div class="grid">
         <div class="grid-sizer"></div>
@@ -26,7 +31,7 @@ permalink: portfolio/
 
 			<!-- output project -->
 			{% for project in currentProj %}
-		        <div class="grid-item {% if project.featured == true %}grid-item--width2{% endif %} {{ project.media }}">
+		        <div class="grid-item {% if project.featured == true %}grid-item--width2{% endif %} {{ project.discipline }}">
 		            <a href="{{ project.url }}">
 		                <figure>
 		                    <img src="{{ project.url }}{{ project.thumbnail }}" alt="{{ project.title }}">

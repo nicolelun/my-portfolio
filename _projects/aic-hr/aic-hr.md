@@ -3,7 +3,7 @@ layout: project-standard
 title: Art Institute of Chicago HR
 permalink: :collection/aic-hr/
 keyname: aic-hr
-category: commercial
+discipline: design
 media: web
 short-description: Intranet Site
 featured: false

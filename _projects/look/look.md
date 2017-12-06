@@ -3,6 +3,7 @@ layout: project-standard
 title: How Do I Look?
 permalink: :collection/look/
 keyname: look
+discipline: art
 media: motion
 short-description: Video Installation
 featured: false

@@ -3,6 +3,7 @@ layout: project-standard
 title: Walkers
 permalink: :collection/walkers/
 keyname: walkers
+discipline: art
 media: motion
 short-description: Video
 featured: false

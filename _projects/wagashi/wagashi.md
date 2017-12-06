@@ -3,6 +3,7 @@ layout: project-standard
 title: Lotus
 permalink: :collection/wagashi/
 keyname: wagashi
+discipline: design
 media: other
 short-description: Package Design
 featured: false

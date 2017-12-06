@@ -3,6 +3,7 @@ layout: project-standard
 title: Mediation & Conflict Solutions
 permalink: :collection/mcs/
 keyname: mcs
+discipline: design
 media: web
 short-description: Website
 featured: false
