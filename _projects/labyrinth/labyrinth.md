@@ -3,10 +3,10 @@ layout: project-standard
 title: Labyrinth
 permalink: :collection/labyrinth/
 keyname: labyrinth
-discipline: art
+discipline: art design
 media: other
 short-description: Installation Concept
-featured: false
+featured: true
 thumbnail: IMG_1844-thumbnail.jpg
 img-sequence: 
 - 

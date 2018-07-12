@@ -3,9 +3,9 @@
 - keyname: miscellany
 - keyname: window
 - keyname: aic-hr
-- keyname: amsale
+# - keyname: amsale
 - keyname: desk
-- keyname: mcs
+# - keyname: mcs
 - keyname: look
 - keyname: bags
 - keyname: waiting
