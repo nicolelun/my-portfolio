@@ -6,7 +6,7 @@ keyname: desk
 discipline: art
 media: web motion
 short-description: Interactive Multimedia
-featured: false
+featured: true
 thumbnail: desk-thumbnail.jpg
 web-sequence: 
 - 

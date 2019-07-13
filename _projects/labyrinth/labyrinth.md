@@ -6,7 +6,7 @@ keyname: labyrinth
 discipline: art design
 media: other
 short-description: Installation Concept
-featured: true
+featured: false
 thumbnail: IMG_1844-thumbnail.jpg
 img-sequence: 
 - 

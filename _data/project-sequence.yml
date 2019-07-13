@@ -2,16 +2,16 @@
 - keyname: soundscapes
 - keyname: miscellany
 - keyname: window
-- keyname: aic-hr
+# - keyname: aic-hr
 # - keyname: amsale
 - keyname: desk
 # - keyname: mcs
 - keyname: look
-- keyname: bags
 - keyname: waiting
 - keyname: labyrinth
 - keyname: lawndale
-- keyname: nssmusa
+# - keyname: nssmusa
 - keyname: walkers
 - keyname: light-installation
+- keyname: bags
 - keyname: wagashi
