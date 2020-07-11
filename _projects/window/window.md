@@ -18,4 +18,4 @@ img-sequence:
   class: half
 ---
 
-The real and the fake comingle in this site-specific video installation. Inspired by the book _A Hologram for the King_, it explores the alluring yet illusory nature of the outside world.
+The real and the fake comingle in this site-specific video installation. Originally inspired by the book _A Hologram for the King_, it explores the world as a source of allure and illusion.

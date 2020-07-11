@@ -23,7 +23,7 @@ web-sequence:
   href: https://nicolelun.github.io/desk/
 ---
 
-This experimental website presents an unfamiliar perspective on a familiar-seeming place. Inspired by the notion of objects with their own will, this subtly resistant world operates by its own rules.
+This experimental website places an unfamiliar perspective on a familiar-seeming place. Inspired by the notion of objects with their own will, this subtly resistant world operates by its own rules.
 
 _Note: This website works best in Chrome._ 
 

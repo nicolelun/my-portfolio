@@ -1,17 +1,17 @@
-- keyname: globe
+- keyname: walkers
+- keyname: waiting
+- keyname: window
 - keyname: miscellany
 - keyname: lawndale
-- keyname: window
+- keyname: globe
+- keyname: look
+- keyname: labyrinth
+- keyname: desk
+# - keyname: light-installation
+# - keyname: bags
+- keyname: wagashi
+# - keyname: soundscapes
 # - keyname: aic-hr
 # - keyname: amsale
 # - keyname: mcs
-- keyname: look
-- keyname: waiting
-- keyname: labyrinth
 # - keyname: nssmusa
-- keyname: walkers
-- keyname: desk
-- keyname: light-installation
-- keyname: bags
-- keyname: wagashi
-# - keyname: soundscapes

@@ -23,4 +23,4 @@ img-sequence:
   class: half
 ---
 
-In this installation concept, grief takes the form of a meandering enclosure that obscures the view of the outside world. The center point provides a moment of protected relief and introspection.
+In this installation concept, grief takes the form of a meandering enclosure that obscures the view of the outside world. <!-- The center point provides a moment of protected relief and introspection. -->

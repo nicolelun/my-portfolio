@@ -11,6 +11,6 @@ thumbnail: look-thumbnail.jpg
 video-sequence: https://www.youtube.com/embed/wjbBj5sR__o
 ---
 
-This video installation explores the cinematic convention of the male gaze, focusing on movies largely designed for a female audience. Though light-spirited as the romantic comedies and dramas on which it's based, it disrupts the usual relationships between the audience, the male, and the female subject of the gaze.
+This video installation explores the cinematic convention of the male gaze by disrupting the relationships between the male, the female, and the audience complicit in the gaze.
 
 _Note: To fully experience this video, please turn the sound on your device._

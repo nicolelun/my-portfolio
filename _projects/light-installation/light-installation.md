@@ -21,4 +21,4 @@ img-sequence:
   srcset: "MVI_1614.00_01_45_12.Still003@0,75x.jpg 675w, MVI_1614.00_01_45_12.Still003.jpg 900w, MVI_1614.00_01_45_12.Still003@2x.jpg 1800w"
 ---
 
-The unique architecture of this room formed the basis of an animated light installation, which transformed a workaday space into a source of surprise.
+The unique architecture of this <!-- room -->workaday space formed the basis of this animated light installation<!-- , which transformed a workaday space into a source of surprise -->.
