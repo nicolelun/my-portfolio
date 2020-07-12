@@ -11,6 +11,6 @@ thumbnail: waiting-thumbnail.jpg
 video-sequence: https://www.youtube.com/embed/W4AIBOCpNTU
 ---
 
-<!-- In this video, an unknown tension seeps through the strange, still night. -->Inspired by the anticipation of death, this video unsettles the tie between sensing a presence and seeing it.
+This liminal place disrupts the balance between sensing a presence and seeing it. 
 
-_Note: To fully experience this video, please turn the sound on your device._
+_Note: This video was originally created for surround sound. When watching it, please unmute your device._

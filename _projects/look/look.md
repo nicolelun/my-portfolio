@@ -11,6 +11,6 @@ thumbnail: look-thumbnail.jpg
 video-sequence: https://www.youtube.com/embed/wjbBj5sR__o
 ---
 
-This video installation explores the cinematic convention of the male gaze by disrupting the relationships between the male, the female, and the audience complicit in the gaze.
+This video installation explores the cinematic convention of the male gaze, disrupting the patterns of who looks at whom.
 
 _Note: To fully experience this video, please turn the sound on your device._

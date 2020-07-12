@@ -3,13 +3,14 @@
 - keyname: window
 - keyname: miscellany
 - keyname: lawndale
-- keyname: globe
-- keyname: look
 - keyname: labyrinth
+- keyname: look
+- keyname: globe
+- keyname: whales
 - keyname: desk
+- keyname: wagashi
 # - keyname: light-installation
 # - keyname: bags
-- keyname: wagashi
 # - keyname: soundscapes
 # - keyname: aic-hr
 # - keyname: amsale

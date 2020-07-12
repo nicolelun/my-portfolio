@@ -11,4 +11,4 @@ thumbnail: globe-thumbnail.jpg
 video-sequence: https://www.youtube.com/embed/fvSOx0iXtvQ
 ---
 
-<!-- Like a campfire on a dark night, this installation invokes the rhythms of nature to transform itself and the space around it. -->This video installation is inspired the rythms and tensions of nature.
+This light installation invokes the rhythms of nature to transform the physical space.

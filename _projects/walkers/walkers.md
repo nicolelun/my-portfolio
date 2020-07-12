@@ -11,4 +11,4 @@ thumbnail: walkers-thumbnail.jpg
 video-sequence: https://www.youtube.com/embed/uXvi8UFX9_s
 ---
 
-Careerists and caretakers, individual and connected, women start their journey with a walk.
+Careerists and caretakers, separate and connected, women propel their journeys with a walk.
