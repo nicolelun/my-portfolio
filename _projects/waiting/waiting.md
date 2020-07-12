@@ -13,4 +13,4 @@ video-sequence: https://www.youtube.com/embed/W4AIBOCpNTU
 
 This liminal place disrupts the balance between sensing a presence and seeing it. 
 
-_Note: This video was originally created for surround sound. When watching it, please unmute your device._
+_Note: This video was originally created for surround sound. When viewing it, please unmute your device._

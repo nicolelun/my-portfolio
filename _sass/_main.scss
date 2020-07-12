@@ -4,7 +4,6 @@
 
 $header-height: 73px;
 $small-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 2px 5px 0 rgba(0,0,0,0.12);
-// $tangerine: hsl(28, 100%, 52%);
 $tangerine: #FF7C09;
 $light-tangerine: #FFE9D6;
 $teal: #00CAE0;
@@ -299,11 +298,6 @@ $explore-rollin-delay: 7s;
     }
 }
 
-// .plus-storytelling,
-// .plus-art,
-// .plus-research,
-// .plus-strategy,
-// .plus-development 
 .plus-1,
 .plus-2,
 .plus-3
@@ -326,36 +320,6 @@ $explore-rollin-delay: 7s;
 .plus-3 {
     animation-delay: $plus-delay3;
 }
-
-// .plus-storytelling {
-//     &:after {
-//         content: 'Storytelling';
-//     }
-// }
-
-// .plus-art {
-//     &:after {
-//         content: 'Art';
-//     }
-// }
-
-// .plus-research {
-//     &:after {
-//         content: 'Research';
-//     }
-// }
-
-// .plus-strategy {
-//     &:after {
-//         content: 'Strategy';
-//     }
-// }
-
-// .plus-development {
-//     &:after {
-//         content: 'Development';
-//     }
-// }
 
 #explore {
     opacity: 0;
@@ -573,7 +537,7 @@ $explore-rollin-delay: 7s;
         display: inline-block;
         padding: 24px 1em;
         // margin: 16px 8px;
-        border-top: 3px solid;
+        border-top: 2px solid;
         border-top-color: transparent;
         border-bottom: none;
         // color: black;
@@ -592,6 +556,7 @@ $explore-rollin-delay: 7s;
         @media screen and (min-width: $break-med-min) {
             // color: $tangerine;
             border-top-color: $tangerine;
+            font-weight: 700;
         }
     }
 }
@@ -790,7 +755,6 @@ button {
         font-size: 1em;
         text-transform: lowercase;
         color: rgba(255, 255, 255, 0.85);
-        // color: white;
         -webkit-transform: translate3d(0, 30px, 0);
         transform: translate3d(0, 30px, 0);
         -webkit-transition: -webkit-transform $slow-transition;        
