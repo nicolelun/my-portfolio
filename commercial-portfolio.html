@@ -1,0 +1,43 @@
+---
+layout: default
+title: Commercial Portfolio
+permalink: commercial-portfolio/
+---
+
+<div class="proj-container">
+	<h1>Commercial Design</h1>
+	<!-- <h2>Coming soon</h2> -->
+</div>  
+
+<section>
+	
+	{% assign projSequence = site.data.project-sequence-commercial %}
+
+	<!-- loop through project sequence -->
+	{% for item in projSequence %}
+
+		<!-- find project in collection that matches current item in project sequence -->
+		{% assign currentProj = site.projects | where: "keyname", item.keyname %}
+
+		<!-- output project -->
+		{% for project in currentProj %}
+			<div class="commercial-item">
+		        <div class="centered-container commercial-item__content">
+				    <div class="commercial-item__thumbnail-container">
+				    	<img src="{{ project.url }}{{ project.thumbnail }}">
+				    </div>
+		        	<div class="commercial-item__copy-container">
+		        		<p class="commercial-item__overline">{{ project.skills }}</p>
+		        		<hr class="dash">
+	                    <h2 class="commercial-item__title">{{ project.title }}</h2>
+	                    <p>{{ project.short-description }}</p>
+	                    <p>
+							<!-- <a class="learn-more" href="{{ project.url }}">Learn More<span class="lg-right-arrow"></span></a> -->
+							<p><strong><i>Details Coming Soon</i></strong></p>
+				        </p>
+				    </div>
+		        </div>
+		    </div>
+		{% endfor %}
+	{% endfor %}
+</section>

@@ -7,7 +7,7 @@ discipline: design
 media: web
 short-description: Intranet Site
 featured: false
-thumbnail: hr-thumbnail.jpg
+thumbnail: hr-home.jpg
 img-display: column
 web-sequence: 
 - 
