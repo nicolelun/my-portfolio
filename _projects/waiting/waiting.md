@@ -11,6 +11,6 @@ thumbnail: waiting-thumbnail.jpg
 video-sequence: https://www.youtube.com/embed/W4AIBOCpNTU
 ---
 
-This liminal place disrupts the balance between sensing a presence and seeing it. 
+This liminal place disrupts the balance between seeing a presence and sensing it. Originally inspired by the anticipation of death, this video explores the tension of waiting for the unknown.
 
-_Note: This video was originally created for surround sound. When viewing it, please unmute your device._
+_Note: This video was created for surround sound. To get a feeling of the experience, please unmute your device._

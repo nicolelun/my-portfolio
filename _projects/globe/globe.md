@@ -11,4 +11,4 @@ thumbnail: globe-thumbnail.jpg
 video-sequence: https://www.youtube.com/embed/fvSOx0iXtvQ
 ---
 
-This light installation invokes the rhythms of nature to transform the physical space.
+A campfire at night, the shifting light against dark, can transfix the eye and quiet the mind. This installation invokes the rhythms of nature to create a space of solitude.
