@@ -4,7 +4,7 @@ title: Reskinned UI for Mobile & More
 permalink: :collection/tv-ui/
 keyname: tv-ui
 discipline: design
-skills: UI design | frontend development
+skills: UX/UI design | frontend development
 media: web
 short-description: With a special emphasis on mobile, I reskinned portions of True Value's e-commerce site to refine the visual presentation and reduce friction in the shopping, checkout, and order status experiences.
 featured: false
