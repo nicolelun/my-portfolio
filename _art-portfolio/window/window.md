@@ -18,4 +18,4 @@ img-sequence:
   class: half
 ---
 
-The real and the fake comingle in this site-specific video installation. Originally inspired by the book _A Hologram for the King_, it explores the relationship between allure and illusion&mdash;the tension between promise and fantasy.
+The real and the fake comingle in this site-specific video installation. Originally inspired by the book _A Hologram for the King_, it explores the relationship between allure and illusion&mdash;promise and fantasy.

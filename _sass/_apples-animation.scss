@@ -88,9 +88,10 @@
 
 // $tagline-rollin-delay: 7.65s;
 // $tagline-rollin-delay: 6.5s;
-$tagline-rollin-delay: 5.5s;
+$tagline-rollin-delay: 5.75s;
 // $plus-duration: 1.25s;
-$plus-duration: 1.5s;
+// $plus-duration: 1.5s;
+$plus-duration: 1.75s;
 $plus-delay1: $tagline-rollin-delay + 1.25s;
 $plus-delay2: $plus-delay1 + $plus-duration;
 $plus-delay3: $plus-delay2 + $plus-duration;
