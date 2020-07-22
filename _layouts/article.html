@@ -1,0 +1,77 @@
+---
+layout: "wrapper"
+---
+
+<article class="article">
+
+	<div class="main-col page-header">
+		<h1>{{ page.title }}</h1>
+	</div>
+
+	<!-- <div class="proj-content"> -->
+		<div class="text-col">
+			<hr class="dash">
+		</div>
+		{{ content }}
+	<!-- </div> -->
+
+</article>
+
+	{% if page.collection == "commercial-portfolio" %}
+		{% assign projCollection = site.commercial-portfolio %}
+		{% assign projSequence = site.data.commercial-project-sequence %}
+	{% endif %}
+
+	{% assign currentPageSequence = projCollection | where: "keyname", page.keyname %}
+
+	<!-- loop through project sequence -->
+	{% for item in projSequence %}
+
+		<!-- find index of current page -->
+		{% if item.keyname == page.keyname %}
+			{% assign currentIndex = forloop.index0 %}
+		{% endif %}
+
+		<!-- assign variables to determine if current page is last page -->
+		{% assign numProjects = forloop.length %}
+		{% assign seqLength = numProjects | minus: 1 %}
+
+	{% endfor %}
+
+	<!-- find keynames of previous and next pages -->
+	{% assign prevIndex = currentIndex | minus: 1 %}
+	{% assign prevKeyname = projSequence[prevIndex].keyname %}
+	{% if currentIndex == seqLength %}
+		{% assign nextIndex = 0 %}
+	{% else %}
+		{% assign nextIndex = currentIndex | plus: 1 %}
+	{% endif %}
+	{% assign nextKeyname = projSequence[nextIndex].keyname %}
+
+	<!-- get previous and next pages based on keynames -->
+	{% assign prevPage = projCollection | where: "keyname", prevKeyname %}
+	{% assign nextPage = projCollection | where: "keyname", nextKeyname %}
+
+	<!-- {% if projCollection != "" %}
+
+	<div class="prev-next-container main-col">
+
+		<div class="proj-controls">
+			{% for prev in prevPage %}
+		   		<a class="prev-project" href="{{ prev.url }}">
+		   			<span class="lg-left-arrow"></span>Previous Project
+		   		</a>
+			{% endfor %}
+			{% for next in nextPage %}
+		    	<a class="next-project" href="{{ next.url }}">
+		    		Next Project<span class="lg-right-arrow"></span>
+		    		<hr class="dash">
+		    		<div class="proj-title">{{ next.title }}</div>
+		   			<div class="proj-title">{{ next.short-description }}</div>
+		    	</a>
+			{% endfor %}
+		</div>
+	</div>
+
+	{% endif %} -->
+	

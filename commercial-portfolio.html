@@ -4,24 +4,23 @@ title: Commercial Portfolio
 permalink: commercial-portfolio/
 ---
 
-<div class="proj-container">
+<div class="main-col page-header">
 	<h1>Commercial Design</h1>
 </div>  
 
 <section>
-	
-	{% assign projSequence = site.data.project-sequence-commercial %}
+	{% assign projSequence = site.data.commercial-project-grid %}
 
 	<!-- loop through project sequence -->
 	{% for item in projSequence %}
 
 		<!-- find project in collection that matches current item in project sequence -->
-		{% assign currentProj = site.projects | where: "keyname", item.keyname %}
+		{% assign currentProj = site.commercial-portfolio | where: "keyname", item.keyname %}
 
 		<!-- output project -->
 		{% for project in currentProj %}
 			<div class="commercial-item">
-		        <div class="centered-container commercial-item__content">
+		        <div class="main-col commercial-item__content">
 				    <div class="commercial-item__thumbnail-container">
 				    	<img src="{{ project.url }}{{ project.thumbnail }}">
 				    </div>
@@ -30,10 +29,15 @@ permalink: commercial-portfolio/
 		        		<hr class="dash">
 	                    <h2 class="commercial-item__title">{{ project.title }}</h2>
 	                    <p>{{ project.short-description }}</p>
-	                    <p>
-							<!-- <a class="learn-more" href="{{ project.url }}">Learn More<span class="lg-right-arrow"></span></a> -->
-							<p><strong><i>Details Coming Soon</i></strong></p>
-				        </p>
+						{% if project.publish == true %}
+		                    <p>
+								<a class="learn-more" href="{{ project.url }}">View Project<span class="lg-right-arrow"></span></a>
+					        </p>
+						{% else %}
+		                    <p>
+								<strong><i>Details Coming Soon</i></strong>
+							</p>
+	                    {% endif %}
 				    </div>
 		        </div>
 		    </div>
@@ -41,10 +45,10 @@ permalink: commercial-portfolio/
 	{% endfor %}
 </section>
 
-<div class="prev-next-container">
+<div class="main-col prev-next-container">
 	<div class="proj-controls">
 		<a class="prev-project" href="#"></a>
-		<a class="next-project" href="{{ site.url }}/portfolio/">
+		<a class="next-project" href="{{ site.url }}/art-portfolio/">
 			See Art & Experimental Design<span class="lg-right-arrow"></span>
 		</a>
 	</div>

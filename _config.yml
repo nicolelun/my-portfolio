@@ -26,11 +26,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  # - jekyll-autoprefixer
 
 collections:
-  projects:
+  art-portfolio:
     output: true
-    permalink: /projects/:path/
+    permalink: /art-portfolio/:path/
+  commercial-portfolio:
+    output: true
+    permalink: /commercial-portfolio/:path/
 
 defaults:
   -
@@ -58,11 +62,11 @@ sass:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

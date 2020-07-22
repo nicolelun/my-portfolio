@@ -2,10 +2,11 @@
 layout: "wrapper"
 ---
 
-<div class="proj-container">
+<div class="main-col">
 
-	<h1>{{ page.title }}</h1>
-	<!-- <hr class="dash"> -->
+	<div class="page-header">
+		<h1>{{ page.title }}</h1>
+	</div>
 	
 	<div class="proj-content">
 		{{ content }}
@@ -13,10 +14,14 @@ layout: "wrapper"
 
 </div>
 
-	{% assign currentPageSequence = site.projects | where: "keyname", page.keyname %}
+	{% if page.collection == "art-portfolio" %}
+		{% assign projCollection = site.art-portfolio %}
+		{% assign projSequence = site.data.art-project-sequence %}
+	{% endif %}
+
+	{% assign currentPageSequence = projCollection | where: "keyname", page.keyname %}
 
 	<!-- loop through project sequence -->
-	{% assign projSequence = site.data.project-sequence %}
 	{% for item in projSequence %}
 
 		<!-- find index of current page -->
@@ -41,10 +46,12 @@ layout: "wrapper"
 	{% assign nextKeyname = projSequence[nextIndex].keyname %}
 
 	<!-- get previous and next pages based on keynames -->
-	{% assign prevPage = site.projects | where: "keyname", prevKeyname %}
-	{% assign nextPage = site.projects | where: "keyname", nextKeyname %}
+	{% assign prevPage = projCollection | where: "keyname", prevKeyname %}
+	{% assign nextPage = projCollection | where: "keyname", nextKeyname %}
 
-	<div class="prev-next-container">
+	{% if projCollection != "" %}
+
+	<div class="prev-next-container main-col">
 
 		<div class="proj-controls">
 			{% for prev in prevPage %}
@@ -78,7 +85,7 @@ layout: "wrapper"
 				{% for item in projSequence %}
 
 					<!-- find project in collection that matches current item in project sequence -->
-					{% assign currentProj = site.projects | where: "keyname", item.keyname %}
+					{% assign currentProj = projCollection | where: "keyname", item.keyname %}
 
 					<!-- output project -->
 					{% for project in currentProj %}
@@ -102,7 +109,8 @@ layout: "wrapper"
 		</div>
 	</div>
 
-<!-- </div> -->
+	{% endif %}
+
 
 <script type="text/javascript">
 	$(document).ready(function() {

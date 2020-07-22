@@ -4,13 +4,13 @@
     <div class="grid-sizer"></div>
     <div class="gutter-sizer"></div>
 	
-	{% assign projSequence = site.data.project-sequence %}
+	{% assign projSequence = site.data.art-project-sequence %}
 
 	<!-- loop through project sequence -->
 	{% for item in projSequence %}
 
 		<!-- find project in collection that matches current item in project sequence -->
-		{% assign currentProj = site.projects | where: "keyname", item.keyname %}
+		{% assign currentProj = site.art-projects | where: "keyname", item.keyname %}
 
 		<!-- output project -->
 		{% for project in currentProj %}
