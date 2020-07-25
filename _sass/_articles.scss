@@ -156,16 +156,19 @@ figcaption,
 }
 
 .proj-details td {
-    vertical-align: top;
+    vertical-align: text-top;
 }
 
 .proj-details__label {
     padding-right: 1em;
     font-weight: 700;
     // font-family: "Lora", "Lato", sans-serif;
+    // text-transform: uppercase;
+    // font-size: .875em;
 }
 
 .proj-details__data {
     letter-spacing: .05em;
+    // font-weight: 300;
 }
 

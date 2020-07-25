@@ -4,7 +4,7 @@ title: Integrated Content for SEO
 permalink: :collection/tv-content/
 keyname: tv-content
 discipline: design
-skills: SEO | content strategy | UX/UI design | frontend development
+skills: SEO &middot; content strategy &middot; UX/UI design &middot; frontend development
 media: web
 short-description: I curated and integrated content on True Value's e-commerce site to improve SEO and enhance customers' experience with the brand.
 featured: false
@@ -18,8 +18,8 @@ publish: true
 	<p>Organic search is an important source of inbound traffic for any site. Unfortunately, the True Value e-commerce site lacked content to capture customers at the top of the shopping funnel. Meanwhile, a moribund sister site TrueValueProjects.com contained hundreds of existing DIY articles that still received organic traffic.</p>
 	<p>I initiated a project to reuse the existing content to amplify TrueValue.com, incorporating article snippets with the goals of improving SEO, increasing traffic and revenue, and enhancing customers' experience with the brand. <!-- I also advocated for a second project&mdash;still pending&mdash; to refresh and migrate the articles to TrueValue.com. --></p>
 	<table class="proj-details">
-		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Advocate | Content Strategist | Sole Designer and Frontend Developer</td></tr>
-		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Research | Analytics | SEO | UX/UI Design | HTML | LESS/CSS | Javascript | Writing & Editing</td></tr>
+		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Advocate &middot; Content Strategist &middot; Sole Designer and Frontend Developer</td></tr>
+		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Research &middot; Analytics &middot; SEO &middot; UX/UI Design &middot; HTML &middot; LESS/CSS &middot; Javascript &middot; Writing & Editing</td></tr>
 		<tr><td class="proj-details__label">Applications:</td> <td class="proj-details__data">TrueValue.com and TrueValueProjects.com</td></tr>
 		<tr><td class="proj-details__label">Years:</td> <td class="proj-details__data">2019&ndash;2020</td></tr>
 	</table>
