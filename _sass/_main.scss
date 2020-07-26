@@ -2,7 +2,8 @@
     VARIABLES
 =================================================== */
 
-$header-height: 73px;
+// $header-height: 73px;
+$header-height: 69px;
 $small-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16), 0 2px 5px 0 rgba(0,0,0,0.12);
 $tangerine: #FF7C09;
 $light-tangerine: #FFE9D6;
@@ -137,6 +138,10 @@ a:hover {
 
 img {
     max-width: 100%;
+}
+
+figcaption+img {
+    margin-top: 1rem;
 }
 
 hr {
@@ -616,6 +621,8 @@ hr.dash {
     display: inline-block;
     line-height: 1.5em;
     color: $gray-text;
+        font-size: 14px;
+        text-transform: uppercase;
 
     &:hover {
         color: $tangerine;
@@ -639,19 +646,23 @@ hr.dash {
         width: 100%;
         text-align: center;
         color: white;
-        text-transform: uppercase;
-        font-size: 13px;
+        // text-transform: uppercase;
+        // font-size: 13px;
 
-        &:hover {
-            color: white;
-            text-decoration: none;
-            cursor: pointer;
-
-            .lg-right-arrow {
-                padding-left: 20px;
-            }
-        }
+        // &:hover {
+        //     color: white;
+        //     text-decoration: none;
+        //     cursor: pointer;
+        // }
     }
+
+    // @media screen and (min-width: $break-med-min) {
+    //     &:hover {
+    //         .lg-right-arrow {
+    //             padding-left: 20px;
+    //         }
+    //     }
+    // }
 
     hr.dash {
         // border-bottom: 1px solid $light-tangerine;
@@ -664,14 +675,17 @@ hr.dash {
     }
 
     .proj-title {
-        font-size: 20px;
+        // font-size: 20px;
         // color: $light-tangerine;
-        color: white;
         text-transform: none;
 
-        @media screen and (min-width: $break-med-min) {
-            display: none;
+        @media screen and (max-width: $break-small-max) {
+            color: white;
         }
+
+        // @media screen and (min-width: $break-med-min) {
+        //     display: none;
+        // }
     }
 }
 

@@ -7,7 +7,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 2rem;
+    padding: 3rem 2rem;
+
 
     @media screen and (max-width: #{$break-med-min - 1px}) {
         -webkit-box-orient: vertical;
@@ -15,6 +16,10 @@
         -ms-flex-direction: column;
         flex-direction: column;
     }
+}
+
+.commercial-item:first-of-type .commercial-item__content {
+    padding-top: 1rem;
 }
 
 .commercial-item:nth-child(even) {
@@ -97,7 +102,7 @@
 
 figcaption,
 .caption {
-    max-width: 68ch;
+    // max-width: 68ch;
     font-size: 1rem;
     color: $gray-text;
 
