@@ -25,9 +25,9 @@ publish: true
 	</table>
 </div>
 <div class="main-col">
-	<figure style="margin-top: 2em; width: 100%; max-width: 1000px; display: block; margin-left: auto; margin-right: auto">
-		<img srcset="drills-plp-collage@2x.png 2414w, drills-plp-collage.png 1207w, drills-plp-collage@0.5x.png 604w" src="drills-plp-collage@0.5x.png" sizes="(min-width: 1000px) 1000px, 100vw" alt="Reskinned product listing pages of True Value e-commerce site">
-		<figcaption>The desktop and mobile versions of this reskinned product listing page addressed different needs, while sharing a similar look and feel.</figcaption>
+	<figure style="margin-top: 2em; width: 100%; /*max-width: 1000px;*/ display: block; margin-left: auto; margin-right: auto">
+		<img srcset="ui-collage.png 1208w, ui-collage@0.5x.png 604w, ui-collage@2x.png 2416w" src="ui-collage.png" sizes="(min-width: 1200px) 1200px, 100vw">
+		<figcaption>The project touched key parts of the shopping experience, as well as checkout, order status lookup, and transactional emails.</figcaption>
 	</figure>
 </div>
 <div class="text-col">
@@ -39,12 +39,109 @@ publish: true
 	<p>For additional inspiration, I examined design systems, especially  <a href="https://material.io/" target="_blank">Material IO</a> for its completeness and emphasis on mobile. The True Value site was particularly hard to use on mobile: the touch targets were too small, the sticky header consumed too much space, and information in the product lists did not fit the viewport, among other things. At the same time, mobile visits made up an increasing majority of visits to the site, so addressing these issues could have a positive impact on a lot of customers.</p>
 	<h3>Step 3: Create Design Concepts</h3>
 	<p>Armed with research, I created design concepts, focusing on pages and elements that received the most use, such as the header, category landing pages, product listing pages, and product detail pages. I maintained the original aesthetic, so that each modified part would look unified with the site as a whole. But my main objective was to make it clean, orderly, and functional&mdash;like a well-run hardware store, easy in and out. After putting together some concepts, I reviewed them with the rest of the e-commerce team.</p>
+	<figure style="margin-top: 2em; width: 100%; /*max-width: 1000px;*/ display: block; margin-left: auto; margin-right: auto">
+		<img srcset="drills-plp-collage@2x.png 2414w, drills-plp-collage.png 1207w, drills-plp-collage@0.5x.png 604w" src="drills-plp-collage@0.5x.png" sizes="(min-width: 1000px) 1000px, 100vw" alt="Reskinned product listing pages of True Value e-commerce site">
+		<figcaption>The desktop and mobile versions of this product listing page shared a similar look and feel, while accommodating the different needs of each device.</figcaption>
+	</figure>
 	<h3>Step 4: Build New Skin</h3>
 	<p>Reskinning the site required changes to the frontend styling, which I built with LESS and CSS. One of the biggest constraints of the project was not having access to the base code, which prevented me from making changes to the templates or scripts. This was a major reason for not incorporating more changes from my research, but nevertheless, I could still accomplish many improvements through styling. The rest of the e-commerce team helped test the changes in staging and production.</p>
+</div>
+<!-- <aside class="main-col proj-spotlight" style="padding-top: 3rem; padding-bottom: 3rem">
+	<div class="aside-header">
+		<h3 style="margin-bottom: 3rem">Project Spotlight: Mobile Product Listing Page</h3>
+	</div>
+	<div class="flex-row" style="margin-bottom: 3rem">
+		<div class="col-sm-6 col-md-4">
+			<figure class="before-after-container">
+				<figcaption class="before-label">
+					<i class="fa fa-times-circle" aria-hidden="true"></i>Before
+				</figcaption>
+				<img style="width: 100%" srcset="drills-plp-before@2x.png 720w, drills-plp-before.png 360w" src="drills-plp-before.png" sizes="(min-width: 1200px) 347px, (max-width: 600px) 50vw, 33vw" alt="Product listing page before reskinning">
+			</figure>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<figure class="before-after-container">
+				<figcaption class="after-label">
+					<i class="fa fa-check-circle" aria-hidden="true"></i>After
+				</figcaption>
+				<img style="width: 100%" srcset="drills-plp-after@2x.png 720w, drills-plp-after.png 360w" src="drills-plp-after.png" sizes="(min-width: 1200px) 347px, (max-width: 600px) 50vw, 33vw" alt="Product listing page after skinning">
+			</figure>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<div class="caption" style="padding: 1rem">
+				<p>Many of the changes were specific to mobile and its unique usability challenges.</p>
+			</div>
+		</div>
+	</div>
+	<div class="flex-row">
+		<div class="col-sm-6 col-md-4">
+			<figure class="before-after-container">
+				<figcaption class="before-label">
+					<i class="fa fa-times-circle" aria-hidden="true"></i>Before
+				</figcaption>
+				<img style="width: 100%" srcset="drills-plp-drawer-before@2x.png 720w, drills-plp-drawer-before.png 360w" src="drills-plp-drawer-before.png" sizes="(min-width: 1200px) 347px, (max-width: 600px) 50vw, 33vw" alt="Product listing page filter drawer before reskinning">
+			</figure>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<figure class="before-after-container">
+				<figcaption class="after-label">
+					<i class="fa fa-check-circle" aria-hidden="true"></i>After
+				</figcaption>
+				<img style="width: 100%" srcset="drills-plp-drawer-after@2x.png 720w, drills-plp-drawer-after.png 360w" src="drills-plp-drawer-after.png" sizes="(min-width: 1200px) 347px, (max-width: 600px) 50vw, 33vw" alt="Product listing page filter drawer after skinning">
+			</figure>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<div class="caption" style="padding: 1rem">
+				<p>The toolbar drawer on the product listing page required specific changes as well.</p>
+			</div>
+		</div>
+	</div>
+</aside> -->
+<div class="text-col">
 	<h3>Step 5: Iterate & Refine</h3>
 	<p>Over the course of several months, I refined the initial changes and repeated the process on other parts of the site, including checkout, order status lookup, and transactional emails. Ideally, if resources had been available, I would have tested different solutions with an A/B testing tool and attempted to measure the effects on conversion and sales. But I continued to learn through other avenues, including <a href="https://www.hotjar.com/" target="_blank">Hotjar</a> recordings and feedback from Customer Service, so we moved forward as best we could.</p>
 </div>
-
+<!-- <aside class="main-col proj-spotlight" style="padding-top: 3rem; padding-bottom: 3rem">
+	<div class="aside-header">
+		<h3 style="margin-bottom: 3rem">Project Spotlight: Checkout</h3>
+	</div>
+	<div class="flex-row" style="margin-bottom: 2rem">
+		<div class="col-sm-12 col-md-6">
+			<figure class="before-after-container">
+				<figcaption class="before-label">
+					<i class="fa fa-times-circle" aria-hidden="true"></i>Before
+				</figcaption>
+				<img style="width: 100%" srcset="shipping-before-desktop@2x.png 2400w, shipping-before-desktop.png 1200w, shipping-before-desktop@0.5x.png 600w" src="shipping-before-desktop@0.5x.png" sizes="(min-width: 1200px) 1200px, 100vw" alt="Checkout shipping page before skinning">
+			</figure>
+		</div>
+		<div class="col-sm-12 col-md-6">
+			<figure class="before-after-container">
+				<figcaption class="after-label">
+					<i class="fa fa-check-circle" aria-hidden="true"></i>After
+				</figcaption>
+				<img style="width: 100%" srcset="shipping-after-desktop@2x.png 2400w, shipping-after-desktop.png 1200w, shipping-after-desktop@0.5x.png 600w" src="shipping-after-desktop@0.5x.png" sizes="(min-width: 1200px) 1200px, 100vw" alt="Checkout shipping page after skinning">
+			</figure>
+		</div>
+	</div>
+	<div class="flex-row">
+		<div class="col-sm-12 col-md-6">
+			<figure class="before-after-container">
+				<figcaption class="before-label">
+					<i class="fa fa-times-circle" aria-hidden="true"></i>Before
+				</figcaption>
+				<img style="width: 100%" srcset="payment-before-desktop@2x.png 2400w, payment-before-desktop.png 1200w, payment-before-desktop@0.5x.png 600w" src="payment-before-desktop@0.5x.png" sizes="(min-width: 1200px) 1200px, 100vw" alt="Checkout payment page before skinning">
+			</figure>
+		</div>
+		<div class="col-sm-12 col-md-6">
+			<figure class="before-after-container">
+				<figcaption class="after-label">
+					<i class="fa fa-check-circle" aria-hidden="true"></i>After
+				</figcaption>
+				<img style="width: 100%" srcset="payment-after-desktop@2x.png 2400w, payment-after-desktop.png 1200w, payment-after-desktop@0.5x.png 600w" src="payment-after-desktop@0.5x.png" sizes="(min-width: 1200px) 1200px, 100vw" alt="Checkout payment page after skinning">
+			</figure>
+		</div>
+	</div>
+</aside> -->
 <aside class="proj-spotlight" style="margin-top: 4rem">
 	<div class="main-col">
 		<div class="aside-header">
@@ -68,7 +165,7 @@ publish: true
 					<figcaption class="before-label">
 						<i class="fa fa-times-circle" aria-hidden="true"></i>Before
 					</figcaption>
-					<img style="width: 100%" srcset="drills-plp-before@2x.png 720w, drills-plp-before.png 360w" src="drills-plp-before.png" sizes="(min-width: 1200px) 310px, (max-width: 600px) 50vw, .25vw" alt="Product listing page before reskinning">
+					<img style="width: 100%" srcset="drills-plp-before@2x.png 720w, drills-plp-before.png 360w" src="drills-plp-before.png" sizes="(min-width: 1200px) 310px, (max-width: 600px) 50vw, 25vw" alt="Product listing page before reskinning">
 				</figure>
 			</div>
 			<div class="col-sm-6 col-md-4 col-lg-3">
@@ -76,7 +173,7 @@ publish: true
 					<figcaption class="after-label">
 						<i class="fa fa-check-circle" aria-hidden="true"></i>After
 					</figcaption>
-					<img style="width: 100%" srcset="drills-plp-after@2x.png 720w, drills-plp-after.png 360w" src="drills-plp-after.png" sizes="(min-width: 1200px) 310px, (max-width: 600px) 50vw, .25vw" alt="Product listing page after skinning">
+					<img style="width: 100%" srcset="drills-plp-after@2x.png 720w, drills-plp-after.png 360w" src="drills-plp-after.png" sizes="(min-width: 1200px) 310px, (max-width: 600px) 50vw, 25vw" alt="Product listing page after skinning">
 				</figure>
 			</div>
 		</div>

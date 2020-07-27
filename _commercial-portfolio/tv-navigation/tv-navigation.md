@@ -44,7 +44,7 @@ publish: true
 	<p>During this process, I proposed to the team that we hire consultants to optimize the taxonomy for us. My reasoning was that as experts, they could do a better job faster, and as <i>third-party</i> experts, they could bring a fresh perspective and break through the inertia and reluctance that repeatedly settled in-house. With input from marketing analytics and the finance department, we developed a model that demonstrated a multi-fold ROI, and we submitted a business case to request investment from senior leadership.</p>
 	<h3>Step 3: Curate &amp; Edit Content: Thumbnail Images</h3>
 	<p>In the meantime, I continued with activities that were within my control and did not require additional budget. Without changing the taxonomy or megamenu, what could I do to help users navigate the site? Improve visual cues.</p>
-	<p>The thousands of category thumbnails comprising on-page navigation had been randomly assigned, not deliberately curated to help users understand the site. In some cases, the category thumbnail showed a product obscured by packaging; in other cases, it showed an accessory rather than the main product type itself; while in still other cases, it showed a lifestyle vignette while a neighboring thumbnail showed a product in silhouette. Besides giving unclear navigational cues, the thumbnails had no aesthetic continuity, which was unpleasant and incoherent to the eye.</p>
+	<p>The thousands of category thumbnails comprising on-page navigation had been randomly assigned, not deliberately curated to help users understand the site. In some cases, the category thumbnail showed a product obscured by packaging; in other cases, it showed an accessory rather than the main product type itself; while in still other cases, it showed a lifestyle vignette while a neighboring thumbnail showed a product in silhouette. Besides giving unclear navigational cues, the thumbnails had no aesthetic continuity<!-- , which was unpleasant and incoherent to the eye -->.</p>
 	<p>Over the next few months, I refreshed thousands of thumbnails, swapping old ones for new ones. During this process, I also replaced generic file names (e.g., 827492.jpg) with more descriptive names (e.g., 232677-weber-spirit-gas-grill.jpg) for better SEO. With hundreds of thousands of images to choose from, my goal was to select images that were quick and easy for users to understand and represented the brand well. Therefore, I sought out clean, quality images of best-selling, high-end, or well-rated products that symbolized the main concepts of their parent categories.</p>
 </div>
 <div class="main-col">
@@ -70,7 +70,7 @@ publish: true
 		<div class="col-sm-12 col-md-4">
 			<figure class="before-after-container">
 				<figcaption>
-					<span class="after-label" style="display: block"><i class="fa fa-check-circle" aria-hidden="true"></i>After</span>
+					<span class="after-label" style="display: block"><i class="fa fa-check-circle" aria-hidden="true"></i>After (Phase 1)</span>
 					<span>Revised Hardware page (early 2019)</span>
 				</figcaption>
 				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-phase-2@0.5x.jpg" srcset="hardware-clp-phase-2@0.5x.jpg 600w, hardware-clp-phase-2.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 400px, 33vw">
@@ -97,7 +97,7 @@ publish: true
 		<div class="col-sm-12 col-md-6">
 			<figure class="before-after-container">
 				<figcaption>
-					<span class="after-label" style="display: block"><i class="fa fa-check-circle" aria-hidden="true"></i>After</span>
+					<span class="after-label" style="display: block"><i class="fa fa-check-circle" aria-hidden="true"></i>After (Phase 2)</span>
 					<span>Revised Hardware page (mid-2019)</span>
 				</figcaption>
 				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-phase-3@0.5x.jpg" srcset="hardware-clp-phase-3@0.5x.jpg 600w, hardware-clp-phase-3.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 600px, 50vw">
