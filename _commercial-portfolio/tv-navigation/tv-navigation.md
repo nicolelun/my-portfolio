@@ -34,7 +34,7 @@ publish: true
 <div class="text-col">
 	<h2>Process</h2>
 	<h3>Step 1: Identify Pain Points</h3>
-	<p>To better understand users’ behavior and prioritize our efforts across thousands of categories, I used Adobe Analytics to look for patterns and outliers in the data, including search terms, page visits, time spent on-page. Some unexpected findings emerged:</p>
+	<p>To better understand users’ behavior and prioritize our efforts across thousands of categories, I used <a href="https://www.adobe.com/analytics/adobe-analytics.html" target="_blank">Adobe Analytics</a> to look for patterns and outliers in the data, including search terms, page visits, time spent on-page. Some unexpected findings emerged:</p>
 	<ul>
 		<li>Many desktop users started browsing the site at the highest level of the product taxonomy (“All Departments”), rather than skipping to lower levels through the megamenu. This suggested that we should dedicate special attention to that high-level page.</li>
 		<li>Marketing campaigns had a dramatic effect on the distribution of visits across categories. When subtracting that effect, the distribution of visits spanned more evenly across core hardware categories. This contradicted common notions of which categories were "more important" and suggested that we should spread our effort widely, if shallowly.</li>
