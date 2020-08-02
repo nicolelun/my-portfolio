@@ -15,11 +15,10 @@ publish: true
 ---
 
 <div class="text-col">
-	<p>According to customer feedback surveys, the biggest challenges for users of the True Value e-commerce site were navigation and product findability. The site contained thousands of product categories, some of them six levels deep and many of them duplicates. And for site administrators, this increased the potential for error and made the site difficult to optimize for SEO.</p>
-	<p>Ultimately, this could hurt sales: if you can't find something, you can't buy it.</p>
-	<p>I initiated a couple projects&mdash;one still ongoing&mdash;to improve navigation and product findability. My goal was to decrease the time and effort required for users to find their desired destination and ultimately increase customer satisfaction and revenue.</p>
+	<p>According to customer feedback surveys, the biggest frustration for users of the True Value e-commerce site were navigation and product findability. And ultimately, this problem could hurt sales: if you can't find something, you can't buy it.</p>
+	<p>In response, I initiated a couple of projects&mdash;one still ongoing&mdash;to improve navigation and product findability. My goal was to decrease the effort for users to find their desired destination and as a result, increase sales.</p>
 	<table class="proj-details">
-		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Advocate &middot; Informaton Architect &middot; Sole Designer and Frontend Developer</td></tr>
+		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Advocate &middot; Information Architect &middot; Sole Designer and Frontend Developer</td></tr>
 		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Research &middot; Analytics &middot; SEO &middot; UX/UI Design &middot; HTML &middot; LESS/CSS</td></tr>
 		<tr><td class="proj-details__label">Applications:</td> <td class="proj-details__data">TrueValue.com</td></tr>
 		<tr><td class="proj-details__label">Years:</td> <td class="proj-details__data">2018&ndash;2019</td></tr>
@@ -34,7 +33,8 @@ publish: true
 <div class="text-col">
 	<h2>Process</h2>
 	<h3>Step 1: Identify Pain Points</h3>
-	<p>To better understand users’ behavior and prioritize our efforts across thousands of categories, I used <a href="https://www.adobe.com/analytics/adobe-analytics.html" target="_blank">Adobe Analytics</a> to look for patterns and outliers in the data, including search terms, page visits, time spent on-page. Some unexpected findings emerged:</p>
+	<p>The True Value e-commerce site contained thousands of product categories, some of them six levels deep and many of them duplicates. <!-- And for site administrators, this increased the potential for error and made the site difficult to optimize for SEO.</p>
+	<p> -->To better understand users’ behavior and prioritize our efforts across thousands of categories, I used <a href="https://www.adobe.com/analytics/adobe-analytics.html" target="_blank">Adobe Analytics</a> to look for patterns and outliers in the data, including search terms, page visits, time spent on-page. Some unexpected findings emerged:</p>
 	<ul>
 		<li>Many desktop users started browsing the site at the highest level of the product taxonomy (“All Departments”), rather than skipping to lower levels through the megamenu. This suggested that we should dedicate special attention to that high-level page.</li>
 		<li>Marketing campaigns had a dramatic effect on the distribution of visits across categories. When subtracting that effect, the distribution of visits spanned more evenly across core hardware categories. This contradicted common notions of which categories were "more important" and suggested that we should spread our effort widely, if shallowly.</li>
