@@ -8,7 +8,7 @@ media: motion
 short-description: Video Installation
 featured: false
 thumbnail: look-thumbnail.jpg
-video-sequence: https://www.youtube.com/embed/wjbBj5sR__o
+video-sequence: https://www.youtube.com/embed/wjbBj5sR__o?rel=0
 ---
 
 This video installation explores the cinematic convention of the male gaze, disrupting the patterns of who looks at whom. It prevents the audience, normally complicit in the gaze, from seeing the subjects on display.

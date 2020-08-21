@@ -8,7 +8,7 @@ media: motion
 short-description: Video Installation
 featured: false
 thumbnail: IMG_4521-thumbnail.jpg
-video-sequence: https://www.youtube.com/embed/JdhtgtYMYO0
+video-sequence: https://www.youtube.com/embed/JdhtgtYMYO0?rel=0
 img-sequence: 
 - 
   src: IMG_4521_600x800.jpg
