@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Integrated Content for SEO
+title: Increasing Site Visits Through SEO Content
 permalink: :collection/tv-content/
 keyname: tv-content
 discipline: design

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Enhanced Navigation for Better Findability
+title: Satisfied Customers Through Better Navigation
 permalink: :collection/tv-navigation/
 keyname: tv-navigation
 discipline: design

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Reskinned UI for Mobile & More
+title: Easier Shopping on Mobile & Desktop
 permalink: :collection/tv-ui/
 keyname: tv-ui
 discipline: design
