@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Satisfied Customers Through Better Navigation
+title: Customer Satisfaction Through Better Navigation
 permalink: :collection/tv-navigation/
 keyname: tv-navigation
 discipline: design
@@ -18,8 +18,9 @@ publish: true
 	<p>According to customer feedback surveys, navigation and product findability were the biggest frustrations for users on the True Value e-commerce site. And this had a magnifying effect: users who found it difficult to navigate and find products were twice as likely as all users to perceive an issue with the site. This also hurt the bottom line&mdash;because if users can't find something, they can't buy it.</p>
 	<p>In response, I initiated a couple of projects&mdash;one still ongoing&mdash;to improve navigation and product findability. My goal was to decrease the effort for users to find their desired destination and as a result, increase sales.</p>
 	<table class="proj-details">
-		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Advocate &middot; Information Architect &middot; Sole Designer and Frontend Developer</td></tr>
-		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Research &middot; Analytics &middot; SEO &middot; UX/UI Design &middot; HTML &middot; LESS/CSS</td></tr>
+		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Information Architect, Designer & Frontend Developer</td></tr>
+		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
+		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management &middot; Quantitative Research &middot; Web Analytics &middot; SEO &middot; UX/UI Design &middot; HTML &middot; LESS/CSS</td></tr>
 		<tr><td class="proj-details__label">Applications:</td> <td class="proj-details__data">TrueValue.com</td></tr>
 		<tr><td class="proj-details__label">Years:</td> <td class="proj-details__data">2018&ndash;2019</td></tr>
 	</table>

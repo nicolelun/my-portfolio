@@ -18,8 +18,9 @@ publish: true
 	<p>Organic search is an important source of inbound traffic for any site. Unfortunately, the True Value e-commerce site lacked content to capture customers at the top of the shopping funnel. Meanwhile, a moribund sister site TrueValueProjects.com contained hundreds of existing DIY articles that still received organic traffic.</p>
 	<p>I initiated a project to reuse the existing content to amplify TrueValue.com, incorporating article snippets with the goals of improving SEO, increasing traffic and revenue, and enhancing customers' experience with the brand.</p>
 	<table class="proj-details">
-		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Advocate &middot; Content Strategist &middot; Sole Designer and Frontend Developer</td></tr>
-		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Research &middot; Analytics &middot; SEO &middot; UX/UI Design &middot; HTML &middot; LESS/CSS &middot; Javascript &middot; Writing & Editing</td></tr>
+		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Content Strategist, Designer & Frontend Developer</td></tr>
+		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
+		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management &middot; Quantitative Research &middot; Web Analytics &middot; SEO &middot; UX/UI Design &middot; HTML &middot; LESS/CSS &middot; Javascript &middot; Writing & Editing</td></tr>
 		<tr><td class="proj-details__label">Applications:</td> <td class="proj-details__data">TrueValue.com and TrueValueProjects.com</td></tr>
 		<tr><td class="proj-details__label">Years:</td> <td class="proj-details__data">2019&ndash;2020</td></tr>
 	</table>

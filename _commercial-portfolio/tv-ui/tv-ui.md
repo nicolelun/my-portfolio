@@ -18,8 +18,9 @@ publish: true
 	<p>True Value stores take pride in placing customers first&mdash;offering convenience and service that help customers achieve a job well done. Unlike that easy, in-store experience, usability studies showed that many parts of the True Value e-commerce site were awkward, unclear, and potentially difficult for customers to use.</p>
 	<p>I initiated projects to reduce friction on the site and polish the presentation of the brand. Over the course of several months, I reskinned key parts of the shopping, checkout, and order status experiences, as well as the transactional emails. My goal was to improve the overall customer experience and ultimately increase conversion and sales.</p>
 	<table class="proj-details">
-		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Advocate &middot; Sole Designer and Frontend Developer</td></tr>
-		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">UX/UI Design &middot; Material IO &middot; WCAG &middot; HTML &middot; LESS/CSS</td></tr>
+		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Designer and Frontend Developer</td></tr>
+		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
+		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management &middot; UX/UI Design &middot; Material IO &middot; WCAG &middot; HTML &middot; LESS/CSS</td></tr>
 		<tr><td class="proj-details__label">Application:</td> <td class="proj-details__data">TrueValue.com</td></tr>
 		<tr><td class="proj-details__label">Years:</td> <td class="proj-details__data">2019&ndash;2020</td></tr>
 	</table>
