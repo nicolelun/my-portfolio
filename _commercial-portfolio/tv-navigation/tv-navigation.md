@@ -149,5 +149,5 @@ publish: true
 <div class="text-col">
 	<p>During this process, I reordered the subcategories based on visits and sales, placing the most popular at the top. I also started to build collage images for subcategories that contained multiple types of product or whose labels might be unclear. For example, the thumbnail for "Home Safety & Security" showed a fire extinguisher, bike lock, and security camera, and the thumbnail for "Fasteners" showed a screw, nails, and hex nuts.</p>
 	<h2>Epilogue</h2>
-	<p>After these efforts to improve information scent, customer satisfication in key categories increased by 30%. With thousands of categories and more added very month, this project evolved into ongoing maintenance. In parallel, I continue to spearhead efforts to streamline the overall taxonomy, which I believe will drive even bigger benefits for usability, customer satisficaton, and ultimately revenue.</p>
+	<p>After these efforts to improve information scent, customer satisfication in key categories increased by 30%. With thousands of categories and more added very month, this project evolved into ongoing maintenance. In parallel, I continue to spearhead efforts to streamline the overall taxonomy, which <!-- I believe  -->will drive even bigger benefits for usability, customer satisficaton, and ultimately revenue.</p>
 </div>
