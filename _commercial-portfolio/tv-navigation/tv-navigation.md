@@ -104,7 +104,7 @@ publish: true
 			</figure>
 		</div>
 	</div>
-	<div class="flex-row" style="margin-top: 3rem">
+	<!-- <div class="flex-row" style="margin-top: 3rem">
 		<div class="col-sm-12 col-md-6">
 			<figure class="before-after-container">
 				<figcaption>
@@ -123,7 +123,7 @@ publish: true
 				<img style="border: 1px solid rgba(0,0,0,0.12)" src="building-materials-clp-current@0.5x.jpg" srcset="building-materials-clp-current@0.5x.jpg 600w, building-materials-clp-current.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 600px, 50vw">
 			</figure>
 		</div>
-	</div>
+	</div> -->
 	<div class="flex-row" style="margin-top: 3rem">
 		<div class="col-sm-12 col-md-6">
 			<figure class="before-after-container">
