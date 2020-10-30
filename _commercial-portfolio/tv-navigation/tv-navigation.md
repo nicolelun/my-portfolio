@@ -15,7 +15,7 @@ publish: true
 ---
 
 <div class="text-col">
-	<p>According to customer feedback surveys, the biggest frustrations for users of True Value's e-commerce site were navigation and product findability. <!-- And this had a magnifying effect: users who found it difficult to navigate and find products were twice as likely as all users to perceive an issue with the site. -->And ultimately this impacted sales, because users can't buy what they can't find.</p>
+	<p>According to customer feedback surveys, the biggest frustrations for users of True Value's e-commerce site were navigation and product findability. <!-- And this had a magnifying effect: users who found it difficult to navigate and find products were twice as likely as all users to perceive an issue with the site. -->Ultimately this issue hurt sales, because users can't buy what they can't find.</p>
 	<p>To address this issue, I initiated two projects&mdash;one still ongoing&mdash;to improve navigation and product findability. My goal was to decrease the effort for users to find their desired destination and as a result, increase sales.</p>
 	<table class="proj-details">
 		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Information Architect, Designer & Frontend Developer</td></tr>
