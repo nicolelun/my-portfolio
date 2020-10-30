@@ -35,10 +35,11 @@ publish: true
 	<h2>Process</h2>
 	<h3>Step 1: Identify Pain Points</h3>
 	<p>The True Value e-commerce site contained thousands of product categories, some of them six levels deep and many of them duplicates. <!-- And for site administrators, this increased the potential for error and made the site difficult to optimize for SEO.</p>
-	<p> -->To better understand <!-- users’ behavior and prioritize our efforts across thousands of categories -->where users were getting stuck, I used <a href="https://www.adobe.com/analytics/adobe-analytics.html" target="_blank">Adobe Analytics</a> to look for patterns and outliers in their behavior<!--the data , including search terms, page visits, time spent on-page -->. Main questions:</p>
+	<p> -->To better understand <!-- users’ behavior and prioritize our efforts across thousands of categories -->where users were getting stuck, I used <a href="https://www.adobe.com/analytics/adobe-analytics.html" target="_blank">Adobe Analytics</a> to look for patterns and outliers in their behavior<!--the data , including search terms, page visits, time spent on-page -->. My main questions were:</p>
 	<ul>
 		<li>Where were users spending a lot of time deciding which path to take?</li>
 		<li>Conversely, where were users quickly deciding which path to take?</li>
+		<li>Given the volume of product categories on the site, how should we prioritize our improvements?</li>
 	</ul>
 	<p>Some unexpected findings emerged:</p>
 	<ul>
