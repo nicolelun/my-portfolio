@@ -4,7 +4,7 @@ title: Customer Satisfaction Through Better Navigation
 permalink: :collection/tv-navigation/
 keyname: tv-navigation
 discipline: design
-skills: information architecture | UX/UI design | frontend development
+skills: information architecture &middot; UX/UI design &middot; frontend development
 media: web
 short-description: Applying data-driven insights, I enhanced on-page navigation of True Value's e-commerce site to improve product findability.
 featured: false
