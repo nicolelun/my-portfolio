@@ -15,8 +15,8 @@ publish: true
 ---
 
 <div class="text-col">
-	<p>According to customer feedback surveys, navigation and product findability were the biggest frustrations for users on the True Value e-commerce site. And this had a magnifying effect: users who found it difficult to navigate and find products were twice as likely as all users to perceive an issue with the site. This also hurt the bottom line&mdash;because if users can't find something, they can't buy it.</p>
-	<p>In response, I initiated a couple of projects&mdash;one still ongoing&mdash;to improve navigation and product findability. My goal was to decrease the effort for users to find their desired destination and as a result, increase sales.</p>
+	<p>According to customer feedback surveys, the biggest frustrations for users of True Value's e-commerce site were navigation and product findability. <!-- And this had a magnifying effect: users who found it difficult to navigate and find products were twice as likely as all users to perceive an issue with the site. -->And ultimately this impacted sales, because users can't buy what they can't find.</p>
+	<p>To address this issue, I initiated two projects&mdash;one still ongoing&mdash;to improve navigation and product findability. My goal was to decrease the effort for users to find their desired destination and as a result, increase sales.</p>
 	<table class="proj-details">
 		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Information Architect, Designer & Frontend Developer</td></tr>
 		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
@@ -35,7 +35,12 @@ publish: true
 	<h2>Process</h2>
 	<h3>Step 1: Identify Pain Points</h3>
 	<p>The True Value e-commerce site contained thousands of product categories, some of them six levels deep and many of them duplicates. <!-- And for site administrators, this increased the potential for error and made the site difficult to optimize for SEO.</p>
-	<p> -->To better understand users’ behavior and prioritize our efforts across thousands of categories, I used <a href="https://www.adobe.com/analytics/adobe-analytics.html" target="_blank">Adobe Analytics</a> to look for patterns and outliers in the data, including search terms, page visits, time spent on-page. Some unexpected findings emerged:</p>
+	<p> -->To better understand <!-- users’ behavior and prioritize our efforts across thousands of categories -->where users were getting stuck, I used <a href="https://www.adobe.com/analytics/adobe-analytics.html" target="_blank">Adobe Analytics</a> to look for patterns and outliers in their behavior<!--the data , including search terms, page visits, time spent on-page -->. Main questions:</p>
+	<ul>
+		<li>Where were users spending a lot of time deciding which path to take?</li>
+		<li>Conversely, where were users quickly deciding which path to take?</li>
+	</ul>
+	<p>Some unexpected findings emerged:</p>
 	<ul>
 		<li>Many desktop users started browsing the site at the highest level of the product taxonomy (“All Departments”), rather than skipping to lower levels through the megamenu. This suggested that we should dedicate special attention to that high-level page.</li>
 		<li>Marketing campaigns had a dramatic effect on the distribution of visits across categories. When subtracting that effect, the distribution of visits spanned more evenly across core hardware categories. This contradicted common notions of which categories were "more important" and suggested that we should spread our effort widely, if shallowly.</li>
