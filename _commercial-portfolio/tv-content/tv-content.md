@@ -18,7 +18,7 @@ publish: true
 	<p>Organic search is an important source of inbound traffic for any site. Unfortunately, True Value's e-commerce site lacked content to capture customers at the top of the shopping funnel. Meanwhile, a moribund sister site TrueValueProjects.com contained hundreds of existing DIY articles that still received organic traffic.</p>
 	<p>In response to this, I initiated a project to reuse the existing content to amplify TrueValue.com, incorporating article snippets with the goals of improving SEO, increasing traffic and revenue, and enhancing customers' experience with the brand. I am also managing a long-term project to migrate the complete library to TrueValue.com.</p>
 	<table class="proj-details">
-		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Content Strategist, Designer & Frontend Developer</td></tr>
+		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Sole Content Strategist, Designer & Frontend Developer</td></tr>
 		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
 		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management, Quantitative Research, Web Analytics, SEO, UX/UI Design, HTML, LESS/CSS, Javascript, Writing & Editing</td></tr>
 		<tr><td class="proj-details__label">Applications:</td> <td class="proj-details__data">TrueValue.com and TrueValueProjects.com</td></tr>
@@ -34,7 +34,7 @@ publish: true
 <div class="text-col">
 	<h2>Process</h2>
 	<h3>Step 1: Analyze & Prioritize Content</h3>
-	<p>I used <a href="https://marketingplatform.google.com/about/analytics/" target="_blank">Google Analytics</a> to identify the DIY articles on TrueValueProjects.com with the most organic visits, lowest bounce rate, and highest engagement. <!-- With hundreds of articles, these metrics served as indicators of the most useful and effective content, for both customers and SEO. --> My main questions were:</p>
+	<p>I used <a href="https://marketingplatform.google.com/about/analytics/" target="_blank">Google Analytics</a> to identify the DIY articles on TrueValueProjects.com with the most organic visits, lowest bounce rate, and highest engagement. My main questions were:</p>
 	<ul>
 		<li>What content was the most useful and effective for both customers and SEO?</li>
 		<li>What content would drive the most traffic to the site?</li>
@@ -47,7 +47,7 @@ publish: true
 	<h3>Step 4: Curate & Edit Content</h3>
 	<p>I populated the sliders by curating dozens of articles to complement the main product categories on the site. I selected from the initial priority list, as well as a handful that related to popular products or internal search terms&mdash;signals of customer interest. To give the snippets a clean, modern look, I hunted through hundreds of new images and edited copy as needed. Later, when an SEO agency identified additional articles with top ranking keywords and click-through performance, I incorporated those in successive iterations.</p>
 	<h2>Epilogue</h2>
-	<p>With limited resources for this self-driven initiative, I enhanced the e-commerce site and enabled it to present a fuller image of the brand. <!-- However, I would have liked to measure the impact on SEO, traffic, and revenue, the main KPIs.  -->Along with other SEO improvements, such as sitemaps and metadata, this contributed to substantial increases in natural search visits, orders, and revenue year over year. I currently lead a project to refresh and migrate the articles to the e-commerce site and develop a long-term content strategy.<!-- Ultimately, I believe that the biggest benefit to customers and the business would come from refreshing and migrating the articles. With analyses from an SEO agency, the e-commerce team developed a business case to advocate for this long-term, future effort. --></p> 
+	<p>With limited resources for this self-driven initiative, I enhanced the e-commerce site and enabled it to present a fuller image of the brand. Along with other SEO improvements, such as sitemaps and metadata, this contributed to substantial increases in natural search visits, orders, and revenue year over year. I currently lead a project to refresh and migrate the articles to the e-commerce site and develop a long-term content strategy.</p> 
 </div>
 
 <aside class="proj-spotlight" style="margin-top: 4rem">

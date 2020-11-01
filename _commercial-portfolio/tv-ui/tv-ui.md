@@ -15,10 +15,10 @@ publish: true
 ---
 
 <div class="text-col">
-	<p>True Value stores take pride in placing customers first&mdash;offering convenience and service that help customers achieve a job well done. <!-- Unlike that easy, in-store experience -->Unfortunately, usability studies showed that many parts of True Value's e-commerce site were awkward, unclear, and potentially difficult for customers to use.</p>
+	<p>True Value stores take pride in placing customers first&mdash;offering convenience and service that help customers achieve a job well done. Unfortunately, usability studies showed that many parts of True Value's e-commerce site were awkward, unclear, and potentially difficult for customers to use.</p>
 	<p>To address this, I initiated a series of projects to reduce friction on the site and polish the presentation of the brand. Over the course of several months, I reskinned key parts of the shopping, checkout, and order status experiences<!-- , as well as the transactional emails -->. My goal was to improve the overall customer experience and ultimately increase conversion and sales.</p>
 	<table class="proj-details">
-		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Designer and Frontend Developer</td></tr>
+		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Sole Designer and Frontend Developer</td></tr>
 		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
 		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management, UX/UI Design, Material IO, WCAG, HTML, LESS/CSS</td></tr>
 		<tr><td class="proj-details__label">Application:</td> <td class="proj-details__data">TrueValue.com</td></tr>
@@ -59,7 +59,7 @@ publish: true
 		</div>
 		<figcaption>Revisions to the product listing page on mobile included increasing the information density, increasing the touchpoint sizes, and differentiating the fixed toolbar from the rest of the page.</figcaption>
 	</div>
-	<div class="flex-row">
+	<div class="flex-row" style="margin-bottom: 4rem">
 		<div class="col-sm-6">
 			<figure class="before-after-container">
 				<figcaption class="before-label">
@@ -78,66 +78,15 @@ publish: true
 		</div>
 		<figcaption>Revisions to the toolbar drawer included maximizing the use of the screen and increasing the font and touchpoint sizes.</figcaption>
 	</div>
+	<p>
+		<img src="drills-plp-collage@2x.png">
+		<figcaption>Both desktop and mobile underwent revisions, but maintained a similar look and feel.</figcaption>
+	</p>
 	<h3>Step 4: Build New Skin</h3>
 	<p>Reskinning the site required changes to the frontend styling, which I built with LESS and CSS. One of the biggest constraints of the project was not having access to the base code, which prevented me from making changes to the templates or scripts. This was a major reason for not incorporating more changes from my research, but nevertheless, I could still accomplish many improvements through styling. The rest of the e-commerce team helped test the changes in staging and production.</p>
 </div>
-<!-- <aside class="main-col proj-spotlight" style="padding-top: 3rem; padding-bottom: 3rem">
-	<div class="aside-header">
-		<h3 style="margin-bottom: 3rem">Project Spotlight: Mobile Product Listing Page</h3>
-	</div>
-	<div class="flex-row" style="margin-bottom: 3rem">
-		<div class="col-sm-6 col-md-4">
-			<figure class="before-after-container">
-				<figcaption class="before-label">
-					<i class="fa fa-times-circle" aria-hidden="true"></i>Before
-				</figcaption>
-				<img style="width: 100%" srcset="drills-plp-before@2x.png 720w, drills-plp-before.png 360w" src="drills-plp-before.png" sizes="(min-width: 1200px) 347px, (max-width: 600px) 50vw, 33vw" alt="Product listing page before reskinning">
-			</figure>
-		</div>
-		<div class="col-sm-6 col-md-4">
-			<figure class="before-after-container">
-				<figcaption class="after-label">
-					<i class="fa fa-check-circle" aria-hidden="true"></i>After
-				</figcaption>
-				<img style="width: 100%" srcset="drills-plp-after@2x.png 720w, drills-plp-after.png 360w" src="drills-plp-after.png" sizes="(min-width: 1200px) 347px, (max-width: 600px) 50vw, 33vw" alt="Product listing page after skinning">
-			</figure>
-		</div>
-		<div class="col-sm-12 col-md-4">
-			<div class="caption" style="padding: 1rem">
-				<p>Many of the changes were specific to mobile and its unique usability challenges.</p>
-			</div>
-		</div>
-	</div>
-	<div class="flex-row">
-		<div class="col-sm-6 col-md-4">
-			<figure class="before-after-container">
-				<figcaption class="before-label">
-					<i class="fa fa-times-circle" aria-hidden="true"></i>Before
-				</figcaption>
-				<img style="width: 100%" srcset="drills-plp-drawer-before@2x.png 720w, drills-plp-drawer-before.png 360w" src="drills-plp-drawer-before.png" sizes="(min-width: 1200px) 347px, (max-width: 600px) 50vw, 33vw" alt="Product listing page filter drawer before reskinning">
-			</figure>
-		</div>
-		<div class="col-sm-6 col-md-4">
-			<figure class="before-after-container">
-				<figcaption class="after-label">
-					<i class="fa fa-check-circle" aria-hidden="true"></i>After
-				</figcaption>
-				<img style="width: 100%" srcset="drills-plp-drawer-after@2x.png 720w, drills-plp-drawer-after.png 360w" src="drills-plp-drawer-after.png" sizes="(min-width: 1200px) 347px, (max-width: 600px) 50vw, 33vw" alt="Product listing page filter drawer after skinning">
-			</figure>
-		</div>
-		<div class="col-sm-12 col-md-4">
-			<div class="caption" style="padding: 1rem">
-				<p>The toolbar drawer on the product listing page required specific changes as well.</p>
-			</div>
-		</div>
-	</div>
-</aside> -->
-<div class="text-col">
-	<h3>Step 5: Iterate & Refine</h3>
-	<p>Over the course of several months, I refined the initial changes and repeated the process on other parts of the site, including checkout, order status lookup, and transactional emails. Ideally, if resources had been available, I would have tested different solutions with an A/B testing tool and attempted to measure the effects on conversion and sales. But I continued to learn through other avenues, including <a href="https://www.hotjar.com/" target="_blank">Hotjar</a> recordings and feedback from Customer Service, so we moved forward as best we could.</p>
-</div>
-<!-- <aside class="main-col proj-spotlight" style="padding-top: 3rem; padding-bottom: 3rem">
-	<div class="aside-header">
+<!-- <aside class="main-col">
+ 	<div class="aside-header">
 		<h3 style="margin-bottom: 3rem">Project Spotlight: Checkout</h3>
 	</div>
 	<div class="flex-row" style="margin-bottom: 2rem">
@@ -177,6 +126,10 @@ publish: true
 		</div>
 	</div>
 </aside> -->
+<div class="text-col">
+	<h3>Step 5: Iterate & Refine</h3>
+	<p>Over the course of several months, I refined the initial changes and repeated the process on other parts of the site, including checkout, order status lookup, and transactional emails. Ideally, if resources had been available, I would have tested different solutions with an A/B testing tool and attempted to measure the effects on conversion and sales. But I continued to learn through other avenues, including <a href="https://www.hotjar.com/" target="_blank">Hotjar</a> recordings and feedback from Customer Service, so we moved forward as best we could.</p>
+</div>
 <!-- <aside class="proj-spotlight" style="margin-top: 4rem">
 	<div class="main-col">
 		<div class="aside-header">
