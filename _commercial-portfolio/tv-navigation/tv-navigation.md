@@ -15,8 +15,8 @@ publish: true
 ---
 
 <div class="text-col">
-	<p>According to customer feedback surveys, the biggest frustrations for users of True Value's e-commerce site were navigation and product findability. <!-- And this had a magnifying effect: users who found it difficult to navigate and find products were twice as likely as all users to perceive an issue with the site. -->This issue had the potential to hurt sales, because ultimately, users can only buy what they can find.</p>
-	<p>To address this, I initiated two projects&mdash;one still ongoing&mdash;to improve navigation and product findability. My goal was to decrease the effort for users to find their desired destination and as a result, increase sales.</p>
+	<p>According to customer feedback surveys, the biggest frustrations for users of True Value's e-commerce site were navigation and product findability. <!-- And this had a magnifying effect: users who found it difficult to navigate and find products were twice as likely as all users to perceive an issue with the site. -->And because users can only buy what they can find, this issue could deeply impact the bottom line: sales.</p>
+	<p>In response to this issue, I initiated two projects&mdash;one still ongoing&mdash;to improve navigation and product findability. The first was to refine the visual cues and add shortcuts to popular categories, and the second was to streamline the product taxonomy, which served as the basis for the site structure. My goal was to decrease the time and effort for users to find their destinations and ultimately to increase sales.</p>
 	<table class="proj-details">
 		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Information Architect, Designer & Frontend Developer</td></tr>
 		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
@@ -33,24 +33,24 @@ publish: true
 </div>
 <div class="text-col">
 	<h2>Process</h2>
-	<h3>Step 1: Identify Pain Points</h3>
-	<p>The True Value e-commerce site contained thousands of product categories, some of them six levels deep and many of them duplicates. <!-- And for site administrators, this increased the potential for error and made the site difficult to optimize for SEO.</p>
-	<p> -->To better understand <!-- users’ behavior and prioritize our efforts across thousands of categories -->where users were getting stuck, I used <a href="https://www.adobe.com/analytics/adobe-analytics.html" target="_blank">Adobe Analytics</a> to look for patterns and outliers in their behavior<!--the data , including search terms, page visits, time spent on-page -->. My main questions were:</p>
-	<ul>
-		<li>Where were users spending a lot of time deciding which path to take?</li>
-		<li>Conversely, where were users quickly deciding which path to take?</li>
-		<li>Given the volume of product categories on the site, how should we prioritize our improvements?</li>
-	</ul>
-	<p>Some unexpected findings emerged:</p>
-	<ul>
+	<h3>Step 1: Identify Pain Points & Prioritize Effort</h3>
+	<p>True Value's e-commerce site contained thousands of product categories, some of them six levels deep and many of them duplicates. Not only could this complexity create navigational challenges for users, but for site administrators, it made the products difficult to organize and the categories difficult to maintain for SEO.</p>
+	<p>To better understand where users were getting frustrated, I used <a href="https://www.adobe.com/analytics/adobe-analytics.html" target="_blank">Adobe Analytics</a> to look for patterns and outliers in users' behavior. My main questions were:</p>
+	<ol>
+		<li>Which categories were unclear, misplaced, too large, or too small?</li>
+		<li>Which categories did users spend a long time choosing their path, and why? Naming? Visual cues? Too many options? Irrelevant options?</li>
+		<li>Given the volume of product categories, where should we focus our improvements for the greatest return?</li>
+	</ol>
+	<p>To answer these questions, I analyzed visits, time spent on-page, most popular sellers, and most popular search terms.<!--  Some unexpected findings emerged: --> An unexpected finding was that marketing tactics&mdash;such as emails, digital ads, and promotional banners&mdash;substantially skewed visits to some categories over others, but when users navigated the site on their own, their visits distributed more evenly across the categories.</p>
+	<!-- <ul>
 		<li>Many desktop users started browsing the site at the highest level of the product taxonomy (“All Departments”), rather than skipping to lower levels through the megamenu. This suggested that we should dedicate special attention to that high-level page.</li>
 		<li>Marketing campaigns had a dramatic effect on the distribution of visits across categories. When subtracting that effect, the distribution of visits spanned more evenly across core hardware categories. This contradicted common notions of which categories were "more important" and suggested that we should spread our effort widely, if shallowly.</li>
-	</ul>
+	</ul> -->
 	<h3>Step 2: Research Best Practices</h3>
-	<p>To research best practices in information architecture, I sought out education and expert advice for me and the rest of the e-commerce team. I attended an Information Architecture training by the <a href="https://www.nngroup.com/" target="_blank">NN/g Nielson Norman Group</a>, which introduced me and a colleague to card sorting, tree analysis, and other tools and techniques. I also reached out to experts in the field&mdash;content and taxonomy specialists who provided learning and discovery discussions for the entire team.</p>
+	<p>To research best practices in information architecture, I sought out education and expert advice for <!-- me and the rest of  -->the e-commerce team. I attended an Information Architecture training by the <a href="https://www.nngroup.com/" target="_blank">NN/g Nielson Norman Group</a>, which introduced me and a colleague to card sorting, tree analysis, and other tools and techniques. I also reached out to experts in the field&mdash;content and taxonomy specialists who provided <!-- learning and discovery discussions for the entire team -->advice specific to our implementation.</p>
 	<p>During this process, I proposed to the team that we hire consultants to optimize the taxonomy for us. My reasoning was that as experts, they could do a better job faster, and as <i>third-party</i> experts, they could bring a fresh perspective and break through the inertia and reluctance that repeatedly settled in-house. With input from marketing analytics and the finance department, we developed a model that demonstrated a multi-fold ROI, and we submitted a business case to request investment from senior leadership.</p>
 	<h3>Step 3: Curate &amp; Edit Content: Thumbnail Images</h3>
-	<p>In the meantime, I continued with activities that were within my control and did not require additional budget. Without changing the taxonomy or megamenu, what could I do to help users navigate the site? Improve visual cues.</p>
+	<p>In the meantime, I continued with activities that <!-- were within my control and --> did not require  <!-- dedicated budget.Without changing the taxonomy or megamenu, what could I do to help users navigate the site? Improve visual cues. -->major changes to the taxonomy: refining the visual cues and adding shortcuts to popular categories.</p>
 	<p>The thousands of category thumbnails comprising on-page navigation had been randomly assigned, not deliberately curated to help users understand the site. In some cases, the category thumbnail showed a product obscured by packaging; in other cases, it showed an accessory rather than the main product type itself; while in still other cases, it showed a lifestyle vignette while a neighboring thumbnail showed a product in silhouette. Besides giving unclear navigational cues, the thumbnails had no aesthetic continuity<!-- , which was unpleasant and incoherent to the eye -->.</p>
 	<p>Over the next few months, I refreshed thousands of thumbnails, swapping old ones for new ones. During this process, I also replaced generic file names (e.g., 827492.jpg) with more descriptive names (e.g., 232677-weber-spirit-gas-grill.jpg) for better SEO. With hundreds of thousands of images to choose from, my goal was to select images that were quick and easy for users to understand and represented the brand well. Therefore, I sought out clean, quality images of best-selling, high-end, or well-rated products that symbolized the main concepts of their parent categories.</p>
 </div>
