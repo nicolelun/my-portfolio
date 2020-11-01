@@ -20,7 +20,7 @@ publish: true
 	<table class="proj-details">
 		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Content Strategist, Designer & Frontend Developer</td></tr>
 		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
-		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management &middot; Quantitative Research &middot; Web Analytics &middot; SEO &middot; UX/UI Design &middot; HTML &middot; LESS/CSS &middot; Javascript &middot; Writing & Editing</td></tr>
+		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management, Quantitative Research, Web Analytics, SEO, UX/UI Design, HTML, LESS/CSS, Javascript, Writing & Editing</td></tr>
 		<tr><td class="proj-details__label">Applications:</td> <td class="proj-details__data">TrueValue.com and TrueValueProjects.com</td></tr>
 		<tr><td class="proj-details__label">Years:</td> <td class="proj-details__data">2019&ndash;2020</td></tr>
 	</table>

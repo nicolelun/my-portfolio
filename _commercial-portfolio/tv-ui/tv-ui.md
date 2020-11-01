@@ -20,7 +20,7 @@ publish: true
 	<table class="proj-details">
 		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Designer and Frontend Developer</td></tr>
 		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
-		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management &middot; UX/UI Design &middot; Material IO &middot; WCAG &middot; HTML &middot; LESS/CSS</td></tr>
+		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management, UX/UI Design, Material IO, WCAG, HTML, LESS/CSS</td></tr>
 		<tr><td class="proj-details__label">Application:</td> <td class="proj-details__data">TrueValue.com</td></tr>
 		<tr><td class="proj-details__label">Years:</td> <td class="proj-details__data">2019&ndash;2020</td></tr>
 	</table>
