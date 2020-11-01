@@ -60,27 +60,27 @@ publish: true
 			<figure class="before-after-container">
 				<figcaption>
 					<span class="before-label" style="display: block"><i class="fa fa-times-circle" aria-hidden="true"></i>Before</span>
-					<span>Original Hardware page (early 2018)</span>
+					<span>Old platform (early 2018)</span>
 				</figcaption>
-				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-old-site@0.5x.jpg" srcset="hardware-clp-old-site@0.5x.jpg 600w, hardware-clp-old-site.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 400px, 33vw">
+				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-old-site@0.5x-v2.jpg" srcset="hardware-clp-old-site@0.5x-v2.jpg 600w, hardware-clp-old-site-v2.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 400px, 33vw">
 			</figure>
 		</div>
 		<div class="col-sm-12 col-md-4">
 			<figure class="before-after-container">
 				<figcaption>
 					<span class="before-label" style="display: block">In Transition</span>
-					<span>On new platform (mid-2018)</span>
+					<span>New platform, old images (mid-2018)</span>
 				</figcaption>
-				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-original@0.5x.jpg" srcset="hardware-clp-original@0.5x.jpg 600w, hardware-clp-original.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 400px, 33vw">
+				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-original@0.5x-v2.jpg" srcset="hardware-clp-original@0.5x-v2.jpg 600w, hardware-clp-original-v2.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 400px, 33vw">
 			</figure>
 		</div>
 		<div class="col-sm-12 col-md-4">
 			<figure class="before-after-container">
 				<figcaption>
 					<span class="after-label" style="display: block"><i class="fa fa-check-circle" aria-hidden="true"></i>After (Phase 1)</span>
-					<span>Revised Hardware page (early 2019)</span>
+					<span>New images (early 2019)</span>
 				</figcaption>
-				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-phase-2@0.5x.jpg" srcset="hardware-clp-phase-2@0.5x.jpg 600w, hardware-clp-phase-2.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 400px, 33vw">
+				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-phase-2@0.5x-v2.jpg" srcset="hardware-clp-phase-2@0.5x-v2.jpg 600w, hardware-clp-phase-2-v2.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 400px, 33vw">
 			</figure>
 		</div>
 	</div>
@@ -93,21 +93,28 @@ publish: true
 <div class="main-col">
 	<div class="flex-row">
 		<div class="col-sm-12 col-md-6">
-			<figure class="before-after-container">
+			<!-- <figure class="before-after-container">
 				<figcaption>
 					<span class="before-label" style="display: block"><i class="fa fa-times-circle" aria-hidden="true"></i>Before</span>
 					<span>Original Hardware page (early 2018)</span>
 				</figcaption>
-				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-old-site@0.5x.jpg" srcset="hardware-clp-old-site@0.5x.jpg 600w, hardware-clp-old-site.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 600px, 50vw">
+				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-old-site@0.5x-v2.jpg" srcset="hardware-clp-old-site@0.5x-v2.jpg 600w, hardware-clp-old-site-v2.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 600px, 50vw">
+			</figure> -->
+			<figure class="before-after-container">
+				<figcaption>
+					<span class="before-label" style="display: block"><i class="fa fa-times-circle" aria-hidden="true"></i>Before (Phase 1)</span>
+					<span>Initial new images (early 2019)</span>
+				</figcaption>
+				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-phase-2@0.5x-v2.jpg" srcset="hardware-clp-phase-2@0.5x-v2.jpg 600w, hardware-clp-phase-2-v2.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 600px, 50vw">
 			</figure>
 		</div>
 		<div class="col-sm-12 col-md-6">
 			<figure class="before-after-container">
 				<figcaption>
 					<span class="after-label" style="display: block"><i class="fa fa-check-circle" aria-hidden="true"></i>After (Phase 2)</span>
-					<span>Revised Hardware page (mid-2019)</span>
+					<span>Revised new images with shortcuts (mid-2019)</span>
 				</figcaption>
-				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-phase-3@0.5x.jpg" srcset="hardware-clp-phase-3@0.5x.jpg 600w, hardware-clp-phase-3.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 600px, 50vw">
+				<img style="border: 1px solid rgba(0,0,0,0.12)" src="hardware-clp-phase-3@0.5x-v2.jpg" srcset="hardware-clp-phase-3@0.5x-v2.jpg 600w, hardware-clp-phase-3-v2.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 600px, 50vw">
 			</figure>
 		</div>
 	</div>
@@ -131,7 +138,7 @@ publish: true
 			</figure>
 		</div>
 	</div> -->
-	<div class="flex-row" style="margin-top: 3rem">
+	<!-- <div class="flex-row" style="margin-top: 3rem">
 		<div class="col-sm-12 col-md-6">
 			<figure class="before-after-container">
 				<figcaption>
@@ -150,7 +157,7 @@ publish: true
 				<img style="border: 1px solid rgba(0,0,0,0.12)" src="electrical-clp-current@0.5x.jpg" srcset="electrical-clp-current@0.5x.jpg 600w, electrical-clp-current.jpg 1200w" sizes="(max-width: 600px) 100vw, (min-width: 1200px) 600px, 50vw">
 			</figure>
 		</div>
-	</div>
+	</div> -->
 </div>
 <div class="text-col">
 	<p>During this process, I reordered the subcategories based on visits and sales, placing the most popular at the top. I also started to build collage images for subcategories that contained multiple types of product or whose labels might be unclear. For example, the thumbnail for "Home Safety & Security" showed a fire extinguisher, bike lock, and security camera, and the thumbnail for "Fasteners" showed a screw, nails, and hex nuts.</p>

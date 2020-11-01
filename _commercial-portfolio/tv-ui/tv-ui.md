@@ -40,10 +40,44 @@ publish: true
 	<p>For additional inspiration, I examined design systems, especially  <a href="https://material.io/" target="_blank">Material IO</a> for its completeness and emphasis on mobile. The True Value site was particularly hard to use on mobile: the touch targets were too small, the sticky header consumed too much space, and information in the product lists did not fit the viewport, among other things. At the same time, mobile visits made up an increasing majority of visits to the site, so addressing these issues could have a positive impact on a lot of customers.</p>
 	<h3>Step 3: Create Design Concepts</h3>
 	<p>Armed with research, I created design concepts, focusing on pages and elements that received the most use, such as the header, category landing pages, product listing pages, and product detail pages. I maintained the original aesthetic, so that each modified part would look unified with the site as a whole. But my main objective was to make it clean, orderly, and functional&mdash;like a well-run hardware store, easy in and out. After putting together some concepts, I reviewed them with the rest of the e-commerce team.</p>
-	<figure style="margin-top: 2em; width: 100%; /*max-width: 1000px;*/ display: block; margin-left: auto; margin-right: auto">
-		<img srcset="drills-plp-collage@2x.png 2414w, drills-plp-collage.png 1207w, drills-plp-collage@0.5x.png 604w" src="drills-plp-collage@0.5x.png" sizes="(min-width: 1000px) 1000px, 100vw" alt="Reskinned product listing pages of True Value e-commerce site">
-		<figcaption>The desktop and mobile versions of this product listing page shared a similar look and feel, while accommodating the different needs of each device.</figcaption>
-	</figure>
+	<div class="flex-row" style="margin-bottom: 4rem">
+		<div class="col-sm-6">
+			<figure class="before-after-container">
+				<figcaption class="before-label">
+					<i class="fa fa-times-circle" aria-hidden="true"></i>Before
+				</figcaption>
+				<img style="width: 100%" srcset="drills-plp-before@2x.png 720w, drills-plp-before.png 360w" src="drills-plp-before.png" sizes="(min-width: 1200px) 310px, (max-width: 600px) 50vw, 25vw" alt="Product listing page before reskinning">
+			</figure>
+		</div>
+		<div class="col-sm-6">
+			<figure class="before-after-container">
+				<figcaption class="after-label">
+					<i class="fa fa-check-circle" aria-hidden="true"></i>After
+				</figcaption>
+				<img style="width: 100%" srcset="drills-plp-after@2x.png 720w, drills-plp-after.png 360w" src="drills-plp-after.png" sizes="(min-width: 1200px) 310px, (max-width: 600px) 50vw, 25vw" alt="Product listing page after skinning">
+			</figure>
+		</div>
+		<figcaption>Revisions to the product listing page on mobile included increasing the information density, increasing the touchpoint sizes, and differentiating the fixed toolbar from the rest of the page.</figcaption>
+	</div>
+	<div class="flex-row">
+		<div class="col-sm-6">
+			<figure class="before-after-container">
+				<figcaption class="before-label">
+					<i class="fa fa-times-circle" aria-hidden="true"></i>Before
+				</figcaption>
+				<img style="width: 100%" srcset="drills-plp-drawer-before@2x.png 720w, drills-plp-drawer-before.png 360w" src="drills-plp-drawer-before.png" sizes="(min-width: 1200px) 310px, (max-width: 600px) 50vw, 25vw" alt="Product listing page filter drawer before reskinning">
+			</figure>
+		</div>
+		<div class="col-sm-6">
+			<figure class="before-after-container">
+				<figcaption class="after-label">
+					<i class="fa fa-check-circle" aria-hidden="true"></i>After
+				</figcaption>
+				<img style="width: 100%" srcset="drills-plp-drawer-after@2x.png 720w, drills-plp-drawer-after.png 360w" src="drills-plp-drawer-after.png" sizes="(min-width: 1200px) 310px, (max-width: 600px) 50vw, 25vw" alt="Product listing page filter drawer after skinning">
+			</figure>
+		</div>
+		<figcaption>Revisions to the toolbar drawer included maximizing the use of the screen and increasing the font and touchpoint sizes.</figcaption>
+	</div>
 	<h3>Step 4: Build New Skin</h3>
 	<p>Reskinning the site required changes to the frontend styling, which I built with LESS and CSS. One of the biggest constraints of the project was not having access to the base code, which prevented me from making changes to the templates or scripts. This was a major reason for not incorporating more changes from my research, but nevertheless, I could still accomplish many improvements through styling. The rest of the e-commerce team helped test the changes in staging and production.</p>
 </div>
@@ -143,7 +177,7 @@ publish: true
 		</div>
 	</div>
 </aside> -->
-<aside class="proj-spotlight" style="margin-top: 4rem">
+<!-- <aside class="proj-spotlight" style="margin-top: 4rem">
 	<div class="main-col">
 		<div class="aside-header">
 			<h2>Project Spotlight: Mobile Product Listing Page</h2>
@@ -208,4 +242,4 @@ publish: true
 			</div>
 		</div>
 	</div>
-</aside>
+</aside> -->
