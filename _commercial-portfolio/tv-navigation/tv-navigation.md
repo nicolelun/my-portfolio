@@ -18,8 +18,8 @@ publish: true
 	<p>According to customer feedback surveys, the biggest frustrations for users of True Value's e-commerce site were navigation and product findability. <!-- And this had a magnifying effect: users who found it difficult to navigate and find products were twice as likely as all users to perceive an issue with the site. -->And because users can only buy what they can find, this issue could deeply impact the bottom line: sales.</p>
 	<p>In response to this issue, I initiated two projects&mdash;one still ongoing&mdash;to improve navigation and product findability. The first was to refine the visual cues and add shortcuts to popular categories, and the second was to streamline the product taxonomy, which served as the basis for the site structure. My goal was to decrease the time and effort for users to find their destinations and ultimately to increase sales.</p>
 	<table class="proj-details">
-		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Sole Information Architect, Designer & Frontend Developer</td></tr>
-		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
+		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Sole Information Architect, Designer &amp; Frontend Developer</td></tr>
+		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers &amp; Business Managers</td></tr>
 		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management, Quantitative Research, Web Analytics, SEO, UX/UI Design, HTML, LESS/CSS</td></tr>
 		<tr><td class="proj-details__label">Applications:</td> <td class="proj-details__data">TrueValue.com</td></tr>
 		<tr><td class="proj-details__label">Years:</td> <td class="proj-details__data">2018&ndash;2019</td></tr>
@@ -162,5 +162,5 @@ publish: true
 <div class="text-col">
 	<p>During this process, I reordered the subcategories based on visits and sales, placing the most popular at the top. I also started to build collage images for subcategories that contained multiple types of product or whose labels might be unclear. For example, the thumbnail for "Home Safety & Security" showed a fire extinguisher, bike lock, and security camera, and the thumbnail for "Fasteners" showed a screw, nails, and hex nuts.</p>
 	<h2>Epilogue</h2>
-	<p>After these efforts to improve information scent, customer satisfication in key categories increased by 30%. With thousands of categories and more added very month, this project evolved into ongoing maintenance. In parallel, I continue to spearhead efforts to streamline the overall taxonomy, which <!-- I believe  -->will drive even bigger benefits for usability, customer satisficaton, and ultimately revenue.</p>
+	<p>After these efforts to improve information scent, customer satisfication in key categories increased by 30%. With thousands of categories and more added very month, this project evolved into ongoing maintenance. In parallel, I continue to spearhead efforts to streamline the overall taxonomy, which will drive even bigger benefits for usability, customer satisficaton, and ultimately revenue.</p>
 </div>
