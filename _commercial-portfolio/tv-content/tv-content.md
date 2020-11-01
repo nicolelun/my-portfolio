@@ -15,7 +15,7 @@ publish: true
 ---
 
 <div class="text-col">
-	<p>Organic search is an important source of inbound traffic for any site. Unfortunately, the True Value e-commerce site lacked content to capture customers at the top of the shopping funnel. Meanwhile, a moribund sister site TrueValueProjects.com contained hundreds of existing DIY articles that still received organic traffic.</p>
+	<p>Organic search is an important source of inbound traffic for any site. Unfortunately, True Value's e-commerce site lacked content to capture customers at the top of the shopping funnel. Meanwhile, a moribund sister site TrueValueProjects.com contained hundreds of existing DIY articles that still received organic traffic.</p>
 	<p>In response to this, I initiated a project to reuse the existing content to amplify TrueValue.com, incorporating article snippets with the goals of improving SEO, increasing traffic and revenue, and enhancing customers' experience with the brand. I am also managing a long-term project to migrate the complete library to TrueValue.com.</p>
 	<table class="proj-details">
 		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Content Strategist, Designer & Frontend Developer</td></tr>

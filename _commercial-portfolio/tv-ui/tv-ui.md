@@ -15,8 +15,8 @@ publish: true
 ---
 
 <div class="text-col">
-	<p>True Value stores take pride in placing customers first&mdash;offering convenience and service that help customers achieve a job well done. <!-- Unlike that easy, in-store experience -->Unfortunately, usability studies showed that many parts of the True Value e-commerce site were awkward, unclear, and potentially difficult for customers to use.</p>
-	<p>To address this issue, I initiated a series of projects to reduce friction on the site<!--  and polish the presentation of the brand --><!-- . Over the course of several months, I reskinned --> by reskinning key parts of the shopping, checkout, and order status <!-- experiences, as well as the transactional emails -->interface. My goal was to improve the overall customer experience and ultimately increase conversion and sales.</p>
+	<p>True Value stores take pride in placing customers first&mdash;offering convenience and service that help customers achieve a job well done. <!-- Unlike that easy, in-store experience -->Unfortunately, usability studies showed that many parts of True Value's e-commerce site were awkward, unclear, and potentially difficult for customers to use.</p>
+	<p>To address this, I initiated a series of projects to reduce friction on the site and polish the presentation of the brand. Over the course of several months, I reskinned key parts of the shopping, checkout, and order status experiences<!-- , as well as the transactional emails -->. My goal was to improve the overall customer experience and ultimately increase conversion and sales.</p>
 	<table class="proj-details">
 		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data"><!-- Advocate &middot;  -->Sole Designer and Frontend Developer</td></tr>
 		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers & Business Managers</td></tr>
