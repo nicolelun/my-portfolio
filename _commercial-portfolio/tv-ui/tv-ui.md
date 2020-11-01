@@ -80,7 +80,7 @@ publish: true
 	</div>
 	<p>
 		<img src="drills-plp-collage@2x.png">
-		<figcaption>Both desktop and mobile underwent revisions, but maintained a similar look and feel.</figcaption>
+		<figcaption>Both desktop and mobile underwent revisions, but maintained a similar look and feel to each other.</figcaption>
 	</p>
 	<h3>Step 4: Build New Skin</h3>
 	<p>Reskinning the site required changes to the frontend styling, which I built with LESS and CSS. One of the biggest constraints of the project was not having access to the base code, which prevented me from making changes to the templates or scripts. This was a major reason for not incorporating more changes from my research, but nevertheless, I could still accomplish many improvements through styling. The rest of the e-commerce team helped test the changes in staging and production.</p>
