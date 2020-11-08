@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Easier Shopping on Mobile & Desktop
+title: Seamless Shopping on Mobile & Desktop
 permalink: :collection/tv-ui/
 keyname: tv-ui
 discipline: design
@@ -18,7 +18,7 @@ publish: true
 	<p>True Value stores take pride in placing customers first&mdash;offering convenience and service that help customers achieve a job well done. Unfortunately, usability studies showed that many parts of True Value's e-commerce site were awkward, unclear, and potentially difficult for customers to use.</p>
 	<p>To address this, I initiated a series of projects to reduce friction on the site and polish the presentation of the brand. Over the course of several months, I reskinned key parts of the shopping, checkout, and order status experiences<!-- , as well as the transactional emails -->. My goal was to improve the overall customer experience and ultimately increase conversion and sales.</p>
 	<table class="proj-details">
-		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Sole Designer &amp; Frontend Developer</td></tr>
+		<tr><td class="proj-details__label">My Roles:</td> <td class="proj-details__data">Designer &amp; Frontend Developer</td></tr>
 		<tr><td class="proj-details__label">Stakeholders:</td> <td class="proj-details__data">E-Commerce Merchandisers &amp; Business Managers</td></tr>
 		<tr><td class="proj-details__label">Skills Used:</td> <td class="proj-details__data">Project Management, UX/UI Design, Material IO, WCAG, HTML, LESS/CSS</td></tr>
 		<tr><td class="proj-details__label">Application:</td> <td class="proj-details__data">TrueValue.com</td></tr>
