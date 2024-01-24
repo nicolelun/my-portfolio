@@ -6,7 +6,7 @@ keyname: tv-ui
 discipline: design
 skills: UX/UI design &middot; frontend development
 media: web
-short-description: With a special emphasis on mobile, I reskinned portions of True Value's e-commerce site to refine the visual presentation and reduce friction in the shopping, checkout, and order status experiences.
+short-description: Reducing friction in the shopping, checkout, and order status experiences
 featured: false
 thumbnail: drills-plp-collage.png
 img-display: column

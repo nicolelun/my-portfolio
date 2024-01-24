@@ -1,12 +1,12 @@
 ---
 layout: article
-title: Increasing Site Visits Through SEO Content
+title: More Site Visits Through SEO Content
 permalink: :collection/tv-content/
 keyname: tv-content
 discipline: design
 skills: SEO &middot; content strategy &middot; UX/UI design &middot; frontend development
 media: web
-short-description: I curated and integrated content on True Value's e-commerce site to improve SEO and enhance customers' experience with the brand.
+short-description: Integrating content to improve SEO and enhance customers' experience with the brand
 featured: false
 thumbnail: diy-projects-collage.png
 img-display: column

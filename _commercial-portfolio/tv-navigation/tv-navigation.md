@@ -6,7 +6,7 @@ keyname: tv-navigation
 discipline: design
 skills: information architecture &middot; UX/UI design &middot; frontend development
 media: web
-short-description: Applying data-driven insights, I enhanced on-page navigation of True Value's e-commerce site to improve product findability.
+short-description: Applying data-driven insights to enhance on-page navigation and improve product findability
 featured: false
 thumbnail: all-departments-collage.png
 img-display: column

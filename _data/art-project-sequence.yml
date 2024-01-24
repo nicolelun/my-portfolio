@@ -1,13 +1,13 @@
 - keyname: walkers
-- keyname: waiting
 - keyname: window
-- keyname: miscellany
-- keyname: lawndale
-- keyname: labyrinth
 - keyname: look
-- keyname: globe
+- keyname: waiting
+- keyname: lawndale
+- keyname: miscellany
 - keyname: whales
 - keyname: desk
+- keyname: globe
+- keyname: labyrinth
 - keyname: wagashi
 # - keyname: light-installation
 # - keyname: bags
