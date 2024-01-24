@@ -25,8 +25,8 @@ github_username: nicolelun
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
-  – jekyll-seo-tag
+  - jekyll-feed 
+  - jekyll-seo-tag
   # - jekyll-autoprefixer
 
 collections:
