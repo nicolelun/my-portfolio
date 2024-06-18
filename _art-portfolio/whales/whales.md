@@ -15,6 +15,6 @@ web-sequence:
   href: https://nicolelun.github.io/web-montage/
 ---
 
-This experimental web animation is inspired by the expression that whales are "angels of the sea."
+This experimental web animation is inspired by whales as "angels of the sea."
 
 <a class="learn-more" href="https://nicolelun.github.io/web-montage/" target="_blank">Visit Website<span class="lg-right-arrow"></span></a> 

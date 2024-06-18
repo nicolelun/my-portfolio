@@ -12,6 +12,6 @@ video-sequence: https://www.youtube.com/embed/4rscQs711EA?si=UxwOHbSsBNo84pT7?re
 ---
 
 <!-- This video installation explores the cinematic convention of the male gaze, disrupting the patterns of who looks at whom. It prevents the audience, normally complicit in the gaze, from seeing the subjects on display. -->
-Inspired by romantic dramas and comedies, who's looking at whom?
+Inspired by romantic dramas and comedies, this video asks, "Who's looking at whom?"
 
 <!-- _Note: To fully experience this video, please turn the sound on your device._ -->
