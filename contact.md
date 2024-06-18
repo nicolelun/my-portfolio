@@ -17,6 +17,6 @@ permalink: contact/
 	</p>-->
 	<div class="contact-info">
 		<p><a href="mailto:nicole.lun@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>nicole.lun@gmail.com</a></p>
-		<p><a href="https://www.linkedin.com/in/nicolelun/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a></p>
+		<!-- <p><a href="https://www.linkedin.com/in/nicolelun/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a></p> -->
 	</div>
 </div>
