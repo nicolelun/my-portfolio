@@ -8,7 +8,7 @@ media: motion
 short-description: Video Installation
 featured: false
 thumbnail: IMG_4521-thumbnail.jpg
-video-sequence: https://www.youtube.com/embed/JdhtgtYMYO0?si=htu2OpXltEWAjwQv
+video-sequence: https://www.youtube.com/embed/JdhtgtYMYO0?si=htu2OpXltEWAjwQv?rel=0
 img-sequence: 
 - 
   src: IMG_4521_600x800.jpg
@@ -19,6 +19,6 @@ img-sequence:
 ---
 
 <!-- The real and the fake comingle in this site-specific video installation. Originally inspired by the book _A Hologram for the King_, it explores the relationship between allure and illusion&mdash;promise and fantasy. -->
-In search of the real, a failed escape. 
+A failed escape in search of the real.
 
-Originally designed as an art installation. Inspired by the book _A Hologram for the King_.
+Inspired by the book _A Hologram for the King_. Made as an art installation. 
