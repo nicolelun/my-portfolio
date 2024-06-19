@@ -24,7 +24,7 @@ img-sequence:
 ---
 
 <!-- These experimental packages entice the eye but, in a world of abundance, withhold their treasures.  -->
-These packages entice the eye, but withhold their treasures, denying the consumer quick gratification.
+In a world of instant gratification, these packages are designed to entice the eye, but withhold their treasures.
 
 <!-- The physical form is inspired by Japanese wagashi and Shinto charms. -->
 Inspired by Japanese wagashi and Shinto charms.

@@ -1,6 +1,6 @@
 ---
 layout: project-standard
-title: Light Installation
+title: Color Space
 permalink: :collection/light-installation/
 keyname: light-installation
 discipline: art

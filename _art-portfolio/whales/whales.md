@@ -5,7 +5,7 @@ permalink: :collection/whales/
 keyname: whales
 discipline: art
 media: web motion
-short-description: Web
+short-description: Web Animation
 featured: false
 thumbnail: whales-home@0.5x.png
 web-sequence: 
@@ -15,6 +15,6 @@ web-sequence:
   href: https://nicolelun.github.io/web-montage/
 ---
 
-For thousands of years, whales have been celebrated as "angels of the sea."
+This web animation is inspired by the cultures that, for thousands of years, have celebrated whales as "angels of the sea."
 
 <a class="learn-more" href="https://nicolelun.github.io/web-montage/" target="_blank">See Animation<span class="lg-right-arrow"></span></a>

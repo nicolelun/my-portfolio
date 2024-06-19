@@ -5,7 +5,7 @@ permalink: :collection/desk/
 keyname: desk
 discipline: art
 media: web motion
-short-description: Web, Multimedia
+short-description: Web Animation
 featured: false
 thumbnail: desk-thumbnail.jpg
 web-sequence: 
@@ -23,9 +23,9 @@ web-sequence:
   href: https://nicolelun.github.io/desk/
 ---
 
-This website presents a familiar-seeming place that operates by unfamiliar rules. <!-- Inspired by the notion of objects with their own will, this  subtly resistant world operates by its own rules.-->
+In this interactive web animation, a familiar-seeming place operates by unfamiliar rules. <!-- Inspired by the notion of objects with their own will, this  subtly resistant world operates by its own rules.-->
 
 _Note: This website works best in Chrome._ 
 
-<a class="learn-more" href="https://nicolelun.github.io/desk/" target="_blank">Visit Website<span class="lg-right-arrow"></span></a>
+<a class="learn-more" href="https://nicolelun.github.io/desk/" target="_blank">See Animation<span class="lg-right-arrow"></span></a>
 

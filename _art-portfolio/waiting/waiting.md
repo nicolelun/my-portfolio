@@ -5,7 +5,7 @@ permalink: :collection/waiting/
 keyname: waiting
 discipline: art
 media: motion
-short-description: Video
+short-description: Video Installation
 featured: false
 thumbnail: waiting-thumbnail.jpg
 video-sequence: https://www.youtube.com/embed/97pIZfKw33E?si=cGO-qhAZz94OucJL?rel=0
