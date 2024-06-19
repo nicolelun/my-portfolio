@@ -17,4 +17,4 @@ web-sequence:
 
 For thousands of years, whales have been celebrated as "angels of the sea."
 
-<a class="learn-more" href="https://nicolelun.github.io/web-montage/" target="_blank">See Web Animation<span class="lg-right-arrow"></span></a>
+<a class="learn-more" href="https://nicolelun.github.io/web-montage/" target="_blank">See Animation<span class="lg-right-arrow"></span></a>
