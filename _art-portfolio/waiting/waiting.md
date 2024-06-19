@@ -8,7 +8,7 @@ media: motion
 short-description: Video
 featured: false
 thumbnail: waiting-thumbnail.jpg
-video-sequence: https://www.youtube.com/embed/gwGVtuCrBxg?si=LQDG9lxJ-05JnwuI?rel=0
+video-sequence: https://www.youtube.com/embed/97pIZfKw33E?si=cGO-qhAZz94OucJL?rel=0
 ---
 
 <!-- This liminal place disrupts the balance between seeing a presence and sensing it. Originally inspired by the anticipation of death, this video explores the tension of waiting for the unknown. -->
