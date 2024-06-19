@@ -6,7 +6,7 @@ keyname: walkers
 discipline: art
 media: motion
 short-description: Video
-featured: true
+featured: false
 thumbnail: walkers-thumbnail.jpg
 video-sequence: https://www.youtube.com/embed/uXvi8UFX9_s?rel=0
 ---

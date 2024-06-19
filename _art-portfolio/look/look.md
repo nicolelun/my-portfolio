@@ -6,8 +6,8 @@ keyname: look
 discipline: art
 media: motion
 short-description: Video Installation
-featured: false
-thumbnail: look-thumbnail.jpg
+featured: true
+thumbnail: HowDoILook_2024.00_00_00_18.Still002.jpg
 video-sequence: https://www.youtube.com/embed/4rscQs711EA?si=UxwOHbSsBNo84pT7?rel=0
 ---
 
