@@ -1,8 +1,8 @@
 ---
 layout: project-standard
 title: Northeast Corridor
-permalink: :collection/amtrak/
-keyname: amtrak
+permalink: :collection/northeast-corridor/
+keyname: northeast-corridor
 discipline: art
 media: photography
 short-description: photography
@@ -19,6 +19,15 @@ img-sequence:
 - 
   src: IMG_0018_1600x1067.jpg
   class: half
+- 
+  src: IMG_0487_1600x1067.jpg
+  class: half
+- 
+  src: IMG_0499_1600x1067.jpg
+  class: half
+- 
+  src: IMG_0344_1600x1067.jpg
+  class: half
 ---
 
-Photographs on Amtrak from New Jersey to New York.
+On the train from New Jersey to New York.

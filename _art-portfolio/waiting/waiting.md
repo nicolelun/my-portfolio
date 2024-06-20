@@ -12,6 +12,8 @@ video-sequence: https://www.youtube.com/embed/97pIZfKw33E?si=cGO-qhAZz94OucJL?re
 ---
 
 <!-- This liminal place disrupts the balance between seeing a presence and sensing it. Originally inspired by the anticipation of death, this video explores the tension of waiting for the unknown. -->
-Created as an art installation, this video explores the tension of waiting for the final journey into the unknown.
+This video installation explores the tension of waiting for the unknown, of sensing something that you can't see.
+
+Originally inspired by the anticipation of death.
 
 <!-- _Note: This video was created for surround sound. To get a feeling of the experience, please unmute your device._ -->
