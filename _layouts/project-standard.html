@@ -2,6 +2,10 @@
 layout: "project"
 ---
 
+{% if page.full-width-gallery %}
+	<div class="full-width-gallery">
+{% endif %}
+
 <div class="proj-description">
 	<hr class="dash">
 	{{ content }}
@@ -84,7 +88,10 @@ layout: "project"
 				{% endif %}
 
 		    <a class="{% if image.class %}{{ image.class }}{% endif %}" {% if image.srcset %}data-srcset="{{ image.srcset }}"{% endif %} data-sizes="{{ sizes }}" data-src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" alt="{{ alt }}">
-		      	<img {% if thumb-srcset %}srcset="{{ thumb-srcset }}"{% endif %} sizes="{{ thumb-sizes }}" src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" alt="{{ alt }}" />
+		    	<!-- <div class="img-container"> -->
+			      	<img {% if thumb-srcset %}srcset="{{ thumb-srcset }}"{% endif %} sizes="{{ thumb-sizes }}" src="{% if image.src %}{{ image.src }}{% else %}{{ image }}{% endif %}" alt="{{ image.alt }}" />
+			      	<!-- <figcaption>{% if image.alt %}{{ alt }}{% endif %}</figcaption> -->
+			    <!-- </div> -->
 			</a>
 			{% endfor %}
 		</section>
@@ -92,12 +99,16 @@ layout: "project"
 
 </div>
 
+{% if page.full-width-gallery %}
+	</div>
+{% endif %}
+
 <script type="text/javascript">
     $(document).ready(function() {
         $("#lightgallery").lightGallery({
             download: false,
             showThumbByDefault: false,
-            getCaptionFromTitleOrAlt: false,
+            getCaptionFromTitleOrAlt: true,
             addClass: "lg-padding"
         });
     });

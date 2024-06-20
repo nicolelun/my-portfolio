@@ -2,16 +2,20 @@
 layout: "project"
 ---
 
-<div class="proj-description">
-	{{ content }}
-</div>
+<div class="proj-gallery">
 
-<div id="lightgallery" class="photo-gallery">
-	{% for image in page.img-gallery %}
-    <a href="{{ image.file }}">
-      	<img src="{{ image.file }}" alt="{{ image.alt }}" />
-	</a>
-	{% endfor %}
+    <div class="proj-description">
+    	{{ content }}
+    </div>
+
+    <div id="lightgallery" class="photo-gallery">
+    	{% for image in page.img-gallery %}
+        <a href="{{ image.file }}">
+          	<img src="{{ image.file }}" alt="{{ image.alt }}" />
+    	</a>
+    	{% endfor %}
+    </div>
+
 </div>
 
 <script type="text/javascript">
@@ -22,4 +26,3 @@ layout: "project"
         });
     });
 </script>
-	

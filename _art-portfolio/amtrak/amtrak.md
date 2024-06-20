@@ -21,4 +21,4 @@ img-sequence:
   class: half
 ---
 
-On Amtrak, traveling the Northeast Corridor from New Jersey to New York.
+Photos from traveling by Amtrak from New Jersey to New York.
