@@ -9,13 +9,13 @@ permalink: art-portfolio/
 	<h1>Art Portfolio</h1>
 </div>
 <section id="portfolio">
-    <!-- <div class="button-group filter-button-group">
+    <div class="button-group filter-button-group">
         <button class="button is-checked" data-filter="*">All Projects</button>
-        <button class="button" data-filter=".web">Web</button>
         <button class="button" data-filter=".motion">Video + Animation</button>
-        <button class="button" data-filter=".print">Print</button>
-        <button class="button" data-filter=".other">Other</button>
-    </div> -->
+        <button class="button" data-filter=".photography">Photography</button>
+        <!-- <button class="button" data-filter=".web">Web</button> -->
+        <button class="button" data-filter=".other">Books + Print</button>
+    </div>
     <!-- <div class="button-group filter-button-group">
         <button class="button is-checked" data-filter="*">All Projects</button>
         <button class="button" data-filter=".art">Art</button>
@@ -35,7 +35,9 @@ permalink: art-portfolio/
 
 			<!-- output project -->
 			{% for project in currentProj %}
-		        <div class="grid-item {% if project.featured == true %}grid-item--width2{% endif %} {{ project.discipline }}">
+		        <!-- <div class="grid-item {% if project.featured == true %}grid-item--width2{% endif %} {{ project.discipline }}"> -->
+		        <div class="grid-item {% if project.featured == true %}grid-item--width2{% endif %} {{ project.media }}">
+
 		            <a href="{{ project.url }}">
 		                <figure>
 		                    <img src="{{ project.url }}{{ project.thumbnail }}" alt="{{ project.title }}">
