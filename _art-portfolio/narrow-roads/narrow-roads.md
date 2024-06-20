@@ -62,27 +62,27 @@ img-sequence:
 - 
   src: DSCN1980_1200x1600.jpg
   class: third
-  alt: India
+  alt: Darjeeling, India
 - 
   src: DSCN1855_1600x1200.jpg
   class: third
-  alt: India
+  alt: Darjeeling, India
 - 
   src: DSCN1835_1600x1200.jpg
   class: third
-  alt: India
+  alt: Darjeeling, India
 - 
   src: DSCN2017_1600x1200.jpg
   class: third
-  alt: India
+  alt: Darjeeling, India
 - 
   src: IMG_0406_1600x1067.jpg
   class: third
-  alt: Cambodia
+  alt: Tonle Sap Lake, Cambodia
 - 
   src: IMG_0428_1600x1195.jpg
   class: third
-  alt: Cambodia
+  alt: Tonle Sap Lake, Cambodia
 - 
   src: IMG_9002_1600x1067.jpg
   class: third
@@ -90,7 +90,7 @@ img-sequence:
 - 
   src: IMG_0667_1600x1067.jpg
   class: third
-  alt: Italy
+  alt: Rome, Italy
 ---
 
 Bangladesh, India, Cambodia, and Italy
