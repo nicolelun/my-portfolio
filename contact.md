@@ -16,7 +16,7 @@ permalink: contact/
 		Across different forms and media, my work explores the tensions and wonders hidden in plain sight&mdash; the poetry in the everyday. On commercial projects, I translate your vision and the spirit of your brand to help bring to life the story behind the data. I have a Master of Fine Arts in Visual Communication Design from the School of the Art Institute of Chicago, a Master of Public Policy from the University of Chicago, and a Bachelor of Arts in Sociology from Smith College. 
 	</p>-->
 	<h2>Nicole Lun</h2>
-	<p style="max-width: 70ch">As an artist and designer, I specialize in photography, video, sound, and writing. I often create works that complicate a calm or beautiful surface with layers of tension or unease. I have a Master of Fine Arts from the School of the Art Institute of Chicago.</p>
+	<p style="max-width: 70ch">As an artist and designer, I specialize in photography, video, sound, and writing. I often create works that complicate a serene or appealing surface with tension or unease. I have a Master of Fine Arts from the School of the Art Institute of Chicago.</p>
 	<div class="contact-info">
 		<!-- <p style="font-weight: bold">Nicole Lun</p> -->
 		<p>I look forward to connecting with you.</p>
