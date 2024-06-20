@@ -93,5 +93,5 @@ img-sequence:
   alt: Italy
 ---
 
-Photos from Bangladesh, India, Cambodia, and Italy.
+Bangladesh, India, Cambodia, and Italy
 

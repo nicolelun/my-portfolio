@@ -21,4 +21,4 @@ img-sequence:
   class: half
 ---
 
-Photos from traveling by Amtrak from New Jersey to New York.
+Photographs on Amtrak from New Jersey to New York.
