@@ -317,7 +317,7 @@ hr.dash {
 .full-width-gallery .proj-grid a:after { 
     content: ""; 
     display: block; 
-    padding-top: 100%; 
+    padding-top: 66.666666%; 
 } 
 
 .full-width-gallery .proj-imgs .img-container {
@@ -328,7 +328,7 @@ hr.dash {
    width: 100%;
    height: 100%;
    padding: 10px;  
-   object-fit: contain;
+   object-fit: cover;
    object-position: center;
 }
 
