@@ -15,10 +15,10 @@ img-sequence:
   src: IMG_5743_1600x989.jpg
   class: third
 - 
-  src: IMG_6116_1600x989.jpg
+  src: IMG_6017_1600x1067.jpg
   class: third
 - 
-  src: IMG_6017_1600x1067.jpg
+  src: IMG_6116_1600x989.jpg
   class: third
 - 
   src: IMG_6346_1600x1067.jpg
