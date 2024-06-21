@@ -29,7 +29,7 @@ plugins:
   - jekyll-seo-tag
   # - jekyll-autoprefixer
 # Google Analytics
-google_analytics: G-WRZ9BN5G9Q
+google_analytics: G-N68ZZ4MC50
 
 collections:
   art-portfolio:
