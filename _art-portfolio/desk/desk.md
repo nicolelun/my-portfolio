@@ -4,7 +4,7 @@ title: Clean My Desk
 permalink: :collection/desk/
 keyname: desk
 discipline: art
-media: web motion
+media: web motion photography
 short-description: Web Animation
 featured: false
 thumbnail: desk-thumbnail.jpg
