@@ -8,7 +8,7 @@ discipline: art
 media: photography
 short-description: photography
 featured: false
-thumbnail: IMG_6350_1600x1067.jpg
+thumbnail: IMG_6017_1600x1067.jpg
 video-sequence:
 img-sequence: 
 - 
