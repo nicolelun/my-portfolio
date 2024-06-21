@@ -93,5 +93,5 @@ img-sequence:
   alt: Rome, Italy
 ---
 
-Bangladesh, India, Cambodia, and Italy
+On the streets of Bangladesh, India, Cambodia, and Italy.
 
