@@ -17,7 +17,7 @@ title: Nicole Lun
 email: nicole.lun@gmail.com
 description: Nicole Lun design portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://nicolelun.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.nicolelun.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: nicolelun
 
