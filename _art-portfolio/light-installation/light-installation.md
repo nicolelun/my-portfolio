@@ -21,4 +21,4 @@ img-sequence:
   srcset: "MVI_1614.00_01_45_12.Still003@0,75x.jpg 675w, MVI_1614.00_01_45_12.Still003.jpg 900w, MVI_1614.00_01_45_12.Still003@2x.jpg 1800w"
 ---
 
-This light installation transforms a workaday space using the unique architecture of the room.
+This light installation transforms a workaday space using its unique architecture.

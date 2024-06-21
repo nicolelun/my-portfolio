@@ -23,7 +23,7 @@ web-sequence:
   href: https://nicolelun.github.io/desk/
 ---
 
-In this interactive web animation, a familiar-seeming place operates by unfamiliar rules. <!-- Inspired by the notion of objects with their own will, this  subtly resistant world operates by its own rules.-->
+This interactive web animation presents a familiar-seeming place operating by unfamiliar rules.
 
 _Note: This website works best in Chrome._ 
 
