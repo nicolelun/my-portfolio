@@ -14,21 +14,27 @@ img-sequence:
 - 
   src: IMG_0019_1600x1067.jpg
   class: third
+  alt: Arriving in New York Penn Station
 - 
   src: IMG_0020_1600x1067.jpg
   class: third
+  alt: Arriving in New York Penn Station
 - 
   src: IMG_0018_1600x1067.jpg
   class: third
+  alt: Arriving in New York Penn Station
 - 
   src: IMG_0487_1600x1067.jpg
   class: third
+  alt: New Jersey Meadowlands
 - 
   src: IMG_0499_1600x1067.jpg
   class: third
+  alt: New Jersey Meadowlands
 - 
   src: IMG_0344_1600x1067.jpg
   class: third
+  alt: New Jersey Meadowlands
 ---
 
-On the train from New Jersey to New York.
+On the Amtrak train, from the New Jersey Meadowlands to New York Penn Station.
