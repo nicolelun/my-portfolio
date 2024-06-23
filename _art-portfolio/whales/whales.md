@@ -17,4 +17,6 @@ web-sequence:
 
 This web animation is inspired by whales, which for thousands of years, have been celebrated as "angels of the sea."
 
+Built with HTML and CSS.
+
 <a class="learn-more" href="https://nicolelun.github.io/web-montage/" target="_blank">See Animation<span class="lg-right-arrow"></span></a>

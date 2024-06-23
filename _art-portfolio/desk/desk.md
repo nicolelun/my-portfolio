@@ -25,6 +25,8 @@ web-sequence:
 
 This interactive web animation presents a familiar-seeming place operating by unfamiliar rules.
 
+Built with HTML, CSS, and JavaScript.
+
 _Note: This animation works best in Chrome._ 
 
 <a class="learn-more" href="https://nicolelun.github.io/desk/" target="_blank">See Animation<span class="lg-right-arrow"></span></a>
