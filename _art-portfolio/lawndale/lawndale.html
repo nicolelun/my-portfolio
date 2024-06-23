@@ -29,7 +29,7 @@ thumbnail: lawndale-thumbnail.jpg
 
 <div class="proj-imgs">
 	<a class="lawndale">
-		<img style="width: 100%" src="IMG-facade-boarded-windows.jpg" srcset="IMG-facade-boarded-windows@0,75x.jpg 675w, IMG-facade-boarded-windows.jpg 900w, IMG-facade-boarded-windows@1,5x.jpg 1350w" sizes="{{ sizes }}"></a>
+		<img style="width: 100%" src="IMG-facade-boarded-windows.jpg" srcset="IMG-facade-boarded-windows@0,75x.jpg 675w, IMG-facade-boarded-windows.jpg 900w, IMG-facade-boarded-windows@1,5x.jpg 1350w" sizes="{{ sizes }}" alt="Abandoned apartments in North Lawndale, Chicago"></a>
 </div>
 
 <script type="text/javascript">
@@ -39,7 +39,8 @@ thumbnail: lawndale-thumbnail.jpg
 		var widthMed = "900w";
 		var widthLarge = "1350w";
 		var sizes = "(min-width: 1349px) 1349px, 100vw";
-		var imgAlt = "They That Wait";
+		// var imgAlt = "They That Wait";
+		var imgAlt = ["Abandoned apartments in North Lawndale, Chicago",'"Kill Bed Bugs"','"Entrance Open"',"Abandoned house in North Lawndale, Chicago",'"Loving God, Loving People"',"Greater Bethel Missionary Baptist Church","St. Mary's Baptist Church","Revelation Church of God in Christ","Instant Deliverance Church of God in Christ","Church of the Lord Jesus Christ of the Apostolic Faith","Thompson Hopewell Church","Gethsemane Star Missionary Baptist Church","Holy Sanctuary Community Church","Christ Ministries Church",'"The Lord is my light and my salvation whom shall I fear" (Psalm 27:1), Original Christian Union Church']
 		var imgSequence = ["IMG-facade-boarded-windows.jpg","IMG-kill-bed-bugs.jpg","IMG-entrance-open.jpg","IMG-blue-house.jpg","IMG-loving-god.jpg","IMG_1499_greater-bethel_tinified.jpg","IMG-st-marys-baptist-church.jpg","IMG-revelation-cogic.jpg","IMG-deliverance-cogic.jpg","IMG-of-the-lord-jesus-christ.jpg","IMG_1551_thompson-hopewell_tinified.jpg","IMG_1529_gethsamane-star_tinified.jpg","IMG-holy-sanctuary-community-church.jpg","IMG-christ-ministries-church-2.jpg","IMG-the-lord-is-my-light.jpg"];
 		var dynamicElArray = [];
 		for (var i = 0; i < imgSequence.length; i++) {
@@ -49,7 +50,8 @@ thumbnail: lawndale-thumbnail.jpg
 			var thumbnail = imgSequence[i].substr(0,imgSequence[i].lastIndexOf(".")) + "@0,3x.jpg";
 			console.log(thumbnail);
 			dynamicElArray.push({
-				alt: imgAlt,
+				// alt: imgAlt,
+				alt: imgAlt[i],
 				src: imageLarge,
 				srcset: imageSmall + " " + widthSmall + ", " + imageMed + " " + widthMed + ", " + imageLarge + " " + widthLarge,
 				sizes: sizes,
@@ -59,29 +61,29 @@ thumbnail: lawndale-thumbnail.jpg
 
 		$(this).lightGallery({
 			addClass: 'lg-padding',
-			hideBarsDelay: 4000,
+			// hideBarsDelay: 4000,
 			loop: false,
 			getCaptionFromTitleOrAlt: true,
-			thumbnail: true,
+			// thumbnail: true,
         	showThumbByDefault: false,
 			download: false,
 			dynamic: true,
 			dynamicEl:[   
-				{ "alt": dynamicElArray[0].alt, "src": dynamicElArray[0].src, "srcset": dynamicElArray[0].srcset, "sizes": dynamicElArray[0].sizes, "thumb": dynamicElArray[0].thumb },
-				{ "alt": dynamicElArray[1].alt, "src": dynamicElArray[1].src, "srcset": dynamicElArray[1].srcset, "sizes": dynamicElArray[1].sizes, "thumb": dynamicElArray[1].thumb },
-				{ "alt": dynamicElArray[2].alt, "src": dynamicElArray[2].src, "srcset": dynamicElArray[2].srcset, "sizes": dynamicElArray[2].sizes, "thumb": dynamicElArray[2].thumb },
-				{ "alt": dynamicElArray[3].alt, "src": dynamicElArray[3].src, "srcset": dynamicElArray[3].srcset, "sizes": dynamicElArray[3].sizes, "thumb": dynamicElArray[3].thumb },
-				{ "alt": dynamicElArray[4].alt, "src": dynamicElArray[4].src, "srcset": dynamicElArray[4].srcset, "sizes": dynamicElArray[4].sizes, "thumb": dynamicElArray[4].thumb },
-				{ "alt": dynamicElArray[5].alt, "src": dynamicElArray[5].src, "srcset": dynamicElArray[5].srcset, "sizes": dynamicElArray[5].sizes, "thumb": dynamicElArray[5].thumb },
-				{ "alt": dynamicElArray[6].alt, "src": dynamicElArray[6].src, "srcset": dynamicElArray[6].srcset, "sizes": dynamicElArray[6].sizes, "thumb": dynamicElArray[6].thumb },
-				{ "alt": dynamicElArray[7].alt, "src": dynamicElArray[7].src, "srcset": dynamicElArray[7].srcset, "sizes": dynamicElArray[7].sizes, "thumb": dynamicElArray[7].thumb },
-				{ "alt": dynamicElArray[8].alt, "src": dynamicElArray[8].src, "srcset": dynamicElArray[8].srcset, "sizes": dynamicElArray[8].sizes, "thumb": dynamicElArray[8].thumb },
-				{ "alt": dynamicElArray[9].alt, "src": dynamicElArray[9].src, "srcset": dynamicElArray[9].srcset, "sizes": dynamicElArray[9].sizes, "thumb": dynamicElArray[9].thumb },
-				{ "alt": dynamicElArray[10].alt, "src": dynamicElArray[10].src, "srcset": dynamicElArray[10].srcset, "sizes": dynamicElArray[10].sizes, "thumb": dynamicElArray[10].thumb },
-				{ "alt": dynamicElArray[11].alt, "src": dynamicElArray[11].src, "srcset": dynamicElArray[11].srcset, "sizes": dynamicElArray[11].sizes, "thumb": dynamicElArray[11].thumb },
-				{ "alt": dynamicElArray[12].alt, "src": dynamicElArray[12].src, "srcset": dynamicElArray[12].srcset, "sizes": dynamicElArray[12].sizes, "thumb": dynamicElArray[12].thumb },
-				{ "alt": dynamicElArray[13].alt, "src": dynamicElArray[13].src, "srcset": dynamicElArray[13].srcset, "sizes": dynamicElArray[13].sizes, "thumb": dynamicElArray[13].thumb },
-				{ "alt": dynamicElArray[14].alt, "src": dynamicElArray[14].src, "srcset": dynamicElArray[14].srcset, "sizes": dynamicElArray[14].sizes, "thumb": dynamicElArray[14].thumb }
+				{ "subHtml": dynamicElArray[0].alt, "src": dynamicElArray[0].src, "srcset": dynamicElArray[0].srcset, "sizes": dynamicElArray[0].sizes, "thumb": dynamicElArray[0].thumb },
+				{ "subHtml": dynamicElArray[1].alt, "src": dynamicElArray[1].src, "srcset": dynamicElArray[1].srcset, "sizes": dynamicElArray[1].sizes, "thumb": dynamicElArray[1].thumb },
+				{ "subHtml": dynamicElArray[2].alt, "src": dynamicElArray[2].src, "srcset": dynamicElArray[2].srcset, "sizes": dynamicElArray[2].sizes, "thumb": dynamicElArray[2].thumb },
+				{ "subHtml": dynamicElArray[3].alt, "src": dynamicElArray[3].src, "srcset": dynamicElArray[3].srcset, "sizes": dynamicElArray[3].sizes, "thumb": dynamicElArray[3].thumb },
+				{ "subHtml": dynamicElArray[4].alt, "src": dynamicElArray[4].src, "srcset": dynamicElArray[4].srcset, "sizes": dynamicElArray[4].sizes, "thumb": dynamicElArray[4].thumb },
+				{ "subHtml": dynamicElArray[5].alt, "src": dynamicElArray[5].src, "srcset": dynamicElArray[5].srcset, "sizes": dynamicElArray[5].sizes, "thumb": dynamicElArray[5].thumb },
+				{ "subHtml": dynamicElArray[6].alt, "src": dynamicElArray[6].src, "srcset": dynamicElArray[6].srcset, "sizes": dynamicElArray[6].sizes, "thumb": dynamicElArray[6].thumb },
+				{ "subHtml": dynamicElArray[7].alt, "src": dynamicElArray[7].src, "srcset": dynamicElArray[7].srcset, "sizes": dynamicElArray[7].sizes, "thumb": dynamicElArray[7].thumb },
+				{ "subHtml": dynamicElArray[8].alt, "src": dynamicElArray[8].src, "srcset": dynamicElArray[8].srcset, "sizes": dynamicElArray[8].sizes, "thumb": dynamicElArray[8].thumb },
+				{ "subHtml": dynamicElArray[9].alt, "src": dynamicElArray[9].src, "srcset": dynamicElArray[9].srcset, "sizes": dynamicElArray[9].sizes, "thumb": dynamicElArray[9].thumb },
+				{ "subHtml": dynamicElArray[10].alt, "src": dynamicElArray[10].src, "srcset": dynamicElArray[10].srcset, "sizes": dynamicElArray[10].sizes, "thumb": dynamicElArray[10].thumb },
+				{ "subHtml": dynamicElArray[11].alt, "src": dynamicElArray[11].src, "srcset": dynamicElArray[11].srcset, "sizes": dynamicElArray[11].sizes, "thumb": dynamicElArray[11].thumb },
+				{ "subHtml": dynamicElArray[12].alt, "src": dynamicElArray[12].src, "srcset": dynamicElArray[12].srcset, "sizes": dynamicElArray[12].sizes, "thumb": dynamicElArray[12].thumb },
+				{ "subHtml": dynamicElArray[13].alt, "src": dynamicElArray[13].src, "srcset": dynamicElArray[13].srcset, "sizes": dynamicElArray[13].sizes, "thumb": dynamicElArray[13].thumb },
+				{ "subHtml": dynamicElArray[14].alt, "src": dynamicElArray[14].src, "srcset": dynamicElArray[14].srcset, "sizes": dynamicElArray[14].sizes, "thumb": dynamicElArray[14].thumb }
 				]
 		});
 	});
