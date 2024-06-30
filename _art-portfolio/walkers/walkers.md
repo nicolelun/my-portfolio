@@ -13,4 +13,4 @@ video-sequence: https://www.youtube.com/embed/uXvi8UFX9_s?rel=0
 
 Every day, women choose a path to walk. But where are they headed? And for whom?
 
-This video lightly depicts themes of career, motherhood, independence, and connection.
+This video lightly explores themes of career and motherhood.
