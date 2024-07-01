@@ -24,17 +24,29 @@ img-sequence:
   class: third
   alt: Arriving in New York Penn Station
 - 
-  src: IMG_0487_1600x1067.jpg
+  src: IMG_0197-Enhanced-NR_160x1067.JPG
   class: third
-  alt: New Jersey Meadowlands
+  alt: Morning in the Meadowlands
+- 
+  src: IMG_0270-Enhanced-NR-1600x1067.JPG
+  class: third
+  alt: Morning in the Meadowlands
+- 
+  src: IMG_0276_1600x1067.JPG
+  class: third
+  alt: Morning in the Meadowlands
 - 
   src: IMG_0499_1600x1067.jpg
   class: third
-  alt: New Jersey Meadowlands
+  alt: Afternoon in the Meadowlands
+- 
+  src: IMG_0487_1600x1067.jpg
+  class: third
+  alt: Afternoon in the Meadowlands
 - 
   src: IMG_0344_1600x1067.jpg
   class: third
-  alt: New Jersey Meadowlands
+  alt: Afternoon in the Meadowlands
 ---
 
-On the Amtrak train, from the New Jersey Meadowlands to New York Penn Station.
+On the train from New Jersey to New York, near the Hackensack Meadowlands.
