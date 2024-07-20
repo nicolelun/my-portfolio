@@ -11,7 +11,7 @@ thumbnail: HowDoILook_2024.00_00_00_18.Still002.jpg
 video-sequence: https://www.youtube.com/embed/4rscQs711EA?si=UxwOHbSsBNo84pT7?rel=0
 ---
 
-Inspired by romantic dramas and comedies, this video installation asks the question, "Who's looking at whom?"
+Inspired by romantic dramas and comedies, this video asks the question, "Who's looking at whom?"
 
 Audio and visual clips from:
 - The Aviator (2004)
@@ -30,5 +30,3 @@ Audio and visual clips from:
 - To Have and Have Not (1944)
 - Ugly Truth (2009)
 - The Young Victoria (2009)
-
-<!-- _Note: To fully experience this video, please turn the sound on your device._ -->

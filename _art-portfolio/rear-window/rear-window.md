@@ -11,6 +11,6 @@ thumbnail: RearWindow_Thumbnail_ControlBooth.jpg
 video-sequence: https://www.youtube.com/embed/ifnBBtmJUWY?si=Y5N9ArNhLqkmLEAH?rel=0
 ---
 
-Originally inspired by the sudden oncome of death, this video explores themes of distance and aloneness.
+Originally inspired by the sudden oncome of death, this video explores feelings of distance from the familiar world.
 
-Audio clip: Rear Window (1954)
+Background audio clip from the movie _Rear Window_ (1954).
