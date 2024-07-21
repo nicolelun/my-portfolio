@@ -13,7 +13,7 @@ permalink: contact/
 		<p style="text-align: right; font-size: .8rem">― Antoine de Saint-Exupéry, author of <i>Le Petit Prince</i> (<i>The Little Prince</i>)</p> 
 	</blockquote> -->
 	<div style="max-width: 65ch">
-		<p>As an artist, I create works inspired by the physical and social environments that shape who we are. My focus lies in tension&mdash;the tension of unease beneath a surface of serenity, the tension of a moment held a little too long, the tension of faith against evidence of despair.<!-- Influenced by a lifelong of playing music, I use tempo, rhythm, and sequence in my work across different media, creating&mdash;and interrupting&mdash;experiences that hypnotize or lull.--></p>
+		<p>As an artist, I create works inspired by the physical and social environments that shape what we feel. My focus lies in tension&mdash;the tension of unease beneath a surface of serenity, the tension of a moment held a little too long, the tension of faith against evidence of despair.<!-- Influenced by a lifelong of playing music, I use tempo, rhythm, and sequence in my work across different media, creating&mdash;and interrupting&mdash;experiences that hypnotize or lull.--></p>
 		<p>I have a Master of Fine Arts from the School of the Art Institute of Chicago, and specialize in photography, video, sound, storytelling, and design.</p>
 		<div class="contact-info">
 			<p>Please connect with me at:</p>
