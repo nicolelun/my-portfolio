@@ -11,6 +11,6 @@ thumbnail: RearWindow_Thumbnail_ControlBooth.jpg
 video-sequence: https://www.youtube.com/embed/ifnBBtmJUWY?si=Y5N9ArNhLqkmLEAH?rel=0
 ---
 
-Originally inspired by the sudden oncome of death, this video explores feelings of distance from the familiar world.
+Originally inspired by the sudden arrival of death, this video explores feelings of distance from the familiar world.
 
-Background audio clip from the movie _Rear Window_ (1954).
+Background audio: _Rear Window_ (1954)
